@@ -1,3 +1,8 @@
+$helltürkis: rgb(144, 228, 203);
+$dunkeltürkis: rgb(99, 152, 155);
+$hellgrau: rgb(212, 206, 206);
+$blautürkis:#36abb3;
+$grün:#3cb69c;
 
 html,
 body {
@@ -13,14 +18,14 @@ body {
 
 .link-style:hover
 {
-  color: rgb(144, 228, 203); 
+  color: $helltürkis; 
   text-decoration: none;
 }
 
 h1,h2,h3
 {
-  color:  #36abb3;
-  text-shadow: rgb(144, 228, 203) 5px 10px 20px;
+  color:  $blautürkis;
+  text-shadow: $helltürkis 5px 10px 20px;
   text-align: center;
 }
 
@@ -33,14 +38,14 @@ p
 
 hr.neu
 {
-  border: 1px solid rgb(99, 152, 155);
+  border: 1px solid $dunkeltürkis;
 }
 
 table
 {
   padding:25px;
-  background-color: rgb(144, 228, 203);
-  border: 2px solid rgb(99, 152, 155);
+  background-color: $helltürkis;
+  border: 2px solid $dunkeltürkis;
   font-size: 20px;
   color: black;
   text-align: left;
@@ -66,7 +71,7 @@ input
   flex-flow: column;
   width:100%;
   height:100%;
-  background-color: rgb(212, 206, 206);
+  background-color: $hellgrau;
   padding-top:25px;
   padding-bottom:25px;
 
@@ -78,7 +83,7 @@ input
   flex-flow: row;
   flex-wrap: wrap;
   padding:25px;
-  background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
+  background-image: linear-gradient(to top,$helltürkis,$dunkeltürkis 99%);
   width:100%;
 }
 
@@ -102,7 +107,6 @@ font-size: 30px;
 .nav-container
 {
   flex: 10%;
-  left:50%;
   height:200px;
   width:100%;
 }
@@ -125,7 +129,7 @@ font-size: 30px;
 {
   flex:20%;
   padding: 25px;
-  background-image: linear-gradient(to bottom,rgb(144, 228, 203),rgb(99, 152, 155)  99%);
+  background-image: linear-gradient(to bottom,$helltürkis,$dunkeltürkis 99%);
 }
 
 * {
@@ -154,18 +158,17 @@ font-size: 30px;
 
 .button-container
 {
-  float: left;
+  float:left;
   margin:10px;
   width:200px;
   height: 50px;
-  border: 2px solid rgb(99, 152, 155);
-  background-color:#36abb3;
+  border: 2px solid $dunkeltürkis;
+  background-color:$blautürkis;
   border-radius: 10px 10px 10px;
   text-align: center;
   padding:5px;
   font-size: 25px;
 }
-
 
 .punkt-container
 {
@@ -173,7 +176,7 @@ font-size: 30px;
   width:10px;
   height:10px;
   border-radius: 10px;
-  background-color: #36abb3;
+  background-color: $blautürkis;
 }
 
 .impressum-container
@@ -183,7 +186,7 @@ font-size: 30px;
 
 span
 {
-  color:#36abb3;
+  color:$blautürkis;
 }
 
 .abstand
@@ -195,16 +198,4 @@ span
 {
   margin:auto;
   width:50%;
-}
-
-.textfeld-container
-{
-  margin:10px;
-  padding:10px;
-  float:left;
-  width:350px;
-  height:200px;
-  border-radius:20px;
-  background-color:rgb(144, 228, 203);
-  color:white;
 }
