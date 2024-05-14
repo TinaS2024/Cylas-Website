@@ -2,8 +2,7 @@ import Link from "next/link";
 const Button = (props) =>
     {
      
-        const button_titel = props.button_titel;
-        const button_href = props.button_href;
+        const {button_titel, button_href} = props
 
         return(
             <div className="button-container">

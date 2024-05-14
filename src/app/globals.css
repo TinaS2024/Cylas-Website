@@ -45,6 +45,8 @@ table
   color: black;
   text-align: left;
   font-weight: 300;
+  border-radius:20px; 
+  box-shadow: 0 8px 8px -4px rgb(99, 152, 155);
 }
 
 th
@@ -169,6 +171,7 @@ font-size: 30px;
 
 .punkt-container
 {
+  margin:5px;
   float:left;
   width:10px;
   height:10px;
@@ -203,8 +206,10 @@ span
   padding:10px;
   float:left;
   width:350px;
-  height:200px;
-  border-radius:20px;
+  height:350px;
+  border-radius:20px; 
+  box-shadow: 0 8px 8px -4px rgb(99, 152, 155);
   background-color:rgb(144, 228, 203);
   color:white;
+ 
 }
