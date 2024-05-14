@@ -8,7 +8,7 @@ const GPE = () =>
             <h1>Graphical Products Environment</h1>
             </div>
                 <Textfeld titel="Graviermaschine" 
-                punkt1="&nbsp;Trommelverfahren" 
+                punkt1="&nbsp;Trommel-verfahren" 
                 punkt2="&nbsp;Hohe Prouktivität" 
                 punkt3="&nbsp;Geringer Wartung- und Serviceaufwand" 
                 punkt4="&nbsp;Kundennähe"/>
