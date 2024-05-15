@@ -5,6 +5,7 @@ import img1 from "../image/Graviermaschine.png";
 import img2 from "../image/Bediensoftware.png";
 import img3 from "../image/Auftragsverwaltung.png";
 import img4 from "../image/Lagermanagement.png";
+import img5 from "../image/Verpackung.png";
 
 const GPE = () =>
     {
@@ -55,7 +56,9 @@ const GPE = () =>
             </Textfeld>
    
             <Textfeld titel="Montageprogramm">
-            <Image src="" alt=""/>
+            <div className="profile-img"> 
+                <Image src={img5} width={70} height={70} alt=""/>
+                </div>
                 <Punkt text="&nbsp;Zuordnung von Textplatten und Gehäusen"/>
                 <Punkt text="&nbsp;Ausdruck der Versandpapiere"/>
                 <Punkt text="&nbsp;Berechung Verpackungsvolumen"/>
