@@ -1,8 +1,11 @@
-import Guestbook_entry from "../components/Guestbook_entry.jsx";
+import { readFile } from "fs";
 import Gästebuch_Form from "../components/Gästebuch_Form.jsx";
+import Guestbook_entry from "../components/Guestbook_entry.jsx";
+import { Guest } from "../guestbook/data.json"; 
 
-const Gästebuch = () =>
-{
+const Gästebuch = async () =>
+    {
+//Readfile File from Json
 
     return(
     <div>
@@ -11,10 +14,10 @@ const Gästebuch = () =>
         <div style={{display:"flex",flexFlow:"row", flexWrap:"wrap"}}>
 
         <Gästebuch_Form>
-            <Guestbook_entry fullName="Tina" Message="Dies ist ein Gästebucheintrag."/>
-            <Guestbook_entry fullname="Gerald" Message="Dies ist ein zweiter Gästebucheinrag."/>
+            <Guestbook_entry fullName={Guest.Name} Message={Guest.Nachricht}/>
+
         </Gästebuch_Form>
-        
+
      </div>
     </div>
     )

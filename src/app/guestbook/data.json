@@ -1,4 +1,8 @@
-{
-    "fullName": "Tina Schmidtbauer",
-    "Message": "Dies ist ein Gästebucheintrag"
-}
+ {
+  "Guest":
+  [
+     { "Name": "Tina Schmidtbauer", "Nachricht": "Dies ist ein Gästebucheintrag"}
+  ]
+ }
+
+
