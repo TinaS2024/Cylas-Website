@@ -1,51 +1,79 @@
 "use client"
+import { useState } from "react"
+import { useRouter } from "next/navigation";
 
+/* https://stackoverflow.com/questions/77022084/form-not-submitting-data-through-orm-prisma-to-database */
 
-/* Für Client ist das fs-modul von node nicht nutzbar, sondern nur für server. 
-jSON kann auch nur verwendet werden um vom server aus daten zu lesen und zu schreiben.
-Für Client-Daten wäre Prisma vielleicht besser.*/
-
-const Gästebuch_Form =  () =>
+const Gästebuch_Form = () =>
 {
-    const fullName = document.getElementsByName("fullName")
-    const Message = document.getElementsByName("Message")
 
+    const [name, setName] = useState("");
+    const [nachricht, setNachricht] = useState("");
+    const [error, setError] = useState("");
+    const [message,setMessage] = useState("");
 
-    const FormAction = async (formData) =>
+    const router = useRouter();
+
+    const handleForm = async (data) =>
         {
-        const fullName = await formData.get('fullName');
-        const Message = await formData.get('Message');
-    
-        console.log(fullName,Message)   
-        var new_guest = {
-          Guest: []
-        };
-        new_guest.Guest.push({"Name": fullName, "Nachricht": Message});
-        const json = JSON.stringify(new_guest);
-        /*const fs = require("fs");
-        const file = fs.readFile("data.json");
-        file.writeFile("data.json", json)*/
-      
-        if (FormAction)
-        {
-            const guestname = ` ${fullName} !`
-            alert("Gästebucheintrag wurde gesendet von"+guestname)     
-        }    
-            }
+            e.preventDefault();
+            setError("");
+            setMessage("");
+            if (name && nachricht)
+                {
+                    try{
+              
+                        const newGuest = await fetch("components/AddGuestPost",
+                            {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                },
+                                body: JSON.stringify(data),
+                            }
+                        );
+                        if (newGuest.ok)
+                            {
+                                router.push()
+                            }
+                
+                    } catch (error)
+                    {
+                        console.error(error);
+                    }
+                }
+                else{
+                        setError("Alle Felder müssen ausgefüllt sein.");
+                        return;
+                    }
+                }
         
-  
-
+        
     return(
         <div className="abstand" style={{display:"flex",justifyContent:"left"}}>
-            <form action={FormAction}>  
+            <form onSubmit={handleForm}>  
+            {
+                error ? (
+                    <div className="error form-group">
+                        {error}
+                    </div>
+                ) : null
+            }
+            {
+                message ? (
+                    <div className="message form-group">
+                        {message}
+                    </div>
+                ) : null
+            }
                 <table>
                     <tr><th>Vollständiger Name:&nbsp;</th><td>
-                    <input id="fullName" name="fullName" type="text" size="15"/></td></tr>
+                    <input type="text" size="15" value={name} onChange={(e) => setName(e.target.value)}/></td></tr>
 
                     <tr><th>Nachricht:&nbsp;</th><td>
-                    <textarea id="Message" name="Message" rows={6} cols={15} /></td></tr>
+                    <textarea rows={6} cols={15} value={nachricht} onChange={(e) => setNachricht(e.target.value)}/></td></tr>
 
-                    <tr><th>{fullName}{Message}</th><td>
+                    <tr><th></th><td>
                     <input className="button-container-klein" type="submit" value="abschicken"/></td></tr>
                 </table>  
    
@@ -53,9 +81,6 @@ const Gästebuch_Form =  () =>
 
         </div>
     )
-
-
-    
 }
 
 export default Gästebuch_Form;

@@ -1,9 +1,13 @@
+"use client"
 import Gästebuch_Form from "../components/Gästebuch_Form.jsx";
 import Guestbook_entry from "../components/Guestbook_entry.jsx";
 import data from "../guestbook/data.json"; 
 
 
-const Gästebuch = async () =>
+
+
+
+const Gästebuch = () =>
     {
         const Guest = data.Guest
 
@@ -16,13 +20,12 @@ const Gästebuch = async () =>
         <Gästebuch_Form />
         <Guestbook_entry fullName={data.Guest[0].Name} Message={data.Guest[0].Nachricht}/>
         <Guestbook_entry fullName={data.Guest[1].Name} Message={data.Guest[1].Nachricht}/>
-
-
-     </div>
+        <Guestbook_entry fullName="" Message="" />
+        </div>
     </div>
-    )
-    
+)
 }
 
 export default Gästebuch;
+
 
