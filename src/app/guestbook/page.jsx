@@ -1,31 +1,29 @@
-"use client"
-import Gästebuch_Form from "../components/Gästebuch_Form.jsx";
-import Guestbook_entry from "../components/Guestbook_entry.jsx";
-import data from "../guestbook/data.json"; 
+import Gästebuch from "../components/Gästebuch.jsx";
+import Post from "../components/Post.jsx";
+import { Suspense } from "react";
+import { PrismaClient } from "@prisma/client";
 
+const prisma = new PrismaClient()
 
-
-
-
-const Gästebuch = () =>
+async function Gästebuch_Server()
     {
-        const Guest = data.Guest
-
+        const allGuests = await prisma.gast.findMany()
+          
     return(
-    <div>
-    <h1>Gästebuch</h1>
-    <br />
         <div style={{display:"flex",flexFlow:"row", flexWrap:"wrap"}}>
-
-        <Gästebuch_Form />
-        <Guestbook_entry fullName={data.Guest[0].Name} Message={data.Guest[0].Nachricht}/>
-        <Guestbook_entry fullName={data.Guest[1].Name} Message={data.Guest[1].Nachricht}/>
-        <Guestbook_entry fullName="" Message="" />
-        </div>
-    </div>
-)
+            <Suspense><Gästebuch/>
+            {
+                allGuests.map(guest =>
+                    <>
+                    <Post id={guest.id} name={guest.name} nachricht={guest.nachricht} erstellungsdatum={guest.erstellungsdatum.toDateString()}/>
+                    </>
+                )
+            }
+          
+            </Suspense>    
+            </div>
+);
 }
 
-export default Gästebuch;
-
+export default Gästebuch_Server;
 
