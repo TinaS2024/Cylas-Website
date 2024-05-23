@@ -7,13 +7,13 @@ body {
 }
 
 .link-style {
-  color: black; 
+  color: #17757c; 
   text-decoration: none;
 }
 
 .link-style:hover
 {
-  color: rgb(144, 228, 203); 
+  color: #209ea7; 
   text-decoration: none;
 }
 
@@ -37,11 +37,16 @@ hr.neu
   border: 1px solid rgb(99, 152, 155);
 }
 
+hr.hell
+{
+  border: 1px solid rgb(144, 228, 203);
+}
+
 table
 {
   padding:25px;
   background-color: rgb(144, 228, 203);
-  border: 2px solid rgb(99, 152, 155);
+  border: 2px solid #36abb3;
   font-size: 20px;
   color: black;
   text-align: left;
@@ -52,14 +57,17 @@ table
 
 th
 {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   font-weight: 300;
+  vertical-align: top;
 }
+
 
 textarea
 {
   font-size: 20px;
+  resize: none;
 }
 
 input
@@ -75,9 +83,6 @@ input
   width:100%;
   height:100%;
   background-color: rgb(212, 206, 206);
-  padding-top:25px;
-  padding-bottom:25px;
-
 }
 
 .header-container
@@ -109,30 +114,21 @@ font-size: 30px;
 
 .nav-container
 {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   flex: 10%;
-  left:50%;
   height:200px;
   width:100%;
 }
 
-.hero-container
-{
-  display: flex;
-  flex-flow: column;
-  flex:70%;
-  padding:25px;
-  margin-bottom: 50px;
-}
-
-.hero-text
-{
-  font-size: 10pt;
-}
-
 .footer-container
 {
+
   flex:20%;
-  padding: 25px;
+  padding:25px;
   background-image: linear-gradient(to bottom,rgb(144, 228, 203),rgb(99, 152, 155)  99%);
 }
 
@@ -144,6 +140,7 @@ font-size: 30px;
 
 .cylas-logo-groß
 {
+  margin-left:20px;
   width:20em;
   height:20em;
 }
@@ -162,16 +159,22 @@ font-size: 30px;
 
 .button-container
 {
-  float: left;
   margin:10px;
   width:200px;
-  height: 50px;
-  border: 2px solid rgb(99, 152, 155);
+  height: 40px;
+  border: 2px solid #36abb3;
   background-color:#36abb3;
-  border-radius: 10px 10px 10px;
+  background: linear-gradient( rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border-radius: 30px;
   text-align: center;
   padding:5px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.button-container:hover, .button-container-klein:hover
+{
+  box-shadow: 0 0 5px 0 #36abb3, 0 0 5px 2px rgba(129,230,217,1);
+  border: 2px solid rgba(129,230,217,1);
 }
 
 
@@ -181,9 +184,10 @@ font-size: 30px;
   margin:10px;
   width:150px;
   height: 25px;
-  border: 2px solid rgb(99, 152, 155);
+  border: 2px solid #36abb3;
   background-color:#36abb3;
-  border-radius: 10px 10px 10px;
+  background: linear-gradient( rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border-radius: 30px;
   text-align: center;
   padding:1px;
   font-size: 16px;
@@ -200,19 +204,21 @@ font-size: 30px;
   background-color: #36abb3;
 }
 
-.impressum-container
-{
-  float:left;
-}
 
 span
 {
-  color:#36abb3;
+  color:#17757c;
+  font-weight: 600;
 }
 
 .abstand
 {
-  padding:15px;
+  padding:20px;
+}
+
+.abstand-unten
+{
+  margin-bottom: 50px;
 }
 
 .zentrieren
@@ -223,7 +229,7 @@ span
 
 .textfeld-container
 {
-  margin:10px;
+  margin: 10px 10px 10px 30px;
   padding:10px;
   float:left;
   width:350px;
@@ -241,7 +247,7 @@ span
   width:250px;
   height:150px;
   background-color:rgb(99, 152, 155) ;
-  border-radius: 20px 10px 20px 10px;
-  padding:10px;
+  border-radius: 30px 10px 30px 10px;
+  padding:20px;
   color:rgb(144, 228, 203);
 }

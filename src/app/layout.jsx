@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
       <div className="rahmen-container">
      <Header></Header>
       <Navbar></Navbar>
-      {children} 
+      <div className="abstand-unten"> {children} </div>
+     
      <Footer></Footer>
       </div>
-  
       </body>
     </html>
   );

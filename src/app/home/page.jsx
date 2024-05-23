@@ -13,9 +13,15 @@ const Home = () =>
            <div className="profile-img"><Image src={meinbild}  width={300} height={300} alt="maschinenbild"/></div>
             <p>
             <br />
-             Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br />
-             
+             Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br /><br />
              </p>
+             
+             <p style={{textAlign:"center"}}><span>Hier können Sie sich einen Flyer unseres Produktes runterladen.</span></p>
+             <div className="nav-container">
+                 <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
+            <button className="button-container link-style" type="button">Flyer</button>
+            </a>
+            </div>
 
           
      

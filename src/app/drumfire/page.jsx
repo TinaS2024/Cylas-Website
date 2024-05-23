@@ -15,14 +15,8 @@ const Drumfire = () =>
             <br />
             <Punkt text="&nbsp; Wartungsunterstützung durch Diagnosesoftware." />
             <br />
-            <p>Hier können Sie sich einen Flyer unseres Produktes runterladen.</p>
-            <div className="zentrieren">
-                 <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
-            <button className="button-container link-style" type="button">Flyer</button>
-            </a>
-            
-            </div>
            
+            
             
         </div>
 

@@ -6,18 +6,17 @@ const Navbar = () =>
     return (
         <>
 
-<div className="nav-container" style={{backgroundColor:"rgb(144, 228, 203)"}}>
+<div className="nav-container" style={{backgroundColor:"rgb(99, 152, 155)"}}>
    <Button button_titel="Home" button_href="/home"/>
    <Button button_titel="Drumfire" button_href="/drumfire"/>
    <Button button_titel="GPE" button_href="/gpe"/>
-   <Button button_titel="Gästebuch" button_href="/guestbook"/>
-   <Button button_titel="Impressum" button_href="/impressum"/>
         
 </div>
- <hr className="neu"/>
+ <hr className="hell"/>
  </>
 
     )
 }
 
 export default Navbar;
+

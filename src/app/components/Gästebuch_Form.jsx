@@ -30,13 +30,15 @@ const Gästebuch_Form = () =>
             <form onSubmit={handleForm}>  
            <div className="zentrieren"><h1>Gästebuch</h1></div>
                 <table>
+                    <tbody>
                     <tr><th>Vollständiger Name:&nbsp;</th><td>
                     <input type="text" size="15" value={name} onChange={(e) => setName(e.target.value)}/></td></tr>
                     <tr><th>Nachricht:&nbsp;</th><td>
                     <textarea rows={6} cols={15} value={nachricht} onChange={(e) => setNachricht(e.target.value)}/></td></tr>
 
                     <tr><th></th><td>
-                    <input className="button-container-klein" type="submit" value="abschicken"/></td></tr>
+                    <input className="button-container-klein link-style" type="submit" value="abschicken"/></td></tr>
+                    </tbody>
                 </table>  
    
             </form>
