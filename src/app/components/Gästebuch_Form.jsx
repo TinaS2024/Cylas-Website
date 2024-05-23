@@ -22,7 +22,9 @@ const Gästebuch_Form = () =>
                                     nachricht: nachricht,
                                 }
                             })
-        }};
+        }
+   
+    };
         
     return(
         <div className="abstand" style={{display:"flex",justifyContent:"left"}}>
@@ -31,9 +33,9 @@ const Gästebuch_Form = () =>
            <div className="zentrieren"><h1>Gästebuch</h1></div>
                 <table>
                     <tbody>
-                    <tr><th>Vollständiger Name:&nbsp;</th><td>
+                    <tr><th><span>Vollständiger Name:</span>&nbsp;</th><td>
                     <input type="text" size="15" value={name} onChange={(e) => setName(e.target.value)}/></td></tr>
-                    <tr><th>Nachricht:&nbsp;</th><td>
+                    <tr><th><span>Nachricht:</span>&nbsp;</th><td>
                     <textarea rows={6} cols={15} value={nachricht} onChange={(e) => setNachricht(e.target.value)}/></td></tr>
 
                     <tr><th></th><td>

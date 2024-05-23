@@ -15,7 +15,7 @@ async function Gästebuch_Server()
             {
                 allGuests.map(guest =>
                     <>
-                    <Post id={guest.id} name={guest.name} nachricht={guest.nachricht} erstellungsdatum={guest.erstellungsdatum.toDateString()}/>
+                    <Post id={guest.id} name={guest.name} nachricht={guest.nachricht} erstellungsdatum={guest.erstellungsdatum.toLocaleDateString()}/>
                     </>
                 )
             }

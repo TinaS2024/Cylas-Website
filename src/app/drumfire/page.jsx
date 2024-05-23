@@ -4,7 +4,7 @@ const Drumfire = () =>
 {
     return(
         <div className="abstand">
-            <h1>Cylas Trommelgravierer DRUMFIRE für Stempeltextplatten</h1>
+            <h1>Cylas Trommelgravierer DRUMFIRE <br /> für Stempeltextplatten</h1>
             <br />
 
             <Punkt text="&nbsp; Höchster Durchsatz durch Trommeltechnik mit automatischer Beladung und hoher Laserleistung."/>
@@ -14,10 +14,7 @@ const Drumfire = () =>
             <Punkt text="&nbsp; Software zum Anschluss an Produktionssteuerungssteme und Webshops." />
             <br />
             <Punkt text="&nbsp; Wartungsunterstützung durch Diagnosesoftware." />
-            <br />
-           
-            
-            
+            <br />  
         </div>
 
     )

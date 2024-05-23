@@ -8,13 +8,12 @@ export default function Home() {
     <div className="rahmen-container">
         <div className="abstand"> 
         
-        <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
+        <h1>Konstruktion und Herstellung <br />von Lasermaschinen für Stempel</h1>
         <br />
         <div className="profile-img"><Image src={meinbild}  width={300} height={300} alt="maschinenbild"/></div>
          <p>
          <br />
           Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br />
-          
           </p>
 
          </div>
@@ -30,3 +29,5 @@ https://www.youtube.com/watch?v=BeXbCgRxifs&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H
 */
 
 /* Auf dem Heimrechner geht nur npm run dev */
+
+/* Farbpalette MUI in node-modules https://www.youtube.com/watch?v=DJtiToSVM6M*/
