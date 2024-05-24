@@ -1,17 +1,14 @@
-import Gästebuch from "../components/Gästebuch.jsx";
+import Gaestebuch from "../components/Gaestebuch.jsx";
 import Post from "../components/Post.jsx";
 import { Suspense } from "react";
-import { PrismaClient } from "@prisma/client";
 
-const prisma = new PrismaClient()
-
-async function Gästebuch_Server()
+async function Gaestebuch_ausgabe()
     {
         const allGuests = await prisma.gast.findMany()
           
     return(
         <div style={{display:"flex",flexFlow:"row", flexWrap:"wrap"}}>
-            <Suspense><Gästebuch/>
+            <Suspense><Gaestebuch/>
             {
                 allGuests.map(guest =>
                     <>
@@ -25,5 +22,5 @@ async function Gästebuch_Server()
 );
 }
 
-export default Gästebuch_Server;
+export default Gaestebuch_ausgabe;
 
