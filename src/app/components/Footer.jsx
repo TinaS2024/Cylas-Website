@@ -15,7 +15,6 @@ const Footer = () =>
     <p style={{textAlign:"center"}}>© {new Date().getFullYear()} CYLAS-AG</p>
     <div style={{textAlign:"center"}}>
         <Link className="link-style" href="/impressum">Impressum </Link>
-        <Link className="link-style" href="/guestbook">| Gästebuch</Link>
     </div>
         
         </div>

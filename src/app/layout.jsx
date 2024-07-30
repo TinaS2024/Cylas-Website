@@ -5,6 +5,7 @@ import Header from "../app/components/Header.jsx";
 import Navbar from "../app/components/Navbar.jsx";
 import Footer from "../app/components/Footer.jsx";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

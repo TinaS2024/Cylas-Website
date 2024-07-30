@@ -7,7 +7,7 @@ const Header = () =>
 <>
             <div className="header-container"> 
             <div className="image-container">
-            <Image className="cylas-logo-groß" src={meinbild} alt="logo"/>
+            <Image className="cylas-logo-klein" src={meinbild} width={150} height={150} alt="logo"/>
             </div>
             
              <div className="titel-container">

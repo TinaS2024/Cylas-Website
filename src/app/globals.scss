@@ -107,18 +107,11 @@ font-size: 30px;
 .nav-container
 {
   flex: 10%;
-  height:200px;
   width:100%;
+  height:60px;
 }
 
-.hero-container
-{
-  display: flex;
-  flex-flow: column;
-  flex:70%;
-  padding:25px;
-  margin-bottom: 50px;
-}
+
 
 .hero-text
 {
@@ -140,8 +133,8 @@ font-size: 30px;
 
 .cylas-logo-groß
 {
-  width:20em;
-  height:20em;
+  width:100px;
+  height:100px;
 }
 
 .cylas-logo-klein
@@ -152,6 +145,7 @@ font-size: 30px;
 .profile-img
 {
   text-align: center;
+  background-image: URL("../image/laser.jpg");
 }
 
 /*Elemente*/

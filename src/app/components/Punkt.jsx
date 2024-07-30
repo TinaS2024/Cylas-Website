@@ -1,6 +1,8 @@
+
 const Punkt = (props) =>
 {
     const {text} = props;
+
     return(
         <div>
             <div className="punkt-container"></div> 

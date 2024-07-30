@@ -10,7 +10,7 @@ const Home = () =>
         
            <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
            <br />
-           <div className="profile-img"><Image src={meinbild}  width={300} height={300} alt="maschinenbild"/></div>
+           <div className="profile-img"><Image src={meinbild}  width={500} height={500} alt="maschinenbild"/></div>
             <p>
             <br />
              Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br /><br />
@@ -22,10 +22,6 @@ const Home = () =>
             <button className="button-container link-style" type="button">Flyer</button>
             </a>
             </div>
-
-          
-     
-            
             
         </div>
       

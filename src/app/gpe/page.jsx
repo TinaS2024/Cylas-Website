@@ -51,7 +51,7 @@ const GPE = () =>
                 <Image src={img4} width={70} height={70} alt=""/>
                 </div>
                 <Punkt text="&nbsp;App zur Kommissionierung"/>
-                <Punkt text="&nbsp;Erstellung von Komponentenlisen nach Gummiplatten und Lagerfach"/>
+                <Punkt text="&nbsp;Erstellung von Komponentenlisten nach Gummiplatten und Lagerfach"/>
                 <Punkt text="&nbsp;Datenaustausch mit externer Warenwirschaft"/>
             </Textfeld>
    
