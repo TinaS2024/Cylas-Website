@@ -1,11 +1,11 @@
-import gravierer from "../videos/video2.mp4";
-
-const MyVideo = () =>
+const MyVideo = (props) =>
 {
+    const {path, width, height} = props;
+
     return(
-        <div className="profile-img zentrieren items-center"> 
-       <video width={400} height={400} autoPlay>
-            <source src={gravierer} type="video/mp4"/>
+        <div className="profile-img zentrieren"> 
+       <video width={width} height={height} autoPlay controls>
+            <source src={path} type="video/mp4"/>
         </video>
         </div>        
 

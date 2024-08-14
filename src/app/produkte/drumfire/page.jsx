@@ -1,9 +1,10 @@
 import Textfeld from "../../components/Textfeld.jsx";
 import Punkt from "../../components/Punkt.jsx";
-import Image from "next/image";
-import meinbild from "../../image/drumfire.png";
 import Subnavbar from "../../components/Subnavbar.jsx";
 import Tooltip from "@/app/components/Tooltip.jsx";
+
+import gravierer from "../../videos/video3.mp4";
+import MyVideo from "../../components/MyVideo.jsx";
 
 
 const Drumfire = () =>
@@ -15,6 +16,10 @@ const Drumfire = () =>
     var text4 = ["Kurzer Vetriebsweg.",<br/>,<br/>, "Günstige, bedarfsspezifische Anpassungen möglich.",<br/>,<br/>, "Gutes Preis-Leistungsverhältnis."];
     var text5 = ["Betriebsmodus automaisch oder manuell.",<br/>,<br/>, "Webinterface optimiert für PC & mobile Geräte."];
     var text6 = ["Zugriff über lokales Netzwerk.",<br/>,<br/>,"Multi-User-fähiges Interface.",<br/>,<br/>,"Statusinformation über verschiedene Kommunikationskanäle - optionale Kamera."];
+    
+    const top = "-50px"
+    const left ="-20px"
+    
     return(
         <>
         <Subnavbar></Subnavbar>
@@ -26,6 +31,8 @@ const Drumfire = () =>
             Hohe Laserleistung-Revolvermagazin-Autoload
              </h3>
              <br />
+               <div style={{marginLeft:"15%"}}>
+
                
              <Textfeld titel="Graviermaschine">
                 <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Trommelverfahren" 
@@ -42,8 +49,8 @@ const Drumfire = () =>
 
             </Textfeld>
 
-            <div className="leeres-textfeld">
-                <Image style={{marginTop: "-40px"}} src={meinbild}  width={300} height={300} alt="maschinenbild"/>
+            <div className="leeres-textfeld" style={{marginTop:"10px",marginLeft:"-50px"}}>
+                <MyVideo path={gravierer} width={300} height={300}></MyVideo>
             </div>
             
             <Textfeld titel="Bediensoftware">
@@ -54,6 +61,7 @@ const Drumfire = () =>
                 tooltiptext={text6}></Tooltip>
 
             </Textfeld>
+            </div>
     
         </div>
 </>

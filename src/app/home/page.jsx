@@ -1,5 +1,6 @@
-
+import gravierer from "../videos/video2.mp4";
 import MyVideo from "../components/MyVideo";
+
 const Home = () =>
 {
     return(
@@ -9,7 +10,7 @@ const Home = () =>
            <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
            <br />
           
-            <MyVideo></MyVideo>
+            <MyVideo path={gravierer} width={400} height={400}></MyVideo>
 
             <p>
             <br />
