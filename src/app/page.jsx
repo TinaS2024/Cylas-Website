@@ -1,33 +1,34 @@
 
+import MyVideo from "./components/MyVideo";
+const Home = () =>
+{
+    return(
 
-import Image from "next/image";
-import meinbild from "../app/image/laser.jpg";
-
-export default function Home() {
-  return (
-    <div className="rahmen-container">
         <div className="abstand"> 
         
-        <h1>Konstruktion und Herstellung <br />von Lasermaschinen für Stempel</h1>
-        <br />
-        <div className="profile-img"><Image src={meinbild}  width={300} height={300} alt="maschinenbild"/></div>
-         <p>
-         <br />
-          Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br />
-          </p>
+           <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
+           <br />
+          
+            <MyVideo></MyVideo>
 
-         </div>
-     </div>
-  );
+            <p>
+            <br />
+             Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br /><br />
+             </p>
+             
+             <p style={{textAlign:"center"}}><span>Hier können Sie sich einen Flyer unseres Produktes runterladen.</span></p>
+             <div className="nav-container">
+                 <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
+            <button className="button-container link-style" type="button">Flyer</button>
+            </a>
+            </div>
+            
+        </div>
+      
+
+    )
 }
 
-/* next dev */
-/* next build */
-/* next start */
-/*https://kinsta.com/de/blog/next-js-portfolio/
-https://www.youtube.com/watch?v=BeXbCgRxifs&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=15
-*/
+export default Home;
 
-/* Auf dem Heimrechner geht nur npm run dev */
-
-/* Farbpalette MUI in node-modules https://www.youtube.com/watch?v=DJtiToSVM6M*/
+/* npm run start + npm run dev */

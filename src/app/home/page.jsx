@@ -1,7 +1,5 @@
 
-import Image from "next/image";
-import meinbild from "../image/laser.jpg";
-
+import MyVideo from "../components/MyVideo";
 const Home = () =>
 {
     return(
@@ -10,7 +8,9 @@ const Home = () =>
         
            <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
            <br />
-           <div className="profile-img"><Image src={meinbild}  width={500} height={500} alt="maschinenbild"/></div>
+          
+            <MyVideo></MyVideo>
+
             <p>
             <br />
              Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br /><br />
@@ -30,3 +30,5 @@ const Home = () =>
 }
 
 export default Home;
+
+/* npm run start + npm run dev */
