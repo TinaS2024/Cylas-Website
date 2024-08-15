@@ -1,5 +1,5 @@
 import Image from "next/image";
-import meinbild from "../image/bg7.png";
+import meinbild from "../image/bg7_dark.png";
 
 const Header = () =>
     {

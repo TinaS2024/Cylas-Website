@@ -52,7 +52,7 @@ const Slider = () =>
                 <div className="rahmen-container slider zentrieren">
     
                         <div className="slider-titel">
-                            <h3>Produktübersicht</h3>
+                            <h2>Produktübersicht</h2>
                         </div>
                             
                              <div className="row-container" id="slider">

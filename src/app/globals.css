@@ -17,10 +17,17 @@ body {
   text-decoration: none;
 }
 
-h1,h2,h3,h4
+h1,h2,h3
 {
-  color:  #36abb3;
-  text-shadow: rgb(144, 228, 203) 5px 10px 20px;
+  color:  #18848b;
+  text-shadow: rgb(144, 228, 203) 2px 2px 5px;
+  text-align: center;
+  margin:10px;
+}
+h4
+{
+  color:  black;
+  text-shadow: rgb(144, 228, 203) 2px 2px 5px;
   text-align: center;
   margin:10px;
 }
@@ -91,7 +98,10 @@ input
   flex-flow: row;
   flex-wrap: wrap;
   padding:25px;
-  background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
+  background-image: url("../app/image/banner.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  /*background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);*/
   width:100%;
 }
 
@@ -114,6 +124,7 @@ font-size: 30px;
 
 .nav-container
 {
+  position: relative;
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -148,6 +159,7 @@ font-size: 30px;
 .cylas-logo-klein
 {
   text-align: center;
+  filter: brightness(120%);
 }
 
 .profile-img
@@ -172,6 +184,12 @@ font-size: 30px;
 }
 
 .button-container:hover, .button-container-klein:hover
+{
+  box-shadow: 0 0 5px 0 #36abb3, 0 0 5px 2px rgba(129,230,217,1);
+  border: 2px solid rgba(129,230,217,1);
+}
+
+.link_aktiv
 {
   box-shadow: 0 0 5px 0 #36abb3, 0 0 5px 2px rgba(129,230,217,1);
   border: 2px solid rgba(129,230,217,1);
@@ -348,7 +366,7 @@ button .slider-button
 
 }
 
-button:hover 
+button:hover :active
 {
   background-color: rgb(99, 152, 155);
 }
@@ -404,4 +422,34 @@ button:hover
   border-radius: 30px 10px 30px 10px;
   padding:20px;
   color:rgb(144, 228, 203);
+}
+@media only screen and (max-width: 800px) {
+
+  .titel-container
+  {
+    position: absolute;
+    margin-left: 100px;
+    font-size: 16px;
+  }
+  .cylas-logo-klein
+  {
+    width:5em;
+    height: 5em;
+  }
+
+#subnav
+{
+  flex-wrap: nowrap;
+}
+
+.video
+{
+  margin-left: -2%;
+}
+
+.textfeld-container
+{
+  margin-left:-20px;
+}
+
 }

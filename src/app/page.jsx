@@ -1,16 +1,17 @@
 import gravierer from "../app/videos/video2.mp4";
 import MyVideo from "./components/MyVideo";
 
+/* https://www.freepik.com/search?format=search&last_filter=page&last_value=6&page=6&query=website+banner+&selection=1#uuid=73b20187-f7e2-43ff-9c1f-8d2c9403a164 */
+
 const Home = () =>
 {
     return(
 
         <div className="abstand"> 
         
-           <h1>Konstruktion und Herstellung von Lasermaschinen <br />für Stempel</h1>
+           <h2>Konstruktion und Herstellung von Lasermaschinen <br/>für Stempel</h2>
            <br />
-          
-           <MyVideo path={gravierer} width={400} height={400}></MyVideo>
+       <MyVideo path={gravierer} width={400} height={400}></MyVideo>
 
 
             <p>

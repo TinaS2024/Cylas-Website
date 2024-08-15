@@ -6,7 +6,7 @@ const Flexodrum = () =>
         <>
         <Subnavbar></Subnavbar>
         <div className="abstand">
-        <h1>Flexodrum</h1>
+        <h2>Flexodrum</h2>
         </div>
         </>
 

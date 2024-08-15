@@ -26,15 +26,14 @@ const Drumfire = () =>
         <Subnavbar></Subnavbar>
         <div className="abstand">
           
-            <h1>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h1>
+            <h2>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h2>
             <br />
-            <h3>{text0}
-             </h3>
+            <p>{text0}</p>
              <br />
                <div style={{marginLeft:"15%"}}>
 
                
-             <Textfeld titel="Graviermaschine">
+             <Textfeld  titel="Graviermaschine">
                 <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Trommelverfahren" 
                 tooltiptext={text1}></Tooltip>
 
@@ -49,7 +48,7 @@ const Drumfire = () =>
 
             </Textfeld>
 
-            <div className="leeres-textfeld" style={{marginTop:"10px",marginLeft:"-50px"}}>
+            <div className="leeres-textfeld video" style={{marginTop:"10px",marginLeft:"-50px"}}>
                 <MyVideo path={gravierer} width={300} height={300}></MyVideo>
             </div>
             
