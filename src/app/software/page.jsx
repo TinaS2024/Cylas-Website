@@ -1,40 +1,19 @@
 import Punkt from "../components/Punkt.jsx";
 import Textfeld from "../components/Textfeld.jsx";
 import Image from "next/image";
-import img1 from "../image/Graviermaschine.png";
-import img2 from "../image/Bediensoftware.png";
 import img3 from "../image/Auftragsverwaltung.png";
 import img4 from "../image/Lagermanagement.png";
 import img5 from "../image/Verpackung.png";
 
-const Details = () =>
+const Software = () =>
     {
         return(
             <div>
             <div className="zentrieren">    
-            <h1>Details zu Software für den Gravierer</h1>
+            <h1>Zusätzliche möliche Software für den Trommelgravierer von der Bolasys GmbH</h1>
             </div>
-            <Textfeld titel="Graviermaschine">
-                <div  className="profile-img">  
-                <Image src={img1} width={70} height={70} alt="graviermaschine"/>
-                </div>
-          
-                <Punkt text="&nbsp;Trommelverfahren"/>
-                <Punkt text="&nbsp;Hohe Produktivität"/>
-                <Punkt text="&nbsp;Geringer Wartung- und Serviceaufwand"/>
-                <Punkt text="&nbsp;Kundennähe"/>
-            </Textfeld>
 
 
-            <Textfeld titel="Bediensoftware">
-                <div className="profile-img"> 
-                <Image src={img2} width={70} height={70} alt=""/>
-                </div>
-           
-                <Punkt text="&nbsp;Intuitive Bedienbarkeit"/>
-                <Punkt text="&nbsp;Maschinenüberwachung"/>
-            </Textfeld>
-    
             <Textfeld titel="Auftragsverwaltung">
             <div className="profile-img"> 
                 <Image src={img3} width={70} height={70} alt=""/>
@@ -65,8 +44,9 @@ const Details = () =>
                 <Punkt text="&nbsp;Datenübergabe an Versanddienstleister"/>
             </Textfeld>
 
+
 </div>
         )
     }
 
-    export default Details;
+    export default Software;

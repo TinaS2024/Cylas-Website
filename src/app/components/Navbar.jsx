@@ -9,7 +9,8 @@ const Navbar = () =>
 <div className="nav-container" style={{backgroundColor:"rgb(99, 152, 155)"}}>
    <Button button_titel="Home" button_href="/home"/>
    <Button button_titel="Produkte" button_href="/produkte"/>
-   <Button button_titel="Details" button_href="/details"/>
+   <Button button_titel="Software" button_href="/software"/>
+   
         
 </div>
  <hr className="hell"/>

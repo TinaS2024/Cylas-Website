@@ -1,4 +1,4 @@
-import gravierer from "../videos/video2.mp4";
+import gravierer from "../app/videos/video2.mp4";
 import MyVideo from "./components/MyVideo";
 
 const Home = () =>
