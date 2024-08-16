@@ -1,7 +1,7 @@
 const Impressum = () =>
 {
     return(
-<div className="abstand">
+<div className="abstand zentrieren">
     <table>
         <h2 style={{textAlign:"left"}}>Anschrift</h2>
         <tbody>

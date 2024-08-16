@@ -5,7 +5,6 @@ const Produkte = () =>
 {
 return(
     <>
-   
 <Subnavbar></Subnavbar>
 <Slider></Slider>
  </>

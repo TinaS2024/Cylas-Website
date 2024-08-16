@@ -1,13 +1,16 @@
 import gravierer from "../app/videos/video2.mp4";
 import MyVideo from "./components/MyVideo";
 
-/* https://www.freepik.com/search?format=search&last_filter=page&last_value=6&page=6&query=website+banner+&selection=1#uuid=73b20187-f7e2-43ff-9c1f-8d2c9403a164 */
+import useTranslation from "next-translate/useTranslation";
 
 const Home = () =>
 {
+    const { t, lang } = useTranslation("common")
+    const example = t("title-header")
     return(
 
         <div className="abstand"> 
+        <h1>{example}</h1>
         
            <h2>Konstruktion und Herstellung von Lasermaschinen <br/>für Stempel</h2>
            <br />

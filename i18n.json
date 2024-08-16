@@ -1,0 +1,14 @@
+{
+    "locales": ["de", "en"],
+    "defaultLocale": "de",
+    "app":{
+        "/": ["home"],
+        "home": ["home"],
+        "produkte": ["produkte"],
+        "produkte/drumfire": ["drumfire"],
+        "produkte/flexodrum": ["flexodrum"],
+        "produkte/zubehoer": ["zubehoer"],
+        "software": ["software"],
+        "impressum": ["impressum"]
+    }
+}
