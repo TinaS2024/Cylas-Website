@@ -1,5 +1,6 @@
 "use client"
 import Button from "./Button";
+import Link from "next/link";
 
 const Navbar = () =>
 {
@@ -11,6 +12,8 @@ const Navbar = () =>
    <Button button_titel="Home" button_href="/home"/>
    <Button button_titel="Produkte" button_href="/produkte" />
    <Button button_titel="Software" button_href="/software" />
+  {/* <Link href="/" locale="en"><p>Englisch</p></Link>
+   <Link href="/" locale="de"><p>Deutsch</p></Link>*/} 
    
         
 </div>

@@ -1,6 +1,6 @@
-const nodemailer = require('nodemailer');
+import { createTransport } from 'nodemailer';
 
-const transporter = nodemailer.createTransport({
+const transporter = createTransport({
   host: "smtp.strato.de",
   port: 465,
   secure: true, // upgrade later with STARTTLS
@@ -34,7 +34,7 @@ const sendMail = content => {
   }
 };
 
-module.exports.sendJobFinishedMail = job => {
+export function sendJobFinishedMail(job) {
   let d = new Date();
   const content = {
     subject: `Benachrichtigung Abschluss: Seite ${job.page.sourceFile.name} ist fertig`,
@@ -44,9 +44,9 @@ module.exports.sendJobFinishedMail = job => {
     `
   };
   sendMail(content);
-};
+}
 
-module.exports.sendJobErroredMail = job => {
+export function sendJobErroredMail(job) {
   let d = new Date();
   const content = {
     subject: `Benachrichtigung Fehler: Seite ${job.page.sourceFile.name} wurde mit einem Fehler beendet`,
@@ -56,4 +56,4 @@ module.exports.sendJobErroredMail = job => {
     `
   };
   sendMail(content);
-};
+}
