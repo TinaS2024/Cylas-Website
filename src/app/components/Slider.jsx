@@ -49,9 +49,9 @@ const Slider = () =>
         return(
         <>
             <div>
-                <div className="rahmen-container slider zentrieren">
+                <div className="slider slider_rahmen zentrieren">
     
-                        <div className="slider-titel">
+                        <div className="slider-titel zentrieren">
                             <h2>Produktübersicht</h2>
                         </div>
                             

@@ -10,9 +10,9 @@ const Header = () =>
             <Image className="cylas-logo-klein" src={meinbild} width={150} height={150} alt="logo"/>
             </div>
             
-             <div className="titel-container">
+             <div className="titel-container neon">
              <h3><br />
-             Gravier- und Lasertechnologie für den internationalen Markt
+                Gravier- und Lasertechnologie für den internationalen Markt
              </h3>
           
             </div>

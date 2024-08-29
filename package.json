@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.8",
     "@prisma/client": "^5.14.0",
     "filer": "^1.4.1",
     "fs": "^0.0.1-security",
