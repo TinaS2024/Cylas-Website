@@ -24,6 +24,7 @@ h1,h2,h3
   text-align: center;
   margin:10px;
 }
+
 h4
 {
   color:  black;
@@ -90,7 +91,10 @@ input
   width:100%;
   height:100%;
   background-color: rgb(212, 206, 206);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .header-container
 {
@@ -101,7 +105,6 @@ input
   background-image: url("../app/image/banner.png");
   background-repeat: no-repeat;
   object-fit: cover;
-  /*background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);*/
   width:100%;
 }
 
@@ -411,7 +414,7 @@ button:hover :active
 }
 
 
-/* Gästbuch Eigenschafte */
+/* Gästbuch Eigenschaften */
 
 .guestbook
 {
@@ -423,6 +426,18 @@ button:hover :active
   padding:20px;
   color:rgb(144, 228, 203);
 }
+
+.background
+{
+  width:500px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border:2px solid black;
+  background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
   .titel-container
@@ -437,19 +452,20 @@ button:hover :active
     height: 5em;
   }
 
-#subnav
-{
-  flex-wrap: nowrap;
-}
+  #subnav
+  {
+    flex-wrap: nowrap;
+  }
 
-.video
-{
-  margin-left: -2%;
-}
+  .video
+  {
+    margin-left: -2%;
+  }
 
-.textfeld-container
-{
-  margin-left:-20px;
-}
+  .textfeld-container
+  {
+    margin-left:-20px;
+  }
 
-}
+  }
+

@@ -4,7 +4,7 @@ import Subnavbar from "../../components/Subnavbar.jsx";
 import Tooltip from "@/app/components/Tooltip.jsx";
 
 import gravierer from "../../videos/video3.mp4";
-import MyVideo from "../../components/MyVideo.jsx";
+import MyVideo2 from "../../components/MyVideo2.jsx";
 
 
 const Drumfire = () =>
@@ -47,11 +47,10 @@ const Drumfire = () =>
                 tooltiptext={text4}></Tooltip>
 
             </Textfeld>
+            <Textfeld>
+                <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+            </Textfeld>
 
-            <div className="leeres-textfeld video" style={{marginTop:"10px",marginLeft:"-50px"}}>
-                <MyVideo path={gravierer} width={300} height={300}></MyVideo>
-            </div>
-            
             <Textfeld titel="Bediensoftware">
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Intuitive Bedienbarkeit" 
                 tooltiptext={text5}></Tooltip>

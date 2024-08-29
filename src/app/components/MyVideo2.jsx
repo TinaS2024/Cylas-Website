@@ -3,7 +3,7 @@ const MyVideo = (props) =>
     const {path, width, height} = props;
 
     return(
-        <div className="profile-img zentrieren video background"> 
+        <div className="profile-img video"> 
        <video width={width} height={height} controls>
             <source src={path} type="video/mp4"/>
         </video>

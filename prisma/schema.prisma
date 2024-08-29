@@ -10,7 +10,7 @@ generator client {
 model Gast {
   id                Int @id @default(autoincrement())
   erstellungsdatum  DateTime @default (now()) 
-  name          String @unique
+  name              String @unique
   nachricht         String
 }
 

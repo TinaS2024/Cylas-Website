@@ -13,7 +13,7 @@ const Software = () =>
             <h2>Zusätzliche Software für den Trommelgravierer von der Bolasys GmbH</h2>
             </div>
 
-
+            <div style={{marginLeft:"15%"}}>
             <Textfeld titel="Auftragsverwaltung">
             <div className="profile-img"> 
                 <Image src={img3} width={70} height={70} alt=""/>
@@ -43,6 +43,8 @@ const Software = () =>
                 <Punkt text="&nbsp;Berechung Verpackungsvolumen"/>
                 <Punkt text="&nbsp;Datenübergabe an Versanddienstleister"/>
             </Textfeld>
+            </div>
+       
 
 
 </div>

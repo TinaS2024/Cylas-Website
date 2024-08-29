@@ -1,8 +1,8 @@
 const Impressum = () =>
 {
     return(
-<div className="abstand zentrieren">
-    <table>
+<div style={{marginLeft:"5%"}} className="abstand zentrieren">
+    <table width={450}>
         <h2 style={{textAlign:"left"}}>Anschrift</h2>
         <tbody>
             <tr><td><span>Cylas AG</span></td></tr>
