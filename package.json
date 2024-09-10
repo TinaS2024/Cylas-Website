@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@googlemaps/js-api-loader": "^1.16.8",
+    "@mui/material": "^6.0.2",
     "@prisma/client": "^5.14.0",
     "filer": "^1.4.1",
     "fs": "^0.0.1-security",
