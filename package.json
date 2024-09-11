@@ -24,6 +24,7 @@
     "next-translate": "^2.6.2",
     "next-video": "^1.1.4",
     "next-videos": "^1.4.1",
+    "nodemailer": "^6.9.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.0.1",
@@ -33,6 +34,7 @@
     "redux": "^5.0.1",
     "sas": "^3.0.4",
     "sharp": "^0.33.5",
+    "sweetalert": "^2.1.2",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
