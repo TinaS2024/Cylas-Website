@@ -1,6 +1,9 @@
 import Gaestebuch from "../components/Gaestebuch.jsx";
 import Post from "../components/Post.jsx";
 import { Suspense } from "react";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 async function Gaestebuch_ausgabe()
     {

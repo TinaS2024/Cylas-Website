@@ -1,4 +1,5 @@
 import { useState } from "react"
+//https://blog.openreplay.com/working-with-databases-in-next-js-using-prisma/
 
 const Gästebuch_Form = () =>
 {
@@ -12,18 +13,18 @@ const Gästebuch_Form = () =>
 
         if (fullName && nachricht)
             try {
-                const body = {fullName, nachricht}; 
-                await fetch("/api/route.jsx",{
+                const body = {fullName,nachricht}
+                 await fetch("/api/guestbook/",{
                     method: "POST",
-                    headers: {"content-Type": "application/json"},
+                    headers: {"Content-Type": "application/json"},
                     body: JSON.stringify(body),
                 });
-                console.log(body)
-                /* die api/route wird nicht gelesen und ausgeführt */
-            
-            } catch
+                alert("Eintrag wurde geschrieben!");
+                Response.json(body);
+            } catch(error)
             {
                 console.log("Fehler")
+                alert("Es kam zu einen Fehler beim senden!")
             } 
         else
         {
