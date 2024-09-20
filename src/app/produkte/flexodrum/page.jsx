@@ -5,7 +5,7 @@ const Flexodrum = () =>
     return(
         <>
         <Subnavbar></Subnavbar>
-        <div className="abstand">
+        <div style={{marginTop:"-5%"}}>
         <h2>Flexodrum</h2>
         </div>
         </>

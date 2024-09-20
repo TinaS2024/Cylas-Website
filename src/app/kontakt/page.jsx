@@ -61,11 +61,11 @@ const Kontakt = () =>
    
     return(
 
-        <div style={{marginLeft:"5%"}} className="abstand zentrieren"> 
+        <div> 
+        <h2>Kontakt</h2>
            <form onSubmit={handleSubmit}>
-           <table width={450}>
+           <table width={450} className="abstand contact_container">
             <tbody>
-            <tr><td><h2 style={{marginLeft:"-5px"}}>Kontakt</h2> </td><td></td></tr>
             <tr><th>Name:</th><td>
                 <TextField required variant="outlined" placeholder="Vollständiger Name" size="small" value={username} onChange={(e) =>setUsername(e.target.value)}></TextField>
             </td></tr>

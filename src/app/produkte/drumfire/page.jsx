@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Textfeld from "../../components/Textfeld.jsx";
 import Punkt from "../../components/Punkt.jsx";
 import Subnavbar from "../../components/Subnavbar.jsx";
@@ -24,7 +25,7 @@ const Drumfire = () =>
     return(
         <>
         <Subnavbar></Subnavbar>
-        <div className="abstand">
+        <div style={{marginTop:"-5%"}}>
           
             <h2>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h2>
             <br />

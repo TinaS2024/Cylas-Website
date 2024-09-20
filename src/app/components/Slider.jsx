@@ -50,11 +50,7 @@ const Slider = () =>
         <>
             <div>
                 <div className="slider slider_rahmen zentrieren">
-    
-                        <div className="slider-titel zentrieren">
-                            <h2>Produktübersicht</h2>
-                        </div>
-                            
+                        
                              <div className="row-container" id="slider">
                             {bilderItems.map((item) => (
                             <div key={item.id} className="row-item">
