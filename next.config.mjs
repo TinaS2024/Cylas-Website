@@ -1,12 +1,12 @@
 import withVideos from "next-videos";
-import nextTranslate from "next-translate-plugin";
+//import nextTranslate from "next-translate-plugin";
 
 
-export default withVideos(nextTranslate(
+export default withVideos(
     {
         reactStrictMode: true,
     }
-));
+);
 
 
 /*
