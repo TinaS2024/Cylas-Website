@@ -11,12 +11,6 @@ body {
   text-decoration: none;
 }
 
-.link-style:hover
-{
-  color: #209ea7; 
-  text-decoration: none;
-}
-
 h1,h2,h3
 {
   color:  #18848b;
@@ -45,9 +39,9 @@ hr.neu
   border: 1px solid rgb(99, 152, 155);
 }
 
-hr.hell
+hr.dunkel
 {
-  border: 1px solid rgb(144, 228, 203);
+  border: 1px solid #115d5d;
 }
 
 table
@@ -90,7 +84,6 @@ input
   flex-flow: column;
   width:100%;
   height:100%;
-  /*background-color: rgb(212, 206, 206);*/
   background-image: url("../app/image/bg_light_blue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,9 +95,8 @@ input
   flex-flow: column;
   width:100%;
   height:100%;
-  border:2px solid black;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
-
 }
 
 .header-container
@@ -137,6 +129,21 @@ font-size: 30px;
 }
 
 .nav-container
+{
+  padding-top:20px;
+  padding-bottom:20px;
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 10%;
+  height:200px;
+  width:100%;
+}
+
+.sub-nav-container
 {
   position: relative;
   display:flex;
@@ -195,6 +202,23 @@ font-size: 30px;
   text-align: center;
   padding:5px;
   font-size: 20px;
+}
+
+.button-neu
+{
+  margin:5px;
+  width:200px;
+  height: 60px;
+  background-image: url("../app/image/button.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding:15px;
+  font-size: 20px;
+}
+.button-neu:hover
+{
+  filter:brightness(120%);
 }
 
 .button-container:hover, .button-container-klein:hover
@@ -299,7 +323,7 @@ span
   width:370px;
   height:400x;
   border-radius:20px; 
-  box-shadow: 0 8px 8px -4px rgb(99, 152, 155);
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:rgb(144, 228, 203);
   color:white;
 }
@@ -317,8 +341,8 @@ span
 
 .slider
 {
-  height: 50vh;
-  width:40vh;
+  height: 30vh;
+  width:110vh;
 }
 .slider h3
 {
@@ -344,47 +368,33 @@ span
 }
 
 
-.slider-button button
-{
-  color: white;
-  background-color:  #2a8889;
-  padding: 1rem;
-  font-size: 1.5rem;
-  border: none;
-  height: 4rem;
-  width: 4rem;
-  cursor: pointer;
-  transition: all 0.1s ease-in;
-}
-
 .slider-button button:hover
 {
-  background-color:  #286464;
+  display:none;
 }
 
 .btn-links
 {
-border-radius: 20px 0px 0px 20px;
-margin-right:20px;
+  display:none;
 }
 
 .btn-rechts
 {
-border-radius: 0px 20px 20px 0px;
-margin-left: 20px;
+  display:none;
 }
 
 button .slider-button
 {
-  display: flex;
-  gap: 0.4rem;
-
+  display:none;
 }
+
+/* Links, Items */
 
 button:hover :active
 {
   background-color: rgb(99, 152, 155);
 }
+
 
 .link {
   text-decoration: none;
@@ -444,7 +454,8 @@ button:hover :active
   width:500px;
   margin-left: 35%;
   margin-right: 35%;
-  border:2px solid black;
+  border-radius:15px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
 }
 
@@ -462,12 +473,22 @@ button:hover :active
 
 @media only screen and (max-width: 800px) {
 
+  #button_column
+  {
+    border-radius: 15px !important;
+    width:350px;
+    height:100px;
+    margin:15px;
+    padding:30px;
+    font-size:30px;
+  }
+
   .titel-container
   {
     position: absolute;
     margin-top:-5%;
     margin-left: 100px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .cylas-logo-klein
   {
@@ -500,6 +521,78 @@ button:hover :active
 .contact_container
 {
   margin-left:5%;
+}
+
+/* Slider Eigenschaften */
+
+.slider
+{
+  height: 50vh;
+  width:40vh;
+}
+.slider h3
+{
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 4.2rem !important;
+}
+
+.slidercontainer
+{
+  height: 40vh;
+}
+
+.slidercontainer
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 19px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.slider-button button
+{
+  color: white;
+  background-color:  #2a8889;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  display:inline;
+}
+
+.slider-button button:hover
+{
+  background-color:  #286464;
+  display:inline;
+}
+
+.btn-links
+{
+border-radius: 20px 0px 0px 20px;
+margin-right:20px;
+display:inline;
+}
+
+.btn-rechts
+{
+border-radius: 0px 20px 20px 0px;
+margin-left: 20px;
+display:inline;
+}
+
+button .slider-button
+{
+  display: flex;
+  gap: 0.4rem;
+  display:inline;
 }
 
 
