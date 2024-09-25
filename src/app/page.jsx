@@ -9,22 +9,15 @@ const Home = () =>
         <div className="abstand"> 
 
         
-           <h2>Konstruktion und Herstellung von Lasermaschinen <br/>für Stempel</h2>
+           <h2>Industrielle Produktion und Vertrieb von <br/>Lasergeräten und sonstigen physikalisch-technischen Erzeugnissen <br/>sowie Vornahme der hierzu notwendigen Investitionen <br/> in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.</h2>
            <br />
        <MyVideo path={gravierer} width={400} height={400}></MyVideo>
-
-
-            <p>
-            <br />
-             Treten Sie jederzeit mit uns in Kontakt und informieren Sie sich über das neue Magazin Graviermaschine.<br /><br />
-             </p>
              
-             <p style={{textAlign:"center"}}><span>Hier können Sie sich einen Flyer unseres Produktes runterladen.</span></p>
-             <div className="nav-container">
-                 <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
+            <div style={{marginTop:"100px"}} className="flyer">
+            <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
             <button className="button-container link-style" type="button">Flyer</button>
-            </a>
-            </div>
+            </a></div>
+
             
         </div>
       

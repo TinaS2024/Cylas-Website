@@ -78,6 +78,11 @@ input
   font-size: 20px;
 }
 
+.flyer
+{
+  margin-left:42%;
+}
+
 .rahmen-container
 {
   display: flex;
@@ -472,6 +477,11 @@ button:hover :active
 }
 
 @media only screen and (max-width: 800px) {
+
+  .flyer
+{
+  margin-left:25%;
+}
 
   #button_column
   {

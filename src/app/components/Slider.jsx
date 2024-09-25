@@ -7,11 +7,6 @@ import bild1 from "./../image/drumfire.png";
 import bild2 from "./../image/drumfire.png";
 import bild3 from "./../image/drumfire.png";
 
-/**
- * 
- * https://dev.to/ryaddev/creating-a-slider-using-nextjs-and-css-2mpa
- */
-
 
 const Slider = () =>
     { 
