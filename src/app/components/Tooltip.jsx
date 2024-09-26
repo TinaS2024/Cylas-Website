@@ -1,14 +1,28 @@
+import swal from "sweetalert";
 
-const Tooltip = (props) =>
+function Tooltip(props) {
+    const { tooltiptitel, tooltiptext} = props;
+
+
+    function showTooltext()
     {
-        const {tooltiptitel,tooltiptext} = props
-      
-        return(
-            <div class="tooltip">{tooltiptitel}
-            <span class="tooltiptext">{tooltiptext}</span>
-          </div>
-
-        )
+        if(tooltiptitel && tooltiptext != null)
+        {
+            swal({title:""+(tooltiptitel),text:""+tooltiptext,icon:"info",button:"Close"});
+            console.log(tooltiptitel,tooltiptext)
+        }
     }
+
+    return (
+        <div className="tooltip">
+            <p style={{fontSize:"16px",textAlign:"left"}} onClick={showTooltext}>{tooltiptitel}</p>
+            <span className="tooltiptext">
+                {tooltiptext}    
+            </span>
+
+        </div>
+
+    );
+}
 
 export default Tooltip;
