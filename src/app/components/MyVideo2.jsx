@@ -1,4 +1,4 @@
-const MyVideo = (props) =>
+const MyVideo2 = (props) =>
 {
     const {path, width, height} = props;
 
@@ -12,4 +12,4 @@ const MyVideo = (props) =>
     );
 }
 
-export default MyVideo;
+export default MyVideo2;

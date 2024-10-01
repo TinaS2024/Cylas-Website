@@ -5,8 +5,8 @@ const Guestbook_entry = (props) =>
       return(
         <div style={{display:"flex",justifyContent:"right",flexWrap:"wrap"}}>
             <div className="guestbook">
-                <p style={{textAlign:"left"}}><span>Von:</span>&nbsp;{fullName}</p>
-                <p style={{textAlign:"left"}}><span>Am:</span>&nbsp;{Datum}</p>
+                <p style={{fontSize:"14px",textAlign:"left"}}><span>Von:</span>&nbsp;{fullName}</p>
+                <p style={{fontSize:"14px",textAlign:"left"}}><span>Am:</span>&nbsp;{Datum}</p>
                 <br />
                  {Message}
                 </div>

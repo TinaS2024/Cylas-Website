@@ -45,7 +45,7 @@ const Gästebuch_Form = () =>
                     <textarea rows={6} cols={15}  value={nachricht} onChange={(e) => setNachricht(e.target.value)}/></td></tr>
 
                     <tr><th></th><td>
-                    <input className="button-container-klein link-style" type="submit" value="abschicken"/></td></tr>
+                    <input className="button-container-klein link-style" type="submit" value="Absenden"/></td></tr>
                     </tbody>
                 </table>  
    

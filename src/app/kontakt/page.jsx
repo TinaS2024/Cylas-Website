@@ -1,7 +1,6 @@
 "use client"
 import { TextField } from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
-import { Button } from "@mui/material";
 import { useState } from "react";
 import swal from "sweetalert";
 
@@ -85,7 +84,7 @@ const Kontakt = () =>
             </td></tr>
             <tr style={{height:"10px"}}><th></th><td></td></tr>
             <tr><th>Nachricht:</th><td><TextField required multiline placeholder="Fragen Sie uns etwas!" rows={4} value={nachricht} onChange={(e) =>setNachricht(e.target.value)}></TextField></td></tr>
-            <tr><td></td><td><Button type="submit" value="Submit" className="button-container-klein">Absenden</Button></td></tr>
+            <tr><td></td><td> <input className="button-container-klein link-style" type="submit" value="Absenden"/></td></tr>
             </tbody>
            </table> 
            </form>
