@@ -1,4 +1,5 @@
 import { useState } from "react"
+import swal from "sweetalert";
 //https://blog.openreplay.com/working-with-databases-in-next-js-using-prisma/
 
 const Gästebuch_Form = () =>
@@ -19,16 +20,16 @@ const Gästebuch_Form = () =>
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify(body),
                 });
-                alert("Eintrag wurde geschrieben!");
+                swal({title: "Erfolgreich",text:"Gästebuch-Eintrag wurde geschrieben!",icon:"success"});
                 Response.json(body);
             } catch(error)
             {
                 console.log("Fehler")
-                alert("Es kam zu einen Fehler beim senden!")
+                swal({title: "Fehler",text:"Es kam zu einem Fehler beim Schreiben des Gästebuch-Eintrags!",icon:"error"});
             } 
         else
         {
-            alert("Alle Felder müssen ausgefüllt sein!")
+            swal({title: "Info",text:"Alle Felder müssen ausgefüllt sein!",icon:"info"});
         }
     }
   

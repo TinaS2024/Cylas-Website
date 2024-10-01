@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@googlemaps/js-api-loader": "^1.16.8",
     "@mui/material": "^6.0.2",
-    "@prisma/client": "^5.14.0",
+    "@prisma/client": "^5.20.0",
     "filer": "^1.4.1",
     "fs": "^0.0.1-security",
     "i18next": "^23.14.0",
@@ -35,7 +35,7 @@
     "sas": "^3.0.4",
     "sharp": "^0.33.5",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^11.14.1",
+    "sweetalert2": "^11.6.13",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
