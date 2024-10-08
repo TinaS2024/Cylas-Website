@@ -1,26 +1,32 @@
-import* as nodemailer from "nodemailer";
+import * as nodemailer from "nodemailer";
+
+const host = process.env.NEXT_PUBLIC_HOST;
+const port = process.env.NEXT_PUBLIC_PORT;
+const user = process.env.NEXT_PUBLIC_USER;
+const password = process.env.NEXT_PUBLIC_PASSWORD;
+const webmail = process.env.NEXT_PUBLIC_WEBMAIL;
 
 export async function POST(req)
 {
     const {username,email,bereich,nachricht} = await req.json() 
     
     const transporter = nodemailer.createTransport({
-            host: "smtp.strato.de",//"smtp-mail.outlook.com"
-            service: "Strato", //"Outlook"
-            port: 465, //587
+            host: host,
+            service: "Strato", 
+            port: port, 
             secureConnection: false,
             tls: {
                 ciphers: "SSLv3"
             },
             auth: {
-                user:"otrs@cylas.de",//"bolasys_client@outlook.de" 
-                pass:"42lasyc-WS" //"kZ4xj8vkVABf9WB" 
+                user:user,
+                pass:password 
             }
         });   
         
     const mailData = {
-         from: "otrs@cylas.de",//"bolasys_client@outlook.de",
-         to: "Tina.Schmidtbauer@bolasys.de",
+         from: user,
+         to: webmail,
          subject: bereich,
          html: '<h2>Kundenanfrage an Cylas AG</h2><p>Von: '+username+'</p><p>Email-Absender: '+email+'</p><p>Nachricht: <br/> '+nachricht+'</p>',
      };    
