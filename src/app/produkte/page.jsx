@@ -7,7 +7,7 @@ return(
     <>
 <Subnavbar></Subnavbar>
 <div style={{marginTop:"-5%"}}>    
-<h2>Produktübersicht</h2>
+<h2>Produkte</h2>
  </div>
 <Slider></Slider>
  </>

@@ -1,16 +1,16 @@
 import Subnavbar from "../../components/Subnavbar.jsx";
 
-const Flexodrum = () =>
+const Flexfire = () =>
 {
     return(
         <>
         <Subnavbar></Subnavbar>
         <div style={{marginTop:"-5%"}}>
-        <h2>Flexodrum</h2>
+        <h2>Flexfire</h2>
         </div>
         </>
 
     )
 }
 
-export default Flexodrum;
+export default Flexfire;

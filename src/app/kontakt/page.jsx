@@ -45,8 +45,8 @@ const Kontakt = () =>
             label: "Drumfire"
         },
         {
-            value: "Flexodrum",
-            label: "Flexodrum"
+            value: "Flexfire",
+            label: "Flexfire"
         },
         {
             value: "Software",

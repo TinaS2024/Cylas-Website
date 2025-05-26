@@ -4,8 +4,8 @@ import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import Image from "next/image";
 import bild1 from "./../image/drumfire.png";
-import bild2 from "./../image/drumfire.png";
-import bild3 from "./../image/drumfire.png";
+import bild2 from "./../image/flexfire.png";
+import bild3 from "./../image/404.png";
 
 
 const Slider = () =>
@@ -13,19 +13,26 @@ const Slider = () =>
         const bilderItems = [
             {
                 id:1,
-                titel: "Drumfire",
-                bildpfad: bild1,               
+                titel: "DrumFire",
+                bildpfad: bild1,  
+                width:300,
+                height:200,             
             },
             {
                 id:2,
-                titel: "Flexodrum",
-                bildpfad: bild2,               
+                titel: "FlexFire",
+                bildpfad: bild2,    
+                width:150,
+                height:200,           
             },
+            /*
             {
                 id:3,
                 titel: "Zubehör",
-                bildpfad: bild3,            
-            },  
+                //bildpfad: bild3,   
+                width:50,
+                height:150         
+            },  */
         ];
     
         const slideLeft = () =>
@@ -50,7 +57,7 @@ const Slider = () =>
                             {bilderItems.map((item) => (
                             <div key={item.id} className="row-item">
                              <div className="item-titel"><h4>{item.titel}</h4></div>
-                             <div className="item-img"><Image src={item.bildpfad} alt={item.titel} width={250} height={250}/></div>
+                             <div className="item-img"><Image src={item.bildpfad} alt={item.titel} width={item.width} height={item.height} style={{objectFit: "contain"}}/></div>
                              </div>
             ))}
            

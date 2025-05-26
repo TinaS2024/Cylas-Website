@@ -16,7 +16,7 @@ export const metadata = {
   layout: "Tina Schmidtbauer",
   programming: "Tina Schmidtbauer",
   content: "Reiner Boes",
-  keywords: "Graviermaschine, Drumfire, Flexodrum, Lasermaschine, internationaler Markt, Trommelgravierer, Stempel"
+  keywords: "Graviermaschine, DrumFire, FlexFire, Lasermaschine, internationaler Markt, Trommelgravierer, Stempel"
 };
 
 export default function RootLayout({ children }) {

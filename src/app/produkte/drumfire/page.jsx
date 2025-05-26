@@ -8,11 +8,13 @@ import Tooltip from "@/app/components/Tooltip.jsx";
 
 import gravierer from "../../videos/video3.mp4";
 import MyVideo2 from "../../components/MyVideo2.jsx";
+import Image from "next/image";
+import drumfire from "../../image/drumfire.png";
+import trommel from "../../image/Trommel.png";
 
 
 const Drumfire = () =>
 {
-
     var text0 =["Nach langjähriger Tätigkeit im Bereich der Lasergravur von Stempeltextplatten",<br/>, "und der Herstellung weltweit genutzter Trommelgravierer war die Entwicklung", <br/>,"des CyD120 Autoload für uns der natürliche Schritt,",<br/>, "den Markt durch Innovation zu beleben.",<br/>, "Das Gerät dient hauptsächlich zur Gravur und zum Ausschneiden von Stempeltextplatten."];
     var text1 = "• Kontinuierlicher spiralförmiger Gravurpfad führt zu bester Gravurqualität und langer Gerätelebensdauer. \n • Geringe Staub- & Geruchsentwicklung durch effiziente Absaugung nahe am Gravurort.";
     var text2 = "• Automatische Be- und Entladung im laufenden Betrieb durch Revolvermagazin für 10 A4-Gummiplatten. \n • Hochleistungsvariante mit kurzen Gravur- & Schneidzeiten (weniger als 30 Minuten pro A4 Seite. \n • Trommelkenzeichnung mit RFID-Tags zur automatischen Materialerkennung.)";
@@ -36,6 +38,13 @@ const Drumfire = () =>
           
             <h2>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h2>
             <br />
+            <div style={{marginLeft:"35%"}}>
+             <Image src={drumfire} alt={drumfire} width={600} height={400}/>   
+            </div>
+            <div style={{marginLeft:"45%"}}>
+             <Image src={trommel} alt={drumfire} width={250} height={200}/>   
+            </div>
+            
             <p style={{fontSize:"20px",padding:"1%"}}>{text0}</p>
              <br />
                <div style={{marginLeft:"15%"}}>
