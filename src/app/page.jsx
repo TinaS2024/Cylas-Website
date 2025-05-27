@@ -9,7 +9,7 @@ const Home = () =>
 {
     return(
 
-        <div className="abstand"> 
+        <div className="abstand" style={{backgroundColor:"#286464"}}> 
 
         
            <h2>Industrielle Produktion und Vertrieb von <br/>Lasergeräten und sonstigen physikalisch-technischen Erzeugnissen <br/>sowie Vornahme der hierzu notwendigen Investitionen <br/> in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.</h2>
@@ -19,7 +19,8 @@ const Home = () =>
             <div style={{marginTop:"100px"}} className="flyer">
             <a  href="flyer_ger.pdf" download target="_blank"  rel="noopener noreferrer" alt="Flyer">
             <button className="button-container link-style" type="button">Flyer</button>
-            </a></div>
+            </a>
+            </div>
 
             
         </div>
@@ -30,4 +31,3 @@ const Home = () =>
 
 export default Home;
 
-/* npm run start + npm run dev */

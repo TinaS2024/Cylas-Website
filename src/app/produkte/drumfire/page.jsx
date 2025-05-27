@@ -34,46 +34,46 @@ const Drumfire = () =>
     return(
         <>
         <Subnavbar></Subnavbar>
-        <div style={{marginTop:"-5%"}}>
+        <div style={{marginTop:"5%"}}>
           
-            <h2>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h2>
-            <br />
-            <div style={{marginLeft:"35%"}}>
-             <Image src={drumfire} alt={drumfire} width={600} height={400}/>   
-            </div>
-            <div style={{marginLeft:"45%"}}>
-             <Image src={trommel} alt={drumfire} width={250} height={200}/>   
-            </div>
-            
-            <p style={{fontSize:"20px",padding:"1%"}}>{text0}</p>
+            <h1>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h1>
+            <br /> 
+            <p style={{fontSize:"20px",padding:"1%",color:"black"}}>{text0}</p>
              <br />
+            <div style={{marginLeft:"25%"}}>
+             <Image src={drumfire} alt={drumfire} width={800} height={400}/>   
+            </div>
+           
                <div style={{marginLeft:"15%"}}>
 
                
-             <Textfeld  titel="Graviermaschine">
-                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Trommelverfahren" 
-                tooltiptext={text1}></Tooltip>
-
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Hohe Produktivität" 
+             <Textfeld  titel="Trommelmagazin">
+                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Hohe Produktivität" 
                 tooltiptext={text2}></Tooltip>
+                <div>
+                  <Image src={trommel} alt={drumfire} width={250} height={200}/>    
+                </div>
+                 
+
+            </Textfeld>
+            <Textfeld titel="Gravurprozess">
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Gravurpfade" 
+                tooltiptext={text1}></Tooltip>
+                <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+            </Textfeld>
+
+            <Textfeld titel="Sonstiges">
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Intuitive Bedienbarkeit" 
+                tooltiptext={text5}></Tooltip>
+
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Maschinenüberwachung" 
+                tooltiptext={text6}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Geringer Wartungs-& Serviceaufwand" 
                 tooltiptext={text3}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kundennähe" 
                 tooltiptext={text4}></Tooltip>
-
-            </Textfeld>
-            <Textfeld>
-                <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
-            </Textfeld>
-
-            <Textfeld titel="Bediensoftware">
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Intuitive Bedienbarkeit" 
-                tooltiptext={text5}></Tooltip>
-
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Maschinenüberwachung" 
-                tooltiptext={text6}></Tooltip>
 
             </Textfeld>
             </div>

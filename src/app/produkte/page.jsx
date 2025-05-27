@@ -6,8 +6,8 @@ const Produkte = () =>
 return(
     <>
 <Subnavbar></Subnavbar>
-<div style={{marginTop:"-5%"}}>    
-<h2>Produkte</h2>
+<div style={{marginTop:"5%"}}>    
+<h1>Produkte</h1>
  </div>
 <Slider></Slider>
  </>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import meinbild from "../image/icon-48x48_dark.png";
+import neuLogo  from "../image/logo_hell.png";
 import Link from "next/link";
 
 const Footer = () =>
@@ -10,16 +11,16 @@ const Footer = () =>
         <div className="footer-container">
 
         <div className="cylas-logo-klein zentrieren">
-        <Image src={meinbild} alt="logo" />
+        <Image src={neuLogo} alt="logo" width={60} heigh={60} />
         </div>
-    <p style={{textAlign:"center"}}>© {new Date().getFullYear()} CYLAS-AG</p>
+    <p style={{textAlign:"center",color:"white"}}>© {new Date().getFullYear()} CYLAS-AG</p>
     <div style={{textAlign:"center"}}>
         <Link className="link-style" href="/impressum">Impressum |</Link>
         <Link className="link-style" href="/guestbook">| Gästebuch </Link>
     </div>
         
         </div>
-        <hr className="neu"/>
+        <hr className="dunkel"/>
         </>
     )
    

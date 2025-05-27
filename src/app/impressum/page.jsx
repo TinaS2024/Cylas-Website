@@ -4,9 +4,9 @@ const Impressum = () =>
 {
     return(
         <div className="flex flex-row">
-    <div style={{marginLeft:"5%"}} className="abstand zentrieren">
+    <div style={{marginLeft:"5%",marginTop:"5%"}} className="abstand zentrieren">
     <table width={450}>
-        <h2 style={{textAlign:"left"}}>Anschrift</h2>
+        <h1 style={{textAlign:"left"}}>Anschrift</h1>
         <tbody>
         <tr><td><span>Cylas AG Büro:</span></td></tr>
             <tr><td>Fritz-Wagner-Siedlung 16</td></tr>
@@ -24,7 +24,7 @@ const Impressum = () =>
         </tbody>
     </table>
 </div>
-<div id="map"><Map/></div>
+<div id="map" style={{marginTop:"-20%"}}><Map/></div>
 
 </div>
     )

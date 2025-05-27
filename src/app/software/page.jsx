@@ -6,11 +6,11 @@ const Software = () =>
         return(
             <div>
             <div className="zentrieren">    
-            <h2>Zusätzliche Software für den Trommelgravierer<br/> von der Bolasys GmbH</h2>
+            <h1>Zusätzliche Software für den Trommelgravierer<br/> von der Bolasys GmbH</h1>
             </div>
 
             <div className="software-card" >
-            <Textfeld titel="Software für:">
+            <Textfeld titel="">
                 <Punkt text="&nbsp;Auftragsvorbereitung & Annahme"/>
                 <Punkt text="&nbsp;Auftragsverwaltung"/>
                 <Punkt text="&nbsp;Designer"/>

@@ -4,6 +4,36 @@ import MenuItem from "@mui/material/MenuItem";
 import { useState } from "react";
 import swal from "sweetalert";
 
+import { createTheme, ThemeProvider} from "@mui/material/styles";
+
+const theme = createTheme({
+    components: {
+      MuiTextField: {
+        styleOverrides: {
+          root: {
+            '& .MuiInputBase-input': {
+              color: 'white',
+            },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: 'white',
+              },
+              '&:hover fieldset': {
+                borderColor: 'white',
+              },
+            },
+            '& .MuiInputLabel-root': {
+              color: 'white',
+            },
+            '& .MuiFormHelperText-root': {
+                color: 'white',
+              },
+          },
+        },
+      },
+    },
+  });
+
 const Kontakt = () =>
 {
     const [username, setUsername] = useState("")
@@ -60,8 +90,9 @@ const Kontakt = () =>
    
     return(
 
-        <div> 
-        <h2>Kontakt</h2>
+        <div className="abstand-unten" style={{marginTop:"5%"}}> 
+        <h1>Kontakt</h1>
+        <ThemeProvider theme={theme}>
            <form onSubmit={handleSubmit}>
            <table width={450} className="abstand contact_container">
             <tbody>
@@ -79,7 +110,6 @@ const Kontakt = () =>
                 {bereiche.map((option) =>(
                    <MenuItem key={option.value} value={option.value}>{option.label}</MenuItem>  
                 ))}
-               
             </TextField>
             </td></tr>
             <tr style={{height:"10px"}}><th></th><td></td></tr>
@@ -88,6 +118,8 @@ const Kontakt = () =>
             </tbody>
            </table> 
            </form>
+           
+        </ThemeProvider>
         </div>
     )
 }
