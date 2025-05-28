@@ -34,19 +34,19 @@ const Gästebuch_Form = () =>
     }
   
     return(
-        <div className="abstand" style={{display:"flex",justifyContent:"left"}}>
+        <div className="abstand" style={{display:"flex",justifyContent:"left",marginBottom:"10px",marginLeft:"50px"}}>
       
             <form onSubmit={handleForm}>  
            <div className="zentrieren"><h1>Gästebuch</h1></div>
                 <table>
                     <tbody>
                     <tr><th><span>Vollständiger Name:</span>&nbsp;</th><td>
-                    <input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)}/></td></tr>
+                    <input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "200px"}}/></td></tr>
                     <tr><th><span>Nachricht:</span>&nbsp;</th><td>
-                    <textarea rows={6} cols={15}  value={nachricht} onChange={(e) => setNachricht(e.target.value)}/></td></tr>
+                    <textarea rows={6} cols={16}  value={nachricht} onChange={(e) => setNachricht(e.target.value)} style={{ width: "200px"}}/></td></tr>
 
                     <tr><th></th><td>
-                    <input className="button-container-klein link-style" type="submit" value="Absenden"/></td></tr>
+                    <input className="button-container-klein link-style-send" type="submit" value="Absenden" style={{marginLeft:"20px"}}/></td></tr>
                     </tbody>
                 </table>  
    

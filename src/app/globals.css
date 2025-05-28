@@ -11,11 +11,21 @@ body {
 }
 
 .link-style {
-  color: #17757c; 
+  color: #18848b; 
   text-decoration: none;
 }
 
 .link-style:hover {
+  color: #ff8d00; 
+  text-decoration: none;
+}
+
+.link-style-send {
+  color: #18848b; 
+  text-decoration: none;
+}
+
+.link-style-send:hover {
   color: white; 
   text-decoration: none;
 }
@@ -26,6 +36,25 @@ h1
   text-align: center;
   margin:10px;
 }
+
+.landing_1
+{
+  color:  rgba(79,209,197,1);
+  text-align: center;
+  margin:10px;
+  font-size:32px;
+  font-weight:normal;
+  text-shadow: #0e4252 5px 5px 10px;
+}
+
+.landing_2
+{
+  color:  #0e4252;
+  text-align: center;
+  margin:10px;
+  font-size:26px;
+}
+
 
 h3
 {
@@ -115,11 +144,13 @@ input
 {
   display: flex;
   flex-flow: column;
+  min-height: 100vh;
   width:100%;
   height:100%;
   background-image: url("../app/image/bg_light_blue.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .slider_rahmen
@@ -130,7 +161,7 @@ input
   height:100%;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius:20px;
-  background-image: linear-gradient(to bottom,#0b4250,#0b4250 99%);
+  background-image: linear-gradient(to bottom,#0d4251, #287388  98%);
 }
 
 .header-container
@@ -280,8 +311,7 @@ font-size: 30px;
   width:150px;
   height: 35px;
   border: 2px solid #36abb3;
-  background-color:#36abb3;
-  background: linear-gradient( rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  background: linear-gradient( #18848b 0%, rgba(79,209,197,1) 100%);
   border-radius: 10px;
   text-align: center;
   color: #17757c;
@@ -292,11 +322,11 @@ font-size: 30px;
 
 .punkt-container
 {
-  margin:5px;
+  margin:2px -5px;
   float:left;
   width:15px;
   height:15px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #36abb3;
 }
 
@@ -388,7 +418,7 @@ span
 .slider
 {
   height: 30vh;
-  width:75vh;
+  width:68vh;
 }
 .slider h3
 {
@@ -502,8 +532,7 @@ button:hover :active
   margin-right: 35%;
   border-radius:15px;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  //background-image: linear-gradient(to top,rgb(144, 228, 203),rgb(99, 152, 155) 99%);
-  background-image: linear-gradient(to top,#0d4251,#022f3f  50%);
+  background-image: linear-gradient(to bottom,#0d4251, #287388  98%);
 }
 
 #map

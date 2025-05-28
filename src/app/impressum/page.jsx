@@ -6,7 +6,7 @@ const Impressum = () =>
         <div className="flex flex-row">
     <div style={{marginLeft:"5%",marginTop:"5%"}} className="abstand zentrieren">
     <table width={450}>
-        <h1 style={{textAlign:"left"}}>Anschrift</h1>
+        <h2 style={{textAlign:"left"}}>Anschrift</h2>
         <tbody>
         <tr><td><span>Cylas AG Büro:</span></td></tr>
             <tr><td>Fritz-Wagner-Siedlung 16</td></tr>

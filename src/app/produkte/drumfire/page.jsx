@@ -32,47 +32,47 @@ const Drumfire = () =>
 
     
     return(
-        <>
+        <div>
         <Subnavbar></Subnavbar>
-        <div style={{marginTop:"5%"}}>
+        <div style={{maxWidth: "1200px", margin: "0 auto", padding: "0 20px"}}>
           
             <h1>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h1>
             <br /> 
             <p style={{fontSize:"20px",padding:"1%",color:"black"}}>{text0}</p>
              <br />
-            <div style={{marginLeft:"25%"}}>
-             <Image src={drumfire} alt={drumfire} width={800} height={400}/>   
+           <div style={{textAlign:"center"}}>
+             <Image src={drumfire} alt={drumfire} width={800} height={400} style={{maxWidth:"100%", height:"auto"}}/>   
             </div>
            
                <div style={{marginLeft:"15%"}}>
 
                
              <Textfeld  titel="Trommelmagazin">
-                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Hohe Produktivität" 
+                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Hohe Produktivität" 
                 tooltiptext={text2}></Tooltip>
-                <div>
+                <div style={{marginLeft:"50px"}}>
                   <Image src={trommel} alt={drumfire} width={250} height={200}/>    
                 </div>
                  
 
             </Textfeld>
             <Textfeld titel="Gravurprozess">
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Gravurpfade" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurpfade" 
                 tooltiptext={text1}></Tooltip>
                 <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
             </Textfeld>
 
             <Textfeld titel="Sonstiges">
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Intuitive Bedienbarkeit" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Intuitive Bedienbarkeit" 
                 tooltiptext={text5}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Maschinenüberwachung" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Maschinenüberwachung" 
                 tooltiptext={text6}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Geringer Wartungs-& Serviceaufwand" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Geringer Wartungs-& Serviceaufwand" 
                 tooltiptext={text3}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kundennähe" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kundennähe" 
                 tooltiptext={text4}></Tooltip>
 
             </Textfeld>
@@ -83,7 +83,7 @@ const Drumfire = () =>
         </div>
 
        
-</>
+</div>
     )
 }
 

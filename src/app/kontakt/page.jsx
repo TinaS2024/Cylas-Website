@@ -106,15 +106,15 @@ const Kontakt = () =>
             <tr style={{height:"10px"}}><th></th><td></td></tr>
             <tr><th>Betreff:</th>
             <td>
-            <TextField required label="Bereich" select defaultValue="drumFire" helperText="Bitte Bereich auswählen" value={bereich} onChange={(e) =>setBereich(e.target.value)}>
+            <TextField required label="Bereich" select defaultValue="drumFire" helperText="Bitte Bereich auswählen" value={bereich} onChange={(e) =>setBereich(e.target.value)} style={{ width: "210px"}}>
                 {bereiche.map((option) =>(
                    <MenuItem key={option.value} value={option.value}>{option.label}</MenuItem>  
                 ))}
             </TextField>
             </td></tr>
             <tr style={{height:"10px"}}><th></th><td></td></tr>
-            <tr><th>Nachricht:</th><td><TextField required multiline placeholder="Fragen Sie uns etwas!" rows={4} value={nachricht} onChange={(e) =>setNachricht(e.target.value)}></TextField></td></tr>
-            <tr><td></td><td> <input className="button-container-klein link-style" type="submit" value="Absenden"/></td></tr>
+            <tr><th>Nachricht:</th><td><TextField required multiline placeholder="Fragen Sie uns etwas!" rows={4} value={nachricht} onChange={(e) =>setNachricht(e.target.value)} style={{ width: "210px"}}></TextField></td></tr>
+            <tr><td></td><td> <input className="button-container-klein link-style-send" type="submit" value="Absenden" style={{marginLeft:"20px"}}/></td></tr>
             </tbody>
            </table> 
            </form>

@@ -9,7 +9,7 @@ const Button = (props) =>
 
         return(
             <div className="button-container">
-                <Link className="link-style"  href={button_href} >{button_titel}</Link>
+                <Link className="link-style-send"  href={button_href} >{button_titel}</Link>
             </div>
         )
     }
