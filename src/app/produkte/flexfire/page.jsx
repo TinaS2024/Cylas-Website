@@ -6,7 +6,7 @@ const Flexfire = () =>
 {
     return(
         <>
-        <Subnavbar></Subnavbar>
+        {/*<Subnavbar></Subnavbar>*/}
         <div style={{marginTop:"5%"}}>
         <h1>Cylas FLEXFIRE</h1>
         <div style={{marginLeft:"35%"}}>

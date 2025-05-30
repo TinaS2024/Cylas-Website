@@ -10,6 +10,7 @@
         "/produkte/flexfirem": ["flexfire"],
         "/produkte/zubehoer": ["zubehoer"],
         "/software": ["software"],
+        "/downloads": ["downloads"],
         "/impressum": ["impressum"]
     }
 }

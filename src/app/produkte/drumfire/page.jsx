@@ -33,7 +33,7 @@ const Drumfire = () =>
     
     return(
         <div>
-        <Subnavbar></Subnavbar>
+        {/*<Subnavbar></Subnavbar>*/}
         <div style={{maxWidth: "1200px", margin: "0 auto", padding: "0 20px"}}>
           
             <h1>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h1>

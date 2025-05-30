@@ -5,7 +5,7 @@ const Produkte = () =>
 {
 return(
     <>
-<Subnavbar></Subnavbar>
+{/*<Subnavbar></Subnavbar>*/}
 <div style={{marginTop:"5%"}}>    
 <h1>Produkte</h1>
  </div>
