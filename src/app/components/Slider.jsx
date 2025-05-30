@@ -5,7 +5,10 @@ import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import Image from "next/image";
 import bild1 from "./../image/drumfire.png";
 import bild2 from "./../image/flexfire.png";
+import drumfire_logo from "../image/drumfire_logo.png";
+import flexfire_logo from "../image/flexfire_logo.png";
 import Link from "next/link";
+
 
 
 const Slider = () =>
@@ -13,7 +16,8 @@ const Slider = () =>
         const bilderItems = [
             {
                 id:1,
-                titel: "DrumFire",
+                logo:drumfire_logo,
+                titel:"Drumfire",
                 bildpfad: bild1,  
                 width:300,
                 height:200,      
@@ -21,7 +25,8 @@ const Slider = () =>
             },
             {
                 id:2,
-                titel: "FlexFire",
+                logo: flexfire_logo,
+                titel:"Flexfire",
                 bildpfad: bild2,    
                 width:150,
                 height:200,   
@@ -58,7 +63,7 @@ const Slider = () =>
                              <div className="row-container" id="slider">
                             {bilderItems.map((item) => (
                             <div key={item.id} className="row-item">
-                             <div className="item-titel"><h4>{item.titel}</h4></div>
+                             <div className="item-titel"><Image src={item.logo} alt={item.titel} width={120} height={48} style={{objectFit: "contain"}}/></div>
                              <div className="item-img">
                              <Link href={item.link}>
                              <Image src={item.bildpfad} alt={item.titel} width={item.width} height={item.height} style={{objectFit: "contain"}}/>

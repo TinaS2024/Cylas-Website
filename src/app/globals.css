@@ -250,6 +250,12 @@ font-size: 30px;
   filter: brightness(120%);
 }
 
+.maschinenlogo
+{
+  margin-top:1%;
+  margin-left:42%;
+}
+
 .profile-img
 {
   text-align: center;
@@ -345,7 +351,7 @@ font-size: 30px;
 .tooltip .tooltiptext
 {
   visibility: hidden;
-  width:350px;
+  width:400px;
   background-color: rgb(20, 152, 155);
   color: rgb(144, 228, 203);
   text-align: center;
@@ -388,17 +394,24 @@ span
 
 .textfeld-container
 {
-  
   margin: 10px 10px 10px 30px;
+  margin-left:1%;
   padding:5px;
-  float:left;
-  width:400px;
+  //float:left;
+  min-width:400px;
+  max-width:400px;
   height:560px;
   border-radius:20px; 
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  //background-color:rgb(144, 228, 203);
   background-color:#0b4250;
   color:white;
+}
+
+.textFieldsContainer
+{
+  display:flex;
+  flex-direction:row;
+  margin-left:-50%;
 }
 
 .software-card
@@ -607,8 +620,16 @@ button:hover :active
 
   .textfeld-container
   {
-    margin-left:-20px;
+    margin-left:150px;
   }
+
+  .textFieldsContainer
+{
+  display:flex;
+  flex-direction:column;
+  margin-left:-50%;
+}
+
 
   .software-card
   {
@@ -700,6 +721,13 @@ button .slider-button
   gap: 0.4rem;
   display:inline;
 }
+
+.maschinenlogo
+{
+  margin-top:5%;
+  margin-left:26%;
+}
+
 
 
   }
