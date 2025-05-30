@@ -35,6 +35,7 @@ h1
   color:  #0e4252;
   text-align: center;
   margin:10px;
+  font-size:35px;
 }
 
 .landing_1
@@ -387,6 +388,7 @@ span
 
 .textfeld-container
 {
+  
   margin: 10px 10px 10px 30px;
   padding:5px;
   float:left;
@@ -535,23 +537,39 @@ button:hover :active
   background-image: linear-gradient(to bottom,#0d4251, #287388  98%);
 }
 
-#map
-{
-  position: relative;
-  margin-top: -390px;
-  margin-left: 50%;
-}
+
 
 .contact_container
 {
   margin-left:39%;
 }
 
+.impressum-container
+{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  align-items:center;
+}
+
+.video
+  {
+    margin-left:37%;
+  }
+
 @media only screen and (max-width: 800px) {
+
+  h1
+{
+  color:  #0e4252;
+  text-align: center;
+  margin:10px;
+  font-size:26px;
+}
 
   .flyer
 {
-  margin-left:25%;
+  margin-left:5%;
 }
 
   #button_column
@@ -584,7 +602,7 @@ button:hover :active
 
   .video
   {
-    margin-left: -2%;
+    margin-left:1%;
   }
 
   .textfeld-container
@@ -597,17 +615,19 @@ button:hover :active
     margin-left:15%;
   }
 
-  #map
-{
-  position: relative;
-  margin-top: 50px;
-  margin-left: 5%;
-}
 
 .contact_container
 {
   margin-left:5%;
 }
+
+.impressum-container
+{
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+}
+
 
 /* Slider Eigenschaften */
 

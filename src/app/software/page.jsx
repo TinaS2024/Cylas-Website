@@ -5,7 +5,7 @@ const Software = () =>
     {
         return(
             <div>
-            <div className="zentrieren">    
+            <div className="zentrieren" style={{width:"500px"}}>    
             <h1>Zusätzliche Software für den Trommelgravierer<br/> von der Bolasys GmbH</h1>
             </div>
 

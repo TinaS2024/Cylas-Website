@@ -8,9 +8,9 @@ const Flexfire = () =>
         <>
         {/*<Subnavbar></Subnavbar>*/}
         <div style={{marginTop:"5%"}}>
-        <h1>Cylas FLEXFIRE</h1>
-        <div style={{marginLeft:"35%"}}>
-             <Image src={flexfire} alt={flexfire} width={600} height={400}/>   
+        <h1>FLEXFIRE</h1>
+        <div style={{textAlign:"center"}}>
+             <Image src={flexfire} alt={flexfire} width={500} height={300} style={{maxWidth:"100%", height:"auto",padding:"5px"}}/>   
             </div>
         </div>
         </>

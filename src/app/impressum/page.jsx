@@ -3,7 +3,7 @@ import Map from "../components/Map";
 const Impressum = () =>
 {
     return(
-        <div className="flex flex-row">
+        <div className="impressum-container abstand-unten">
     <div style={{marginLeft:"5%",marginTop:"5%"}} className="abstand zentrieren">
     <table width={450}>
         <h2 style={{textAlign:"left"}}>Anschrift</h2>
@@ -24,7 +24,7 @@ const Impressum = () =>
         </tbody>
     </table>
 </div>
-<div id="map" style={{marginTop:"-20%"}}><Map/></div>
+<div style={{paddingRight:"200px"}}><Map/></div>
 
 </div>
     )

@@ -30,13 +30,13 @@ const Drumfire = () =>
     text5.split("\n")
     text6.split("\n")
 
-    
+    //Alle 4 Karten nebeneinander machen oder Gerät in Mitte
     return(
         <div>
         {/*<Subnavbar></Subnavbar>*/}
         <div style={{maxWidth: "1200px", margin: "0 auto", padding: "0 20px"}}>
           
-            <h1>Cylas Trommelgravierer DRUMFIRE II <br /> Engrave your Stamp</h1>
+            <h1>DRUMFIRE<br/>Höchster Durchsatz bei der Produktion von Stempelgummiplatten</h1>
             <br /> 
             <p style={{fontSize:"20px",padding:"1%",color:"black"}}>{text0}</p>
              <br />
@@ -47,19 +47,23 @@ const Drumfire = () =>
                <div style={{marginLeft:"15%"}}>
 
                
-             <Textfeld  titel="Trommelmagazin">
+            
+            <Textfeld titel="Gravurprozess">
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurpfade" 
+                tooltiptext={text1}></Tooltip>
+                <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+            </Textfeld>
+
+            <Textfeld  titel="Trommelmagazin">
                 <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Hohe Produktivität" 
                 tooltiptext={text2}></Tooltip>
                 <div style={{marginLeft:"50px"}}>
                   <Image src={trommel} alt={drumfire} width={250} height={200}/>    
                 </div>
-                 
-
             </Textfeld>
-            <Textfeld titel="Gravurprozess">
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurpfade" 
-                tooltiptext={text1}></Tooltip>
-                <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+
+            <Textfeld  titel="Datenblatt">
+               
             </Textfeld>
 
             <Textfeld titel="Sonstiges">
@@ -69,7 +73,10 @@ const Drumfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Maschinenüberwachung" 
                 tooltiptext={text6}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Geringer Wartungs-& Serviceaufwand" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wartungsfreundlich" 
+                tooltiptext={text3}></Tooltip>
+
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Geringer Serviceaufwand" 
                 tooltiptext={text3}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kundennähe" 
