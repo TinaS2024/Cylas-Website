@@ -2,6 +2,10 @@ import Image from "next/image";
 import flexfire from "../../image/flexfire.png";
 import flexfire_logo from "../../image/flexfire_logo.png";
 
+import Textfeld from "../../components/Textfeld.jsx";
+import Punkt from "../../components/Punkt.jsx";
+import Tooltip from "@/app/components/Tooltip.jsx";
+
 const Flexfire = () =>
 {
     return(
@@ -10,8 +14,28 @@ const Flexfire = () =>
         <div style={{marginTop:"5%"}}>
         
         <div style={{textAlign:"center"}}>
-             <Image src={flexfire} alt={flexfire} width={500} height={300} style={{maxWidth:"100%", height:"auto",padding:"5px"}}/>   
+
+        <div className="flexfire_abstand">
+            <div className="textFieldsContainer"> 
+                <Textfeld titel="Textfeld 1">
+                </Textfeld>
+                    <Image src={flexfire} alt={flexfire} className="flexfire_style"/> 
+
+                <Textfeld titel="Textfeld 2">
+                </Textfeld>
             </div>
+
+            <div className="textFieldsContainer zweite_leiste"> 
+                <Textfeld titel="Textfeld 3">
+                </Textfeld>
+                <Textfeld titel="Textfeld 4">
+                </Textfeld>
+                <Textfeld titel="Textfeld 5">
+                </Textfeld>
+            </div>
+        </div>
+
+        </div>
         </div>
         </>
 

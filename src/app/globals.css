@@ -570,6 +570,25 @@ button:hover :active
     margin-left:37%;
   }
 
+.flexfire_abstand
+{
+  margin-left:42%;
+}
+
+.flexfire_style
+{
+  width:600px;
+  height:250px;
+  max-width: 100%;
+  height:auto;
+  padding:5px;
+}
+
+.zweite_leiste
+{
+  margin-left:-43%;
+}
+
 @media only screen and (max-width: 800px) {
 
   h1
@@ -729,6 +748,26 @@ button .slider-button
 }
 
 
+.flexfire_abstand
+{
+  margin-left:12%;
+}
+
+.flexfire_style
+{
+  width:400px;
+  height:200px;
+  max-width: 100%;
+  height:auto;
+  padding:5px;
+  margin-left:28%;
+}
+
+.zweite_leiste
+{
+  margin-left:-50%;
+
+}
 
   }
 
