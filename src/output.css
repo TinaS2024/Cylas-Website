@@ -833,7 +833,7 @@ input
 .punkt-container
 {
   margin:5px;
-  float:left;
+  //float:left;
   width:15px;
   height:15px;
   border-radius: 5px;

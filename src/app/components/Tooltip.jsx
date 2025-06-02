@@ -1,3 +1,5 @@
+
+"use client";
 import swal from "sweetalert";
 
 function Tooltip(props) {
@@ -14,12 +16,13 @@ function Tooltip(props) {
     }
 
     return (
-        <div className="tooltip">
+        <div className="tooltip" style={{maxWidth:"350px"}}>
             <p style={{fontSize:"16px",textAlign:"left"}} onClick={showTooltext}>{tooltiptitel}</p>
-            <span className="tooltiptext">
-                {tooltiptext}    
-            </span>
-
+            <p style={{fontSize:"20px"}}>
+                <span className="tooltiptext">
+                    {tooltiptext}    
+                </span>
+            </p>
         </div>
 
     );

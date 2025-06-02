@@ -330,7 +330,7 @@ font-size: 30px;
 .punkt-container
 {
   margin:2px -5px;
-  float:left;
+  //float:left;
   width:15px;
   height:15px;
   border-radius: 10px;
@@ -586,7 +586,7 @@ button:hover :active
 
 .zweite_leiste
 {
-  margin-left:-43%;
+  margin-left:-23%;
 }
 
 @media only screen and (max-width: 800px) {
