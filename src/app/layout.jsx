@@ -11,17 +11,24 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Cylas AG",
-  description: "Gravier-und Lasertechnolgie für den internationalen Markt.",
+  description: "Gravier-und Lasertechnolgie für höchste Produktivität.",
   icon: icon,
-  layout: "Tina Schmidtbauer",
-  programming: "Tina Schmidtbauer",
-  content: "Reiner Boes",
-  keywords: "Graviermaschine, DrumFire, FlexFire, Lasermaschine, internationaler Markt, Trommelgravierer, Stempel"
+  keywords: "Graviermaschine, DrumFire, FlexFire, Lasermaschine, internationaler Markt, Trommelgravierer, Stempel, Lasertechnologie europaweit",
+  other: {
+    layout: "Tina Schmidtbauer",
+    programming: "Tina Schmidtbauer",
+    content: "Reiner Boes",
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
+      <head>
+        <meta name="layout" content="Tina Schmidtbauer" />
+        <meta name="programming" content="Tina Schmidtbauer" />
+        <meta name="content" content="Reiner Boes" />
+    </head>
       <body className={inter.className}>    
       <div className="rahmen-container">
      <Header> </Header>

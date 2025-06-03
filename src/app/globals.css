@@ -594,6 +594,11 @@ button:hover :active
   margin-left:-45%;
 }
 
+.item-titel
+{
+  margin-left:100px;
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -613,7 +618,7 @@ button:hover :active
   #button_column
   {
     border-radius: 15px !important;
-    width:350px;
+    width:300px;
     height:100px;
     margin:15px;
     padding:30px;
@@ -663,6 +668,11 @@ button:hover :active
 
 
 .contact_container
+{
+  margin-left:5%;
+}
+
+.guestbook_container
 {
   margin-left:5%;
 }
@@ -778,6 +788,12 @@ button .slider-button
 {
   margin-left:-65%;
 }
+
+.guestbook_container
+{
+  margin-left:-10%;
+}
+
 
   }
 

@@ -1,11 +1,10 @@
-import Subnavbar from "../components/Subnavbar";
 import Slider from "../components/Slider";
 
 const Produkte = () =>
 {
 return(
     <>
-{/*<Subnavbar></Subnavbar>*/}
+
 <div style={{marginTop:"5%"}}>    
 <h1>Produkte</h1>
  </div>

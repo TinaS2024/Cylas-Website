@@ -38,7 +38,7 @@ const Gästebuch_Form = () =>
       
             <form onSubmit={handleForm}>  
            <div className="zentrieren"><h1>Gästebuch</h1></div>
-                <table>
+                <table width={410} className="guestbook_container">
                     <tbody>
                     <tr><th><span>Vollständiger Name:</span>&nbsp;</th><td>
                     <input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "200px"}}/></td></tr>

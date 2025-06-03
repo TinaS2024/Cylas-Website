@@ -5,10 +5,6 @@ import MyVideo from "./components/MyVideo.jsx";
 import flexfire_relief from "../app/image/flexfire_relief_schief.png";
 import drumfire_relief from "../app/image/drumfire_relief_trommel.png";
 
-
-
-
-
 const Home = () =>
 {
     return(
