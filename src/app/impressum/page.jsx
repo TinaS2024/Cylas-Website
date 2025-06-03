@@ -6,7 +6,7 @@ const Impressum = () =>
         <div className="impressum-container abstand-unten">
     <div style={{marginLeft:"5%",marginTop:"5%"}} className="abstand zentrieren">
     <table width={410}>
-        <h2 style={{textAlign:"left"}}>Anschrift</h2>
+        <h2 style={{textAlign:"left"}}>Impressum</h2>
         <tbody>
         <tr><td><span>Cylas AG Büro:</span></td></tr>
             <tr><td>Fritz-Wagner-Siedlung 16</td></tr>
@@ -23,8 +23,9 @@ const Impressum = () =>
             <tr><td><b>E-Mail:</b>&emsp;&emsp;&emsp;&emsp;&ensp; <span>info@cylas.de</span></td></tr>
         </tbody>
     </table>
+    <br/>
 </div>
-<div style={{paddingRight:"200px"}}><Map/></div>
+<div style={{paddingRight:"200px",marginLeft:"25px"}}><Map/></div>
 
 </div>
     )

@@ -38,6 +38,12 @@ h1
   font-size:35px;
 }
 
+.h1_guestbook
+{
+  margin-left:10%;
+}
+
+
 .landing_1
 {
   color:  rgba(79,209,197,1);
@@ -416,7 +422,7 @@ span
 
 .software-card
 {
-  margin-left:37%;
+  margin-left:39%;
 }
 
 .leeres-textfeld
@@ -610,6 +616,17 @@ button:hover :active
   font-size:26px;
 }
 
+.h1_guestbook
+{
+  margin-left:-10%;
+}
+
+.h1_software
+{
+  margin-left:-10%;
+
+}
+
   .flyer
 {
   margin-left:5%;
@@ -663,7 +680,7 @@ button:hover :active
 
   .software-card
   {
-    margin-left:15%;
+    margin-left:-30%;
   }
 
 
@@ -794,6 +811,4 @@ button .slider-button
   margin-left:-10%;
 }
 
-
   }
-

@@ -37,11 +37,11 @@ const Gästebuch_Form = () =>
         <div className="abstand" style={{display:"flex",justifyContent:"left",marginBottom:"10px",marginLeft:"50px"}}>
       
             <form onSubmit={handleForm}>  
-           <div className="zentrieren"><h1>Gästebuch</h1></div>
+           <div><h1 className="h1_guestbook">Gästebuch</h1></div>
                 <table width={410} className="guestbook_container">
                     <tbody>
-                    <tr><th><span>Vollständiger Name:</span>&nbsp;</th><td>
-                    <input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "200px"}}/></td></tr>
+                    <tr><th><span>Vollständiger Name:</span>&nbsp;</th>
+                    <td><input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "200px"}}/></td></tr>
                     <tr><th><span>Nachricht:</span>&nbsp;</th><td>
                     <textarea rows={6} cols={16}  value={nachricht} onChange={(e) => setNachricht(e.target.value)} style={{ width: "200px"}}/></td></tr>
 
