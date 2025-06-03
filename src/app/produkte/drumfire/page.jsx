@@ -76,12 +76,12 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kontinuierlicher spiralförmiger Gravurpfad" 
                 tooltiptext={toolklick1}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Bewegung des Materials in zwei &nbsp;&nbsp;&nbsp;Richtungen, Stillstand des Arbeitskopfs" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
                 tooltiptext={toolklick2}></Tooltip>
 
             <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in &nbsp;&nbsp;&nbsp;nächster Nähe zum Entstehungsort" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick3}></Tooltip>
             </Textfeld>
 
@@ -91,9 +91,11 @@ const Drumfire = () =>
             <Textfeld  titel="Hohe Produktivität durch optimale Einbindung in ihre Produktionsprozesse">
 
             <div style={{marginLeft:"120px",marginTop:"-20px"}}>
-                  <Image src={trommel} alt={drumfire} width={150} height={120}/>    
+                  <Image src={trommel} alt={drumfire} width={150} height={120}/>   
+                 
             </div>
-                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagazin für 10 Trommeln mit &nbsp;&nbsp;&nbsp;jeweils einer A4-Gummiplatte" 
+            <br/> 
+                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagazin für 10 Trommeln mit jeweils einer A4-Gummiplatte" 
                 tooltiptext={toolklick4}></Tooltip>
                  <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;RFID-Kennzeichnungen der Trommeln" 
                 tooltiptext={toolklick5}></Tooltip>
@@ -114,17 +116,17 @@ const Drumfire = () =>
             <Textfeld titel="Geringer Wartungs-und Serviceaufwand">
                
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen &nbsp;&nbsp;&nbsp;Komponenten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen Komponenten" 
                 tooltiptext={toolklick9}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am &nbsp;&nbsp;&nbsp;Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick10}></Tooltip>
                 <div style={{marginLeft:"120px"}}>
                     <Image src="" alt="" width={50} height={50} style={{maxWidth:"100%", height:"auto"}}/>  
                 </div>
                  
-
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und &nbsp;&nbsp;&nbsp;Fernwartungsfunktionen." 
+                <br/> 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und Fernwartungsfunktionen." 
                 tooltiptext={toolklick11}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kurzer Draht zum Hersteller." 
@@ -139,7 +141,7 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
                 tooltiptext={toolklick13}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale &nbsp;&nbsp;&nbsp;Stempelgummiplatten" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale Stempelgummiplatten" 
                 tooltiptext={toolklick14}></Tooltip>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Verwendete Gummiplatten" 

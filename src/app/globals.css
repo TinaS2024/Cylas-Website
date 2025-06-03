@@ -88,7 +88,7 @@ h4
 
 p
 {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: white;
   text-align: center;
 }
@@ -264,7 +264,7 @@ font-size: 30px;
 
 .profile-img
 {
-  text-align: center;
+ text-align: center;
 }
 
 /*Elemente*/
@@ -352,6 +352,7 @@ font-size: 30px;
   top:-40px;
   left:25px;
   cursor: pointer;
+  max-width:350px;
 }
 
 .tooltip .tooltiptext
@@ -548,15 +549,13 @@ button:hover :active
 
 .background
 {
-  width:500px;
-  margin-left: 35%;
+  width:400px;
+  margin-left: 30%;
   margin-right: 35%;
   border-radius:15px;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: linear-gradient(to bottom,#0d4251, #287388  98%);
 }
-
-
 
 .contact_container
 {
@@ -573,7 +572,7 @@ button:hover :active
 
 .video
   {
-    margin-left:37%;
+    margin-left:39%;
   }
 
 .flexfire_abstand
@@ -605,6 +604,31 @@ button:hover :active
   margin-left:100px;
 }
 
+.map
+{
+  width:400px;
+  height:350px;
+}
+
+.bg-drum 
+{
+  background-image:url("../app/image/drumfire_relief_trommel.png");
+  background-color:#286464;
+  background-size:30%;
+  background-repeat:no-repeat;
+  background-position:right;
+}
+
+.bg-flex 
+{
+  background-image:url("../app/image/flexfire_relief_schief.png");
+  background-size:26%;
+  background-repeat:no-repeat;
+  background-position:left;
+  z-Index:"1";
+}
+
+//iPad Air iPad 820x 1180px
 
 @media only screen and (max-width: 800px) {
 
@@ -671,11 +695,11 @@ button:hover :active
   }
 
   .textFieldsContainer
-{
-  display:flex;
-  flex-direction:column;
-  margin-left:-50%;
-}
+  {
+    display:flex;
+    flex-direction:column;
+    margin-left:-50%;
+  }
 
 
   .software-card
@@ -810,5 +834,154 @@ button .slider-button
 {
   margin-left:-10%;
 }
+
+  }
+
+  @media only screen and (max-width: 576px) 
+  {
+    .rahmen-container 
+    {
+      transform: scale(0.9);
+      transform-origin: top center;
+    }
+
+    p 
+    {
+      font-size: 16px;
+    }
+
+    h3
+    {
+      font-size: 20px;
+    }
+
+    .textfeld-container 
+    {
+      height:590px;
+      min-width:300px;
+      font-size: 16px;
+    }
+
+    .flexfire_style
+    {
+      width:350px;
+      height:180px;
+      max-width: 100%;
+      height:auto;
+      padding:5px;
+      margin-left:28%;
+    }
+
+    table
+    {
+      max-width:300px;
+    }
+
+    .tooltip
+    {
+      max-width:300px;
+    }
+
+    .map
+    {
+      width:350px;
+      height:300px;
+    }
+
+    .background
+    {
+      margin-left:5%;
+      width:350px;
+    }
+
+    .bg-drum 
+    {
+      background-image:none;
+    }
+
+    .bg-flex 
+    {
+      background-image:none;
+    }
+
+    .landing_1
+    {
+      font-size:22px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 380px) 
+  {
+    .rahmen-container 
+    {
+      transform: scale(0.8);
+      transform-origin: top center;
+    }
+
+    p 
+    {
+      font-size: 16px;
+    }
+
+    h3
+    {
+      font-size: 20px;
+    }
+
+
+    .textfeld-container 
+    {
+      height:520px;
+      min-width:400px;
+      font-size: 16px;
+    }
+
+    .flexfire_style
+    {
+      width:350px;
+      height:180px;
+      max-width: 100%;
+      height:auto;
+      padding:5px;
+      margin-left:28%;
+    }
+
+    table
+    {
+      max-width:300px;
+    }
+
+    .tooltip
+    {
+      max-width:300px;
+    }
+
+    .map
+    {
+      width:350px;
+      height:300px;
+    }
+
+    .background
+    {
+      margin-left:5%;
+      width:350px;
+    }
+
+    .bg-drum 
+    {
+      background-image:none;
+    }
+
+    .bg-flex 
+    {
+      background-image:none;
+    }
+
+    .landing_1
+    {
+      font-size:22px;
+    }
 
   }

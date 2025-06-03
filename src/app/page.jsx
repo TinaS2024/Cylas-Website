@@ -9,8 +9,8 @@ const Home = () =>
 {
     return(
 
-        <div className="abstand" style={{backgroundColor:"#286464",backgroundImage:`url(${drumfire_relief.src})`,backgroundSize:"30%",backgroundRepeat:"no-repeat",backgroundPosition:"right"}}> 
-        <div style={{backgroundImage:`url(${flexfire_relief.src})`,backgroundSize:"26%",backgroundRepeat:"no-repeat",backgroundPosition:"left",zIndex:"1"}}>
+        <div className="abstand bg-drum"> 
+        <div className="bg-flex" style={{backgroundSize:"26%",backgroundRepeat:"no-repeat",backgroundPosition:"left",zIndex:"1"}}>
         
            {/*<h2>Industrielle Produktion und Vertrieb von <br/>Lasergeräten und sonstigen physikalisch-technischen Erzeugnissen <br/>sowie Vornahme der hierzu notwendigen Investitionen <br/> in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.</h2>*/}
            <p className="landing_1">Entwicklung & Produktion von Lasergeräten</p>

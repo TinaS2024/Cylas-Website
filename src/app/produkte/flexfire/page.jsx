@@ -66,7 +66,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Split Axis verfahren" 
                 tooltiptext={toolklick3}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am &nbsp;&nbsp;&nbsp;Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick4}></Tooltip>
 
                 <div style={{marginLeft:"120px"}}>
@@ -96,13 +96,13 @@ const Flexfire = () =>
 
                 <Textfeld titel="Geringer Wartungs- und Serviceaufwand">
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen &nbsp;&nbsp;&nbsp;Komponenten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen Komponenten" 
                 tooltiptext={toolklick7}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in &nbsp;&nbsp;&nbsp;nächster Nähe zum Entstehungsort" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick8}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und &nbsp;&nbsp;&nbsp;Fernwartungsfunktionen" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und Fernwartungsfunktionen" 
                 tooltiptext={toolklick9}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kurzer Draht zum Hersteller" 
@@ -117,7 +117,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
                 tooltiptext={toolklick11}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung für normale &nbsp;&nbsp;&nbsp;Stempelgummiplatten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung für normale Stempelgummiplatten" 
                 tooltiptext={toolklick12}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Verwendete Gummiplatten" 

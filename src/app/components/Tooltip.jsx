@@ -16,7 +16,7 @@ function Tooltip(props) {
     }
 
     return (
-        <div className="tooltip" style={{maxWidth:"350px"}}>
+        <div className="tooltip">
             <p style={{fontSize:"16px",textAlign:"left"}} onClick={showTooltext}>{tooltiptitel}</p>
             <p style={{fontSize:"20px"}}>
                 <span className="tooltiptext">
