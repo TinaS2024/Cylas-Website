@@ -21,8 +21,8 @@ const Drumfire = () =>
 
     var toolklick4 = "... führt zur Entkopplung des Be- und Entladevorgang vom Bearbeitungsvorgang. \n Das Beladen und Entladen kann jederzeit im laufenden Betrieb vorgenommen werden. \n Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
     var toolklick5 = "... ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
-    var toolklick6 = "Der Betrieb kann automatisch oder manuell erfolgen. \n Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu graierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
-    var toolklick7 = "Der Ethernetanschluss gestattet die Verbindung mit dem Worklfow- oder der ERP-Software in Ihrem Firmennetzwerk.";
+    var toolklick6 = "Der Betrieb kann automatisch oder manuell erfolgen. \n Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
+    var toolklick7 = "Der Ethernetanschluss gestattet die Verbindung mit dem Workflow- oder der ERP-Software in Ihrem Firmennetzwerk.";
     var toolklick8 = "Die Kameraüberwachung gestattet die Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
     var toolklick9 = "... durch vollständig verrohrten Strahlengang.";
@@ -31,8 +31,8 @@ const Drumfire = () =>
     var toolklick12 = "Tel: 01718500908";
 
     var toolklick13 = "... bis ca. 250W standart mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
-    var toolklick14 = '... bei Standartlaserbestückung ca. eine A4-Seite/22 min. \n Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
-    var toolklick15 = "Standartplatten A, unterschiedlicher Hersteller.";
+    var toolklick14 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min. \n Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
+    var toolklick15 = "Standardplatten A, unterschiedlicher Hersteller.";
     var toolklick16 = "Kompressorkühler z.b. Hyfra oder CW6000: \n Absauggerät z.b. Teka \n Vorabschneider z.b. Cylas CVA-1 oder CVA-2";
 
 
@@ -68,7 +68,7 @@ const Drumfire = () =>
            
                <div style={{marginLeft:"15%"}}>
 
-               <div className="textFieldsContainer"> 
+               <div className="textFieldsContainer drumfire_leiste"> 
 
             {/* Erstes Textfeld */}
             
@@ -76,12 +76,12 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kontinuierlicher spiralförmiger Gravurpfad" 
                 tooltiptext={toolklick1}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Bewegung des Materials in zwei &nbsp;&nbsp;&nbsp;Richtungen, Stillstand des Arbeitskopfs" 
                 tooltiptext={toolklick2}></Tooltip>
 
             <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächser Nähe zum Entstehungsort" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in &nbsp;&nbsp;&nbsp;nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick3}></Tooltip>
             </Textfeld>
 
@@ -93,7 +93,7 @@ const Drumfire = () =>
             <div style={{marginLeft:"120px",marginTop:"-20px"}}>
                   <Image src={trommel} alt={drumfire} width={150} height={120}/>    
             </div>
-                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagain für 10 Trommeln mit jeweils einer A4-Gummiplatte" 
+                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagazin für 10 Trommeln mit &nbsp;&nbsp;&nbsp;jeweils einer A4-Gummiplatte" 
                 tooltiptext={toolklick4}></Tooltip>
                  <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;RFID-Kennzeichnungen der Trommeln" 
                 tooltiptext={toolklick5}></Tooltip>
@@ -114,17 +114,17 @@ const Drumfire = () =>
             <Textfeld titel="Geringer Wartungs-und Serviceaufwand">
                
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen Komponenten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen &nbsp;&nbsp;&nbsp;Komponenten" 
                 tooltiptext={toolklick9}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am &nbsp;&nbsp;&nbsp;Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick10}></Tooltip>
                 <div style={{marginLeft:"120px"}}>
                     <Image src="" alt="" width={50} height={50} style={{maxWidth:"100%", height:"auto"}}/>  
                 </div>
                  
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und Fernwartungsfunktionen." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und &nbsp;&nbsp;&nbsp;Fernwartungsfunktionen." 
                 tooltiptext={toolklick11}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kurzer Draht zum Hersteller." 
@@ -139,7 +139,7 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
                 tooltiptext={toolklick13}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale Stempelgummiplatten" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale &nbsp;&nbsp;&nbsp;Stempelgummiplatten" 
                 tooltiptext={toolklick14}></Tooltip>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Verwendete Gummiplatten" 

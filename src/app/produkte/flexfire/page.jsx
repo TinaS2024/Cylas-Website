@@ -10,20 +10,20 @@ const Flexfire = () =>
 {
 
     var toolklick1 = "Trommeldurchmesser von 50mm-200mm zur Gravur von Gummiplatten bis ca. 62cm x 85cm oder Sleeves bis 85cm Länge. \n Faserlaser zur Erzielung höherer Auflösung einsetzbar. \n Trommeln mit Klemmvorrichtung für A4-Gummiplatten verfügbar";
-    var toolklick2 = "... führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsmechanik durch Vermeidung abrupter Bewegungsvorgänge";
+    var toolklick2 = "... führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
     var toolklick3 = "Die X-Bewegung (schnelle Achse) erfolgt durch die Drehung der Trommel,die Y-Bewegung wird durch verschieben des Arbeitskopfes entlang der Trommelachse dargestellt.";
     var toolklick4 = "... führt zu geringeren Staub- und Geruchsproblemen.";
 
-    var toolklick5 = "Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk. \n Ein geeignetes Workflow-Systerm wird von der Fa.Bolasys angeboten (GPE). \n Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufrtäge abgefragt werden. \n Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen. \n Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
+    var toolklick5 = "Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk. \n Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE). \n Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden. \n Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen. \n Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
     var toolklick6 = "Die Kameraüberwachung gestattet die Beobachtung des Bearbeitungsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
-    var toolklick7 = "... durch abgeschlossenen Strahlengang";
-    var toolklick8 = "... führt zu sauberer Maschine und längeren Reinigungsintervallen";
-    var toolklick9 = "Überwachung des Maschinenstaus über das Netzwerk. \n Überwachung des Bearbeitungsvorgangs mit Kamera";
+    var toolklick7 = "... durch abgeschlossenen Strahlengang.";
+    var toolklick8 = "... führt zu sauberer Maschine und längeren Reinigungsintervallen.";
+    var toolklick9 = "Überwachung des Maschinenstatus über das Netzwerk. \n Überwachung des Bearbeitungsvorgangs mit Kamera.";
     var toolklick10 = "Tel.: 01718500908";
 
-    var toolklick11 = "... bis ca. 250W standard mit 2Stck. eingebauten TI100 Strahlquellen. \n Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich";
-    var toolklick12 = '... bei Standardlaserbestückung ca. eine A4-Seite/22min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten';
+    var toolklick11 = "... bis ca. 250W standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
+    var toolklick12 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
     var toolklick13 = "Standardplatten A4, unterschiedlicher Hersteller";
     var toolklick14 = "Kompressorkühler z.b. Hyfra oder CW6000: \n Absauggerät z.b. Teka \n Vorabschneider z.b. Cylas CVA-1 oder CVA-2";
 
@@ -66,7 +66,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Split Axis verfahren" 
                 tooltiptext={toolklick3}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am &nbsp;&nbsp;&nbsp;Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick4}></Tooltip>
 
                 <div style={{marginLeft:"120px"}}>
@@ -79,7 +79,7 @@ const Flexfire = () =>
 
                 {/* Zweites Textfeld */}
 
-                <Textfeld titel="Hohe Produktivität dürch optimale Einbindung...in Ihre Produktionsprozesse">
+                <Textfeld titel="Hohe Produktivität durch optimale Einbindung in Ihre Produktionsprozesse">
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Netzwerkeinbindung" 
                 tooltiptext={toolklick5}></Tooltip>
@@ -94,15 +94,15 @@ const Flexfire = () =>
 
                 {/* Drittes Textfeld */}
 
-                <Textfeld titel="Textfeld 3">
+                <Textfeld titel="Geringer Wartungs- und Serviceaufwand">
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen Komponenten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen &nbsp;&nbsp;&nbsp;Komponenten" 
                 tooltiptext={toolklick7}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in &nbsp;&nbsp;&nbsp;nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick8}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und Fernwartungsfunktionen" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und &nbsp;&nbsp;&nbsp;Fernwartungsfunktionen" 
                 tooltiptext={toolklick9}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kurzer Draht zum Hersteller" 
@@ -117,7 +117,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
                 tooltiptext={toolklick11}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung für normale Stempelgummiplatten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung für normale &nbsp;&nbsp;&nbsp;Stempelgummiplatten" 
                 tooltiptext={toolklick12}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Verwendete Gummiplatten" 

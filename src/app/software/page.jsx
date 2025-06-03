@@ -11,16 +11,16 @@ const Software = () =>
 
             <div className="software-card" >
             <Textfeld titel="">
-                <Punkt text="&emsp;Auftragsvorbereitung & Annahme"/>
-                <Punkt text="&emsp;Auftragsverwaltung"/>
-                <Punkt text="&emsp;Designer"/>
-                <Punkt text="&emsp;Nesting"/>
-                <Punkt text="&emsp;Komissionierungsmanagement"/>    
-                <Punkt text="&emsp;Interface für Graviermaschinen"/>
-                <Punkt text="&emsp;Montagestation"/>
-                <Punkt text="&emsp;Komissionierungs-& Versandmodul"/>   
-                <Punkt text="&emsp;Externe Software"/>
-                <Punkt text="&emsp;GPE-Basis"/>   
+                <Punkt text="&nbsp;Auftragsvorbereitung & Annahme"/>
+                <Punkt text="&nbsp;Auftragsverwaltung"/>
+                <Punkt text="&nbsp;Designer"/>
+                <Punkt text="&nbsp;Nesting"/>
+                <Punkt text="&nbsp;Komissionierungsmanagement"/>    
+                <Punkt text="&nbsp;Interface für Graviermaschinen"/>
+                <Punkt text="&nbsp;Montagestation"/>
+                <Punkt text="&nbsp;Komissionierungs-& Versandmodul"/>   
+                <Punkt text="&nbsp;Externe Software"/>
+                <Punkt text="&nbsp;GPE-Basis"/>   
             </Textfeld>
 
             </div>
