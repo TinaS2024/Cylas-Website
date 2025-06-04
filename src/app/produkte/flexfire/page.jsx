@@ -75,7 +75,8 @@ const Flexfire = () =>
 
                 </Textfeld>
 
-                    <Image src={flexfire} alt={flexfire} className="flexfire_style"/> 
+                    <Image src={flexfire} alt={flexfire} className="flexfire_style"/>
+               
 
                 {/* Zweites Textfeld */}
 

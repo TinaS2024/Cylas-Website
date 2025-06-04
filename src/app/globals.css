@@ -401,7 +401,7 @@ span
 
 .textfeld-container
 {
-  margin: 10px 10px 10px 30px;
+  margin: 10px 0px 10px 30px;
   margin-left:1%;
   padding:5px;
   //float:left;
@@ -636,7 +636,7 @@ button:hover :active
   z-Index:"1";
 }
 
-//Tablets iPad Air iPad 820x 1180px
+/*Tablets iPad Air iPad 820x 1180px*/
 
 @media only screen and (max-width: 800px) {
 
@@ -850,12 +850,13 @@ button .slider-button
 
   }
 
-  //Große Smartphones  
+  /*Große Smartphones*/
   @media only screen and (max-width: 576px) 
   {
-    .cylas-logo-klein
+
+    .video
     {
-      margin-left:20%;
+      margin-left:10%;
     }
 
     .rahmen-container 
@@ -916,15 +917,16 @@ button .slider-button
 
     .map
     {
-      margin-top:630px;
-      margin-left:-220px;
+      margin-top:50px;
+      margin-left:-0px;
       width:350px;
       height:300px;
     }
 
+    
     .background
     {
-      margin-left:5%;
+      margin-left:8%;
       width:350px;
     }
 
@@ -954,7 +956,7 @@ button .slider-button
     {
       display:flex;
       flex-direction:column;
-      margin-left:-70%;
+      margin-left:-17%;
     }
 
     .slider
@@ -1004,7 +1006,7 @@ button .slider-button
 
     .guestbook_container
     {
-      margin-left:-9%;
+      margin-left:-6%;
     }
 
     .contact_container
@@ -1025,18 +1027,18 @@ button .slider-button
     
     .software-card
     {
-      margin-left:-20% !important;
+      margin-left:-3% !important;
     }
 
     .zweite_leiste
     {
-      margin-left:-73%;
+      margin-left:-17%;
       flex-direction:column;
     }
 
     .fly_but
     {
-      margin-left:-64%;
+      margin-left:-5%;
     }
 
     .guestbook
@@ -1051,14 +1053,9 @@ button .slider-button
     }
   }
   
-  //Kleine Smartphones
+  /*Kleine Smartphones*/
   @media only screen and (max-width: 380px) 
   {
-
-    .cylas-logo-klein
-    {
-      margin-left:20%;
-    }
 
     .rahmen-container 
     {
@@ -1118,15 +1115,15 @@ button .slider-button
 
     .map
     {
-      margin-top:630px;
-      margin-left:-220px;
+      margin-top:50px;
+      margin-left:-20px;
       width:350px;
       height:300px;
     }
 
     .background
     {
-      margin-left:5%;
+      margin-left:1%;
       width:350px;
     }
 
@@ -1156,7 +1153,7 @@ button .slider-button
     {
       display:flex;
       flex-direction:column;
-      margin-left:-74%;
+      margin-left:-20%;
     }
 
     .slider
@@ -1206,7 +1203,7 @@ button .slider-button
 
     .guestbook_container
     {
-      margin-left:-13%;
+      margin-left:-14%;
     }
 
     .contact_container
@@ -1226,18 +1223,18 @@ button .slider-button
 
     .software-card
     {
-      margin-left:-40%;
+      margin-left:-8% !important;
     }
 
     .zweite_leiste
     {
-      margin-left:-73%;
+      margin-left:-20%;
       flex-direction:column;
     }
 
     .fly_but
     {
-      margin-left:-74%;
+      margin-left:-20%;
     }
 
     .guestbook
