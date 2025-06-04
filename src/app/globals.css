@@ -636,42 +636,48 @@ button:hover :active
   z-Index:"1";
 }
 
-/*Tablets iPad Air iPad 820x 1180px*/
+/*Tablets iPad Air iPad 820x 1180px */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 840px) {
 
   h1
-{
-  color:  #0e4252;
-  text-align: center;
-  margin:10px;
-  font-size:26px;
-}
+  {
+    color:  #0e4252;
+    text-align: center;
+    margin:10px;
+    font-size:26px;
+  }
 
-.h1_guestbook
-{
-  margin-left:-10%;
-}
+  h3
+  {
+    font-size:26px;
+    
+  }
 
-.h1_software
-{
-  margin-left:-10%;
+  .h1_guestbook
+  {
+    margin-left:-10%;
+  }
 
-}
+  .h1_software
+  {
+    margin-left:15%;
 
-  .flyer
-{
-  margin-left:5%;
-}
+  }
+
+    .flyer
+  {
+    margin-left:5%;
+  }
 
   #button_column
   {
-    border-radius: 15px !important;
-    width:300px;
-    height:100px;
-    margin:15px;
-    padding:30px;
-    font-size:30px;
+    border-radius: 0px !important;
+    width:200px;
+    height:60px;
+    margin:5px;
+    padding:10px;
+    font-size:26px;
   }
 
   .titel-container
@@ -681,10 +687,11 @@ button:hover :active
     margin-left: 100px;
     font-size: 16px;
   }
+
   .cylas-logo-klein
   {
-    width:5em;
-    height: 5em;
+    width:10em;
+    height: 10em;
   }
 
   #subnav
@@ -694,12 +701,13 @@ button:hover :active
 
   .video
   {
-    margin-left:1%;
+    margin-left:24%;
   }
+
 
   .textfeld-container
   {
-    margin-left:150px;
+    margin-left:45%;
   }
 
   .textFieldsContainer1
@@ -719,103 +727,113 @@ button:hover :active
 
   .software-card
   {
-    margin-left:-30%;
+    margin-left:-35%;
   }
 
 
-.contact_container
-{
-  margin-left:5%;
-}
+  .contact_container
+  {
+    margin-left:25%;
+  }
 
-.guestbook_container
-{
-  margin-left:5%;
-}
+  .guestbook_container
+  {
+    margin-left:10%;
+  }
 
-.impressum-container
-{
-  flex-direction:column;
-  align-items:flex-start;
-  justify-content:center;
-}
+  .guestbook
+  {
+    margin-left:10%;
+  }
+
+  .impressum-container
+  {
+    margin-left:20%;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+  }
+
+  .map
+  {
+    margin-left:5%;
+  }
+
+  .slider
+  {
+    height: 50vh;
+    width:40vh;
+  }
+  .slider h3
+  {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 4.2rem !important;
+  }
+
+  .slidercontainer
+  {
+    height: 40vh;
+  }
+
+  .slidercontainer
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 19px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 
-.slider
-{
-  height: 50vh;
-  width:40vh;
-}
-.slider h3
-{
-  font-size: 2.6rem;
-  font-weight: 600;
-  margin-bottom: 4.2rem !important;
-}
+  .slider-button button
+  {
+    color: white;
+    background-color:  #2a8889;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    display:inline;
+  }
 
-.slidercontainer
-{
-  height: 40vh;
-}
+  .slider-button button:hover
+  {
+    background-color:  #286464;
+    display:inline;
+  }
 
-.slidercontainer
-{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 19px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-.slider-button button
-{
-  color: white;
-  background-color:  #2a8889;
-  padding: 1rem;
-  font-size: 1.5rem;
-  border: none;
-  height: 4rem;
-  width: 4rem;
-  cursor: pointer;
-  transition: all 0.1s ease-in;
+  .btn-links
+  {
+  border-radius: 20px 0px 0px 20px;
+  margin-right:20px;
   display:inline;
-}
+  }
 
-.slider-button button:hover
-{
-  background-color:  #286464;
+  .btn-rechts
+  {
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 20px;
   display:inline;
-}
+  }
 
-.btn-links
-{
-border-radius: 20px 0px 0px 20px;
-margin-right:20px;
-display:inline;
-}
+  button .slider-button
+  {
+    display: flex;
+    gap: 0.4rem;
+    display:inline;
+  }
 
-.btn-rechts
-{
-border-radius: 0px 20px 20px 0px;
-margin-left: 20px;
-display:inline;
-}
-
-button .slider-button
-{
-  display: flex;
-  gap: 0.4rem;
-  display:inline;
-}
-
-.maschinenlogo
-{
-  margin-top:5%;
-  margin-left:26%;
-}
+  .maschinenlogo
+  {
+    margin-top:5%;
+    margin-left:35%;
+  }
 
 
 .flexfire_abstand
@@ -830,7 +848,7 @@ button .slider-button
   max-width: 100%;
   height:auto;
   padding:5px;
-  margin-left:28%;
+  margin-left:45%;
 }
 
 .zweite_leiste
@@ -846,6 +864,12 @@ button .slider-button
 .guestbook_container
 {
   margin-left:-10%;
+}
+
+.fly_but
+{
+  margin-left:20%;
+
 }
 
   }
