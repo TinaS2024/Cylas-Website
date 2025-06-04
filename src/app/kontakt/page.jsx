@@ -94,7 +94,7 @@ const Kontakt = () =>
         <h1>Kontakt</h1>
         <ThemeProvider theme={theme}>
            <form onSubmit={handleSubmit}>
-           <table width={410} className="abstand contact_container">
+           <table width={350} className="abstand contact_container">
             <tbody>
             <tr><th>Name:</th><td>
                 <TextField required variant="outlined" placeholder="Vollständiger Name" size="small" value={username} onChange={(e) =>setUsername(e.target.value)}></TextField>

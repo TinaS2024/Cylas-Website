@@ -51,7 +51,7 @@ const Flexfire = () =>
        
 
         <div className="flexfire_abstand">
-            <div className="textFieldsContainer"> 
+            <div className="textFieldsContainer2"> 
 
                  {/* Erstes Textfeld */}
 
@@ -90,7 +90,7 @@ const Flexfire = () =>
                 </Textfeld>
             </div>
 
-            <div className="textFieldsContainer zweite_leiste"> 
+            <div className="textFieldsContainer2 zweite_leiste"> 
 
                 {/* Drittes Textfeld */}
 

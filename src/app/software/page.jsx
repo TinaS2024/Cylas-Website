@@ -6,7 +6,7 @@ const Software = () =>
         return(
             <div>
             <div className="zentrieren h1_software" style={{width:"500px"}}>    
-            <h1>Zusätzliche Software für <br/>den Trommelgravierer<br/> von der Bolasys GmbH</h1>
+            <h1 className="h1_software">Zusätzliche Software für <br/>den Trommelgravierer<br/> von der Bolasys GmbH</h1>
             </div>
 
             <div className="software-card" >

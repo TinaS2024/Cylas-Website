@@ -414,12 +414,20 @@ span
   color:white;
 }
 
-.textFieldsContainer
-{
-  display:flex;
-  flex-direction:row;
-  margin-left:-50%;
-}
+
+.textFieldsContainer1
+  {
+    display:flex;
+    flex-direction:row;
+    margin-left:-50%;
+  }
+
+  .textFieldsContainer2
+  {
+    display:flex;
+    flex-direction:row;
+    margin-left:-50%;
+  }
 
 .software-card
 {
@@ -628,7 +636,7 @@ button:hover :active
   z-Index:"1";
 }
 
-//iPad Air iPad 820x 1180px
+//Tablets iPad Air iPad 820x 1180px
 
 @media only screen and (max-width: 800px) {
 
@@ -694,7 +702,14 @@ button:hover :active
     margin-left:150px;
   }
 
-  .textFieldsContainer
+  .textFieldsContainer1
+  {
+    display:flex;
+    flex-direction:column;
+    margin-left:-50%;
+  }
+
+  .textFieldsContainer2
   {
     display:flex;
     flex-direction:column;
@@ -725,8 +740,6 @@ button:hover :active
   justify-content:center;
 }
 
-
-/* Slider Eigenschaften */
 
 .slider
 {
@@ -837,8 +850,14 @@ button .slider-button
 
   }
 
+  //Große Smartphones  
   @media only screen and (max-width: 576px) 
   {
+    .cylas-logo-klein
+    {
+      margin-left:20%;
+    }
+
     .rahmen-container 
     {
       transform: scale(0.9);
@@ -850,6 +869,18 @@ button .slider-button
       font-size: 16px;
     }
 
+    h1
+    {
+      font-size:20px;
+      margin-left:-0%;
+    }
+
+    .h1_software
+    {
+      font-size:20px;
+      margin-left:-5%;
+    }
+
     h3
     {
       font-size: 20px;
@@ -858,8 +889,9 @@ button .slider-button
     .textfeld-container 
     {
       height:590px;
-      min-width:300px;
+      min-width:350px;
       font-size: 16px;
+      margin-left:20px;
     }
 
     .flexfire_style
@@ -869,7 +901,7 @@ button .slider-button
       max-width: 100%;
       height:auto;
       padding:5px;
-      margin-left:28%;
+      margin-left:5%;
     }
 
     table
@@ -884,6 +916,8 @@ button .slider-button
 
     .map
     {
+      margin-top:630px;
+      margin-left:-220px;
       width:350px;
       height:300px;
     }
@@ -909,10 +943,123 @@ button .slider-button
       font-size:22px;
     }
 
+    .textFieldsContainer1
+    {
+      display:flex;
+      flex-direction:column;
+      margin-left:-20%;
+    }
+
+    .textFieldsContainer2
+    {
+      display:flex;
+      flex-direction:column;
+      margin-left:-70%;
+    }
+
+    .slider
+    {
+      height: 50vh;
+      width:40vh;
+    }
+
+    .btn-links
+    {
+    border-radius: 20px 0px 0px 20px;
+    margin-right:10px;
+    display:inline;
+    }
+
+    .btn-rechts
+    {
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 10px;
+    display:inline;
+    }
+
+    .slider-button button
+    {
+      color: white;
+      background-color:  #2a8889;
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: none;
+      height: 4rem;
+      width: 4rem;
+      cursor: pointer;
+      transition: all 0.1s ease-in;
+      display:inline;
+    }
+
+    .slider-button button:hover
+    {
+      background-color:  #286464;
+      display:inline;
+    }
+
+    .h1_guestbook
+    {
+      margin-left:-15%;
+    }
+
+    .guestbook_container
+    {
+      margin-left:-9%;
+    }
+
+    .contact_container
+    {
+      margin-left:6%;
+    }
+
+    #button_column
+    {
+      border-radius: 15px !important;
+      width:300px;
+      height:100px;
+      margin:15px;
+      padding:30px;
+      font-size:30px;
+    }
+
+    
+    .software-card
+    {
+      margin-left:-20% !important;
+    }
+
+    .zweite_leiste
+    {
+      margin-left:-73%;
+      flex-direction:column;
+    }
+
+    .fly_but
+    {
+      margin-left:-64%;
+    }
+
+    .guestbook
+    {
+      margin-left:30%;
+    }
+
+    .maschinenlogo
+    {
+      margin-top:5%;
+      margin-left:15%;
+    }
   }
   
+  //Kleine Smartphones
   @media only screen and (max-width: 380px) 
   {
+
+    .cylas-logo-klein
+    {
+      margin-left:20%;
+    }
+
     .rahmen-container 
     {
       transform: scale(0.8);
@@ -924,17 +1071,29 @@ button .slider-button
       font-size: 16px;
     }
 
+    h1
+    {
+      font-size:20px;
+      margin-left:0%;
+    }
+
+    .h1_software
+    {
+      font-size:20px;
+      margin-left:-10%;
+    }
+
     h3
     {
       font-size: 20px;
     }
 
-
     .textfeld-container 
     {
-      height:520px;
-      min-width:400px;
+      height:590px;
+      min-width:350px;
       font-size: 16px;
+      margin-left:20px;
     }
 
     .flexfire_style
@@ -944,12 +1103,12 @@ button .slider-button
       max-width: 100%;
       height:auto;
       padding:5px;
-      margin-left:28%;
+      margin-left:5%;
     }
 
     table
     {
-      max-width:300px;
+      max-width:320px;
     }
 
     .tooltip
@@ -959,6 +1118,8 @@ button .slider-button
 
     .map
     {
+      margin-top:630px;
+      margin-left:-220px;
       width:350px;
       height:300px;
     }
@@ -982,6 +1143,112 @@ button .slider-button
     .landing_1
     {
       font-size:22px;
+    }
+
+    .textFieldsContainer1
+    {
+      display:flex;
+      flex-direction:column;
+      margin-left:-30%;
+    }
+
+    .textFieldsContainer2
+    {
+      display:flex;
+      flex-direction:column;
+      margin-left:-74%;
+    }
+
+    .slider
+    {
+      height: 50vh;
+      width:40vh;
+    }
+
+    .btn-links
+    {
+    border-radius: 20px 0px 0px 20px;
+    margin-right:10px;
+    display:inline;
+    }
+
+    .btn-rechts
+    {
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 10px;
+    display:inline;
+    }
+
+    .slider-button button
+    {
+      color: white;
+      background-color:  #2a8889;
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: none;
+      height: 4rem;
+      width: 4rem;
+      cursor: pointer;
+      transition: all 0.1s ease-in;
+      display:inline;
+    }
+
+    .slider-button button:hover
+    {
+      background-color:  #286464;
+      display:inline;
+    }
+
+    .h1_guestbook
+    {
+      margin-left:-25%;
+    }
+
+    .guestbook_container
+    {
+      margin-left:-13%;
+    }
+
+    .contact_container
+    {
+      margin-left:0%;
+    }
+
+    #button_column
+    {
+      border-radius: 15px !important;
+      width:300px;
+      height:100px;
+      margin:15px;
+      padding:30px;
+      font-size:30px;
+    }
+
+    .software-card
+    {
+      margin-left:-40%;
+    }
+
+    .zweite_leiste
+    {
+      margin-left:-73%;
+      flex-direction:column;
+    }
+
+    .fly_but
+    {
+      margin-left:-74%;
+    }
+
+    .guestbook
+    {
+      margin-left:30%;
+    }
+
+    .maschinenlogo
+    {
+      margin-top:5%;
+      margin-left:15%;
     }
 
   }

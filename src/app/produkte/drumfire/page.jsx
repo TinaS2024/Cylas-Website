@@ -68,7 +68,7 @@ const Drumfire = () =>
            
                <div style={{marginLeft:"15%"}}>
 
-               <div className="textFieldsContainer drumfire_leiste"> 
+               <div className="textFieldsContainer1 drumfire_leiste"> 
 
             {/* Erstes Textfeld */}
             
