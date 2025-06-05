@@ -1,5 +1,4 @@
 import Image from "next/image";
-import meinbild from "../image/icon-48x48_dark.png";
 import neuLogo  from "../image/logo_hell.png";
 import Link from "next/link";
 

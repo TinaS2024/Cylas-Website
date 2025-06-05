@@ -10,6 +10,8 @@ import MyVideo2 from "../../components/MyVideo2.jsx";
 import Image from "next/image";
 import drumfire from "../../image/drumfire.png";
 import trommel from "../../image/Trommel.png";
+import absaugdüse from "../../image/Absaugdüse.png";
+import vorabschneider from"../../image/Vorabscheider.png";
 import drumfire_logo from "../../image/drumfire_logo.png";
 
 
@@ -33,7 +35,7 @@ const Drumfire = () =>
     var toolklick13 = "... bis ca. 250W standart mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
     var toolklick14 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min. \n Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
     var toolklick15 = "Standardplatten A, unterschiedlicher Hersteller.";
-    var toolklick16 = "Kompressorkühler z.b. Hyfra oder CW6000: \n Absauggerät z.b. Teka \n Vorabschneider z.b. Cylas CVA-1 oder CVA-2";
+    var toolklick16 = "Kompressorkühler z.b. Hyfra oder CW6000, \n Absauggerät z.b. Teka, \n Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
 
     toolklick1.split("\n");
@@ -92,8 +94,8 @@ const Drumfire = () =>
 
             <div style={{marginLeft:"120px",marginTop:"-20px"}}>
                   <Image src={trommel} alt={drumfire} width={150} height={120}/>   
-                 
             </div>
+
             <br/> 
                 <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagazin für 10 Trommeln mit jeweils einer A4-Gummiplatte" 
                 tooltiptext={toolklick4}></Tooltip>
@@ -122,7 +124,7 @@ const Drumfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick10}></Tooltip>
                 <div style={{marginLeft:"120px"}}>
-                    <Image src="" alt="" width={50} height={50} style={{maxWidth:"100%", height:"auto"}}/>  
+                    <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/>  
                 </div>
                  
                 <br/> 
@@ -138,7 +140,7 @@ const Drumfire = () =>
 
             <Textfeld  titel="Systemdaten">
         
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung bis ca. 250 Watt" 
                 tooltiptext={toolklick13}></Tooltip>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale Stempelgummiplatten" 
@@ -149,6 +151,10 @@ const Drumfire = () =>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Zubehör" 
                 tooltiptext={toolklick16}></Tooltip>
+
+            <div style={{marginLeft:"110px",marginTop:"-20px"}}>
+                  <Image src={vorabschneider} alt="vorabscheider" width={80} height={240}/>   
+            </div>
                
             </Textfeld>
 

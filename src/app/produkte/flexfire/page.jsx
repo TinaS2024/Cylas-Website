@@ -1,6 +1,8 @@
 import Image from "next/image";
 import flexfire from "../../image/flexfire.png";
 import flexfire_logo from "../../image/flexfire_logo.png";
+import absaugdüse from "../../image/Absaugdüse.png";
+import vorabschneider from"../../image/Vorabscheider.png";
 
 import Textfeld from "../../components/Textfeld.jsx";
 import Punkt from "../../components/Punkt.jsx";
@@ -25,7 +27,7 @@ const Flexfire = () =>
     var toolklick11 = "... bis ca. 250W standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
     var toolklick12 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
     var toolklick13 = "Standardplatten A4, unterschiedlicher Hersteller";
-    var toolklick14 = "Kompressorkühler z.b. Hyfra oder CW6000: \n Absauggerät z.b. Teka \n Vorabschneider z.b. Cylas CVA-1 oder CVA-2";
+    var toolklick14 = "Kompressorkühler z.b. Hyfra oder CW6000, \n Absauggerät z.b. Teka, \n Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
     toolklick1.split("\n");
     toolklick2.split("\n");
@@ -46,7 +48,9 @@ const Flexfire = () =>
     return(
         <>
         <div className="maschinenlogo"><Image src={flexfire_logo} alt={flexfire_logo} width={250} height={48}/> </div>
+        <h1>Trommelgravierer für Sleeves bis 84 cm Länge <br/> und Gummiplatten bis ca. 84 cm x 62 cm </h1>
         <div style={{marginTop:"5%"}}>
+        
         
        
 
@@ -70,7 +74,7 @@ const Flexfire = () =>
                 tooltiptext={toolklick4}></Tooltip>
 
                 <div style={{marginLeft:"120px"}}>
-                    <Image src="" alt="" width={50} height={50} style={{maxWidth:"100%", height:"auto"}}/>  
+                    <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/>  
                 </div>
 
                 </Textfeld>
@@ -115,7 +119,7 @@ const Flexfire = () =>
 
                 <Textfeld titel="Systemdaten">
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung bis ca. 250 Watt" 
                 tooltiptext={toolklick11}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung für normale Stempelgummiplatten" 
@@ -126,6 +130,10 @@ const Flexfire = () =>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Zubehör" 
                 tooltiptext={toolklick14}></Tooltip>
+
+            <div style={{marginLeft:"110px",marginTop:"-20px"}}>
+                  <Image src={vorabschneider} alt="vorabscheider" width={80} height={240}/>   
+            </div>
 
                 </Textfeld>
              

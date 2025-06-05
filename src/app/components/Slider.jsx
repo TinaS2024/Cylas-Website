@@ -6,7 +6,7 @@ import Image from "next/image";
 import bild1 from "./../image/drumfire.png";
 import bild2 from "./../image/flexfire.png";
 import drumfire_logo from "../image/drumfire_logo.png";
-import flexfire_logo from "../image/flexfire_logo.png";
+import flexfire_logo from "../image/flexfire_logo_hell.png";
 import Link from "next/link";
 
 
