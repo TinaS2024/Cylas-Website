@@ -663,6 +663,14 @@ button:hover :active
 
 @media only screen and (max-width: 840px) {
 
+
+  .cylas-logo-groß
+    {
+      margin-left:20px;
+      width:10em;
+      height:10em;
+    }
+
   h1
   {
     color:  #0e4252;
@@ -925,7 +933,7 @@ button:hover :active
   @media only screen and (max-width: 576px) 
   {
 
-    .cylas-logo-klein
+    .cylas-logo-groß
     {
       margin-left:20px;
       width:5em;
@@ -1136,7 +1144,7 @@ button:hover :active
   @media only screen and (max-width: 380px) 
   {
 
-    .cylas-logo-klein
+    .cylas-logo-groß
     {
       margin-left:20px;
       width:5em;
@@ -1173,10 +1181,11 @@ button:hover :active
 
     .textfeld-container 
     {
-      height:590px;
-      min-width:350px;
+      height:650px;
+      min-width:330px;
+      max-width:330px;
       font-size: 16px;
-      margin-left:20px;
+      margin-left:30px;
     }
 
     .flexfire_style

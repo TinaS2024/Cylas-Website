@@ -8,7 +8,7 @@ const Header = () =>
 <>
             <div className="header-container"> 
             <div className="image-container">
-            <Image className="cylas-logo-klein" src={neuLogo}  alt="logo"/>
+            <Image className="cylas-logo-groß" src={neuLogo}  alt="logo"/>
             </div>
             
              <div className="titel-container neon">
