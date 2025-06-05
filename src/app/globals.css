@@ -422,11 +422,33 @@ span
     margin-left:-50%;
   }
 
+  /*
   .textFieldsContainer2
   {
     display:flex;
     flex-direction:row;
     margin-left:-50%;
+  }*/
+
+  .textFieldsContainer2_a
+  {
+    display:flex;
+    flex-direction:row;
+    margin-left:-57%;
+  }
+
+  .textFieldsContainer2_b
+  {
+    display:flex;
+    flex-direction:row;
+    margin-left:-50%;
+  }
+
+  .flexfire_image
+  {
+    margin-top:-70px;
+    margin-left:100px;
+    margin-right:100px;
   }
 
 .software-card
@@ -599,7 +621,8 @@ button:hover :active
 
 .zweite_leiste
 {
-  margin-left:-22%;
+  margin-top:-10%;
+  margin-left:-19%;
 }
 
 .drumfire_leiste
@@ -717,11 +740,35 @@ button:hover :active
     margin-left:-50%;
   }
 
+  /*
   .textFieldsContainer2
   {
     display:flex;
     flex-direction:column;
     margin-left:-50%;
+  }*/
+
+  
+  .textFieldsContainer2_a
+  {
+    display:flex;
+    flex-direction:column;
+    margin-left:-57%;
+  }
+
+  .textFieldsContainer2_b
+  {
+    display:flex;
+    flex-direction:column;
+    margin-left:-30%;
+    margin-top:1%;
+  }
+
+  .flexfire_image
+  {
+    margin-top:10px;
+    margin-left:90px;
+    margin-right:100px;
   }
 
 
@@ -853,7 +900,7 @@ button:hover :active
 
 .zweite_leiste
 {
-  margin-left:-50%;
+  margin-left:-56%;
 }
 
 .drumfire_leiste
@@ -877,6 +924,14 @@ button:hover :active
   /*Große Smartphones*/
   @media only screen and (max-width: 576px) 
   {
+
+    .cylas-logo-klein
+    {
+      margin-left:20px;
+      width:5em;
+      height:5em;
+    }
+
 
     .video
     {
@@ -1080,6 +1135,13 @@ button:hover :active
   /*Kleine Smartphones*/
   @media only screen and (max-width: 380px) 
   {
+
+    .cylas-logo-klein
+    {
+      margin-left:20px;
+      width:5em;
+      height:5em;
+    }
 
     .rahmen-container 
     {

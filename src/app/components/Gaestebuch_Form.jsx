@@ -40,10 +40,10 @@ const Gästebuch_Form = () =>
            <div><h1 className="h1_guestbook">Gästebuch</h1></div>
                 <table width={410} className="guestbook_container">
                     <tbody>
-                    <tr><th><span>Vollständiger Name:</span>&nbsp;</th>
-                    <td><input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "200px"}}/></td></tr>
+                    <tr><th style={{paddingRight:"10px"}}><span>Vollständiger Name:</span>&nbsp;</th>
+                    <td><input type="text" size="15"  value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ width: "180px"}}/></td></tr>
                     <tr><th><span>Nachricht:</span>&nbsp;</th><td>
-                    <textarea rows={6} cols={16}  value={nachricht} onChange={(e) => setNachricht(e.target.value)} style={{ width: "200px"}}/></td></tr>
+                    <textarea rows={6} cols={16}  value={nachricht} onChange={(e) => setNachricht(e.target.value)} style={{ width: "180px"}}/></td></tr>
 
                     <tr><th></th><td>
                     <input className="button-container-klein link-style-send" type="submit" value="Absenden" style={{marginLeft:"20px"}}/></td></tr>
