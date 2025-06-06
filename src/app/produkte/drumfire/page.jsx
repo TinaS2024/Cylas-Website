@@ -11,7 +11,7 @@ import Image from "next/image";
 import drumfire from "../../image/drumfire.png";
 import trommel from "../../image/Trommel.png";
 import absaugdüse from "../../image/Absaugdüse.png";
-import vorabschneider from"../../image/Vorabscheider.png";
+import vorabscheider from"../../image/Vorabscheider.png";
 import drumfire_logo from "../../image/drumfire_logo.png";
 
 
@@ -32,7 +32,7 @@ const Drumfire = () =>
     var toolklick11 = "Überwachung des Maschinenstaus über das Netzwerk. \n Überwachung des Bearbeitungsvorgangs mit Kamera.";
     var toolklick12 = "Tel: 01718500908";
 
-    var toolklick13 = "... bis ca. 250W standart mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
+    var toolklick13 = "... standard mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
     var toolklick14 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min. \n Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
     var toolklick15 = "Standardplatten A, unterschiedlicher Hersteller.";
     var toolklick16 = "Kompressorkühler z.b. Hyfra oder CW6000, \n Absauggerät z.b. Teka, \n Vorabschneider z.b. Cylas VA-1 oder VA-2";
@@ -82,6 +82,7 @@ const Drumfire = () =>
                 tooltiptext={toolklick2}></Tooltip>
 
             <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+            <br/>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick3}></Tooltip>
@@ -92,7 +93,7 @@ const Drumfire = () =>
 
             <Textfeld  titel="Hohe Produktivität durch optimale Einbindung in ihre Produktionsprozesse">
 
-            <div style={{marginLeft:"120px",marginTop:"-20px"}}>
+            <div className="trommel_bild">
                   <Image src={trommel} alt={drumfire} width={150} height={120}/>   
             </div>
 
@@ -123,7 +124,7 @@ const Drumfire = () =>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick10}></Tooltip>
-                <div style={{marginLeft:"120px"}}>
+                <div className="absaug_bild">
                     <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/>  
                 </div>
                  
@@ -152,8 +153,8 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Zubehör" 
                 tooltiptext={toolklick16}></Tooltip>
 
-            <div style={{marginLeft:"110px",marginTop:"-20px"}}>
-                  <Image src={vorabschneider} alt="vorabscheider" width={80} height={240}/>   
+            <div className="scheider_bild">
+                  <Image src={vorabscheider} alt="vorabscheider" width={80} height={240}/>   
             </div>
                
             </Textfeld>

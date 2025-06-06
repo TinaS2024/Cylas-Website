@@ -407,7 +407,7 @@ span
   //float:left;
   min-width:400px;
   max-width:400px;
-  height:560px;
+  height:580px;
   border-radius:20px; 
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:#0b4250;
@@ -659,10 +659,33 @@ button:hover :active
   z-Index:"1";
 }
 
+.trommel_bild
+{
+  margin-left:120px;
+  margin-top:-20px;
+}
+
+.scheider_bild
+{
+  margin-left:150px;
+  margin-top:-35px;
+} 
+
+.absaug_bild
+{
+  margin-left:140px;
+} 
+
 /*Tablets iPad Air iPad 820x 1180px */
 
 @media only screen and (max-width: 840px) {
 
+
+  .header-text
+  {
+    margin-top:90px;
+    margin-left:100px;
+  }
 
   .cylas-logo-groß
     {
@@ -891,47 +914,63 @@ button:hover :active
   }
 
 
-.flexfire_abstand
-{
-  margin-left:12%;
-}
+  .flexfire_abstand
+  {
+    margin-left:12%;
+  }
 
-.flexfire_style
-{
-  width:400px;
-  height:200px;
-  max-width: 100%;
-  height:auto;
-  padding:5px;
-  margin-left:45%;
-}
+  .flexfire_style
+  {
+    width:400px;
+    height:200px;
+    max-width: 100%;
+    height:auto;
+    padding:5px;
+    margin-left:45%;
+  }
 
-.zweite_leiste
-{
-  margin-left:-56%;
-}
+  .zweite_leiste
+  {
+    margin-left:-56%;
+  }
 
-.drumfire_leiste
-{
-  margin-left:-65%;
-}
+  .drumfire_leiste
+  {
+    margin-left:-65%;
+  }
 
-.guestbook_container
-{
-  margin-left:-10%;
-}
+  .guestbook_container
+  {
+    margin-left:-10%;
+  }
 
-.fly_but
-{
-  margin-left:20%;
+  .fly_but
+  {
+    margin-left:20%;
 
-}
+  }
+
+  .impressum_abstand
+  {
+    margin-top:-90px;
+  }
+
+  .absaug_bild
+  {
+    margin-left:150px;
+  } 
 
   }
 
   /*Große Smartphones*/
   @media only screen and (max-width: 576px) 
   {
+
+     .header-text
+    {
+      margin-top:-5px;
+      margin-left:10px;
+    }
 
     .cylas-logo-groß
     {
@@ -1138,7 +1177,37 @@ button:hover :active
       margin-top:5%;
       margin-left:15%;
     }
-  }
+
+    .impressum_abstand
+    {
+      margin-top:-90px;
+    }
+
+    .trommel_bild
+    {
+      margin-left:100px;
+      margin-top:-20px;
+    }
+
+    .scheider_bild
+    {
+      margin-left:130px;
+      margin-top:-35px;
+    } 
+
+    .absaug_bild
+    {
+      margin-left:130px;
+    } 
+
+    .profile-img.video.background 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+    }
+
+    }
   
   /*Kleine Smartphones*/
   @media only screen and (max-width: 380px) 
@@ -1146,7 +1215,7 @@ button:hover :active
 
     .cylas-logo-groß
     {
-      margin-left:20px;
+      margin-left:10px;
       width:5em;
       height:5em;
     }
@@ -1318,7 +1387,7 @@ button:hover :active
 
     .software-card
     {
-      margin-left:-8% !important;
+      margin-left:-5% !important;
     }
 
     .zweite_leiste
@@ -1329,7 +1398,7 @@ button:hover :active
 
     .fly_but
     {
-      margin-left:-20%;
+      margin-left:-15%;
     }
 
     .guestbook
@@ -1343,4 +1412,27 @@ button:hover :active
       margin-left:15%;
     }
 
+     .trommel_bild
+    {
+      margin-left:90px;
+      margin-top:-20px;
+    }
+
+      .scheider_bild
+    {
+      margin-left:110px;
+      margin-top:20px;
+    } 
+
+     .absaug_bild
+    {
+      margin-left:120px;
+    } 
+
+    .profile-img.video.background 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+    }
   }

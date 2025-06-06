@@ -12,7 +12,7 @@ const Header = () =>
             </div>
             
              <div className="titel-container neon">
-             <h3><br />
+             <h3 className="header-text"><br/>
                 Gravier- und Lasertechnologie für höchste Produktivität
              </h3>
           

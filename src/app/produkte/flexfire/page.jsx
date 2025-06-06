@@ -24,7 +24,7 @@ const Flexfire = () =>
     var toolklick9 = "Überwachung des Maschinenstatus über das Netzwerk. \n Überwachung des Bearbeitungsvorgangs mit Kamera.";
     var toolklick10 = "Tel.: 01718500908";
 
-    var toolklick11 = "... bis ca. 250W standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
+    var toolklick11 = "... standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
     var toolklick12 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
     var toolklick13 = "Standardplatten A4, unterschiedlicher Hersteller";
     var toolklick14 = "Kompressorkühler z.b. Hyfra oder CW6000, \n Absauggerät z.b. Teka, \n Vorabschneider z.b. Cylas VA-1 oder VA-2";
@@ -73,7 +73,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick4}></Tooltip>
 
-                <div style={{marginLeft:"120px"}}>
+                <div className="absaug_bild">
                     <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/>  
                 </div>
 
@@ -131,7 +131,7 @@ const Flexfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Zubehör" 
                 tooltiptext={toolklick14}></Tooltip>
 
-            <div style={{marginLeft:"110px",marginTop:"-20px"}}>
+            <div className="scheider_bild">
                   <Image src={vorabschneider} alt="vorabscheider" width={80} height={240}/>   
             </div>
 
