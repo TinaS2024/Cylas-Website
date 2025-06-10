@@ -690,6 +690,17 @@ button:hover :active
   margin-left:140px;
 } 
 
+.software-bild
+{
+  width:900px;
+  height:438px;
+  background-image: url("../app/image/software_bild.png");
+  margin-left:-23%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+} 
 
 /*Tablets iPad Air iPad 820x 1180px */
 
@@ -976,6 +987,13 @@ button:hover :active
     margin-left:150px;
   } 
 
+  .software-bild
+  {
+    width:700px;
+    height:341px;
+    margin-left:32%;
+  } 
+
   }
 
   /*Große Smartphones*/
@@ -1230,6 +1248,28 @@ button:hover :active
       align-items: center;   
     }
 
+     .software-bild
+    {
+      width:400px;
+      height:194px;
+      margin-left:4%;
+      cursor: zoom-in;
+    } 
+
+    .software-bild.zoomed 
+    {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: 200vh;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000; 
+    cursor: zoom-out; 
+}
+
     }
   
   /*Kleine Smartphones*/
@@ -1466,4 +1506,27 @@ button:hover :active
       justify-content: center;
       align-items: center;   
     }
+
+      .software-bild
+    {
+      width:300px;
+      height:146px;
+      margin-left:12%; 
+      cursor: zoom-in;
+    } 
+
+
+    .software-bild.zoomed 
+    {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: 200vh;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000; 
+    cursor: zoom-out; 
+}
   }

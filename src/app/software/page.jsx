@@ -1,26 +1,55 @@
+"use client";
+import { useState } from "react";
 import Punkt from "../components/Punkt.jsx";
 import Textfeld from "../components/Textfeld.jsx";
 
+
 const Software = () =>
     {
+
+        const [isZoomed, setIsZoomed] = useState(false);
+        const handleImageClick = () =>
+        {
+            if(window.innerWidth < 768)
+            {
+                setIsZoomed(prevIsZoomed => !prevIsZoomed);
+            }
+        }
+
+
         return(
             <div>
             <div className="zentrieren h1_software" style={{width:"500px"}}>    
-            <h1 className="h1_software">Zusätzliche Software für <br/>den Trommelgravierer<br/> von der Bolasys GmbH</h1>
+            <h1 className="h1_software">Software für <br/>die Trommelgravierer</h1>
             </div>
 
-            <div className="software-card" >
+            <div className="software-card">
+                 <div
+                    className={`software-bild ${isZoomed ? 'zoomed' : ''}`}
+                    onClick={handleImageClick}
+                ></div>
+                
+            
             <Textfeld titel="">
-                <Punkt text="&nbsp;Auftragsvorbereitung & Annahme"/>
-                <Punkt text="&nbsp;Auftragsverwaltung"/>
-                <Punkt text="&nbsp;Designer"/>
-                <Punkt text="&nbsp;Nesting"/>
-                <Punkt text="&nbsp;Komissionierungsmanagement"/>    
-                <Punkt text="&nbsp;Interface für Graviermaschinen"/>
-                <Punkt text="&nbsp;Montagestation"/>
-                <Punkt text="&nbsp;Komissionierungs-& Versandmodul"/>   
-                <Punkt text="&nbsp;Externe Software"/>
-                <Punkt text="&nbsp;GPE-Basis"/>   
+                <Punkt text="Auftragsvorbereitung & Annahme"/>
+                <br/>
+                <Punkt text="Auftragsverwaltung"/>
+                <br/>
+                <Punkt text="Designer"/>
+                <br/>
+                <Punkt text="Nesting"/>
+                <br/>
+                <Punkt text="Komissionierungsmanagement"/>    
+                <br/>
+                <Punkt text="Interface für Graviermaschinen"/>
+                <br/>
+                <Punkt text="Montagestation"/>
+                <br/>
+                <Punkt text="Komissionierungs-& Versandmodul"/>
+                   <br/>
+                <Punkt text="Externe Software"/>
+                <br/>
+                <Punkt text="GPE-Basis"/>   
             </Textfeld>
 
             </div>
