@@ -17,43 +17,28 @@ import drumfire_logo from "../../image/drumfire_logo.png";
 
 const Drumfire = () =>
 {
-    var toolklick1 = "... führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsenmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
-    var toolklick2 = "... führt zu Stabilität des Strahlengangs und selten erforderlicher Justage.";
-    var toolklick3 = "... führt zu geringer Staub- und Geruchsentwicklung, sauberer Maschine und längeren Reinigungsintervallen.";
+    const toolklick1 = "➥Führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsenmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
+    const toolklick2 = "➥Führt zu Stabilität des Strahlengangs und selten erforderlicher Justage.";
+    const toolklick3 = "➥Führt zu geringer Staub- und Geruchsentwicklung, sauberer Maschine und längeren Reinigungsintervallen.";
 
-    var toolklick4 = "... führt zur Entkopplung des Be- und Entladevorgang vom Bearbeitungsvorgang. \n Das Beladen und Entladen kann jederzeit im laufenden Betrieb vorgenommen werden. \n Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
-    var toolklick5 = "... ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
-    var toolklick6 = "Der Betrieb kann automatisch oder manuell erfolgen. \n Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
-    var toolklick7 = "Der Ethernetanschluss gestattet die Verbindung mit dem Workflow- oder der ERP-Software in Ihrem Firmennetzwerk.";
-    var toolklick8 = "Die Kameraüberwachung gestattet die Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
+    const toolklick4 = "➥Führt zur Entkopplung des Be- und Entladevorgang vom Bearbeitungsvorgang. \n ➥Das Beladen und Entladen kann jederzeit im laufenden Betrieb vorgenommen werden. \n ➥Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
+    const toolklick5 = "➥Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
+    const toolklick6 = "➥Der Betrieb kann automatisch oder manuell erfolgen.\n ➥Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
+    const toolklick7 = "➥Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk.\n ➥Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE).\n ➥Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden.\n ➥Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen.\n ➥Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
+    const toolklick8 = "➥Die Kameraüberwachung gestattet die Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
-    var toolklick9 = "... durch vollständig verrohrten Strahlengang.";
-    var toolklick10 = "Absaugdüse";
-    var toolklick11 = "Überwachung des Maschinenstaus über das Netzwerk. \n Überwachung des Bearbeitungsvorgangs mit Kamera.";
-    var toolklick12 = "Tel: 01718500908";
+    const toolklick9 = "➥Durch vollständig verrohrten Strahlengang.";
+    const toolklick10 = "➥Absaugdüse";
+    const toolklick11 = "➥Überwachung des Maschinenstaus über das Netzwerk.\n ➥Überwachung des Bearbeitungsvorgangs mit Kamera.";
+    const toolklick12 = "➥Tel: 01718500908";
 
-    var toolklick13 = "... standard mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
-    var toolklick14 = '... bei Standardlaserbestückung ca. eine A4-Seite/22 min. \n Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
-    var toolklick15 = "Standardplatten A, unterschiedlicher Hersteller.";
-    var toolklick16 = "Kompressorkühler z.b. Hyfra oder CW6000, \n Absauggerät z.b. Teka, \n Vorabschneider z.b. Cylas VA-1 oder VA-2";
+    const toolklick13 = "➥Standard mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
+    const toolklick14 = '➥Bei Standardlaserbestückung ca. eine A4-Seite/22 min.\n ➥Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
+    const toolklick15 = "➥Standardplatten A, unterschiedlicher Hersteller.";
+    const toolklick16 = "➥Kompressorkühler z.b. Hyfra oder CW6000,\n ➥Absauggerät z.b. Teka,\n ➥Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
+    const toolklick17 = "➥Die Fokuseinstellung erfolgt automatisch durch Auswahl des Materialparametersatzes."
 
-    toolklick1.split("\n");
-    toolklick2.split("\n");
-    toolklick3.split("\n");
-    toolklick4.split("\n");
-    toolklick5.split("\n");
-    toolklick6.split("\n");
-    toolklick7.split("\n");
-    toolklick8.split("\n");
-    toolklick9.split("\n");
-    toolklick10.split("\n");
-    toolklick11.split("\n");
-    toolklick12.split("\n");
-    toolklick13.split("\n");
-    toolklick14.split("\n");
-    toolklick15.split("\n");
-    toolklick16.split("\n");
 
     //Alle 4 Karten nebeneinander machen oder Gerät in Mitte
     return(
@@ -75,16 +60,16 @@ const Drumfire = () =>
             {/* Erstes Textfeld */}
             
             <Textfeld titel="Effizienter Gravurprozess">
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kontinuierlicher spiralförmiger Gravurpfad" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kontinuierlicher spiralförmiger Gravurpfad" 
                 tooltiptext={toolklick1}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
                 tooltiptext={toolklick2}></Tooltip>
 
             <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
             <br/>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 
                 tooltiptext={toolklick3}></Tooltip>
             </Textfeld>
 
@@ -98,18 +83,22 @@ const Drumfire = () =>
             </div>
 
             <br/> 
-                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="&emsp;Revolvermagazin für 10 Trommeln mit jeweils einer A4-Gummiplatte" 
+                <Punkt text="&nbsp;"></Punkt><Tooltip tooltiptitel="Revolvermagazin für 10 Trommeln mit jeweils einer A4-Gummiplatte" 
                 tooltiptext={toolklick4}></Tooltip>
-                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;RFID-Kennzeichnungen der Trommeln" 
+
+                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="RFID-Kennzeichnungen der Trommeln" 
                 tooltiptext={toolklick5}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Intuitive Bedienbarkeit" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Motorische Z-Achse" 
+                tooltiptext={toolklick17}></Tooltip>
+
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Einfache Bedienung, motorische Fokuseinstellung" 
                 tooltiptext={toolklick6}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Netzwerkeinbindung" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Netzwerkeinbindung" 
                 tooltiptext={toolklick7}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kameraüberwachung" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kameraüberwachung" 
                 tooltiptext={toolklick8}></Tooltip>
             
             </Textfeld> 
@@ -119,20 +108,20 @@ const Drumfire = () =>
             <Textfeld titel="Geringer Wartungs-und Serviceaufwand">
                
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Wirksamer Schutz der optischen Komponenten" 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Wirksamer Schutz der optischen Komponenten" 
                 tooltiptext={toolklick9}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
                 tooltiptext={toolklick10}></Tooltip>
                 <div className="absaug_bild">
-                    <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/>  
+                    <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/><p style={{margin:"-80px -50px 50px 10px",color:"#36abb3"}}>Absaugdüse</p>
                 </div>
                  
                 <br/> 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Umfassende Diagnose- und Fernwartungsfunktionen." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Umfassende Diagnose- und Fernwartungsfunktionen." 
                 tooltiptext={toolklick11}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Kurzer Draht zum Hersteller." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kurzer Draht zum Hersteller." 
                 tooltiptext={toolklick12}></Tooltip>
 
             </Textfeld>
@@ -141,20 +130,20 @@ const Drumfire = () =>
 
             <Textfeld  titel="Systemdaten">
         
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Laserleistung bis ca. 250 Watt" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Laserleistung bis ca. 250 Watt" 
                 tooltiptext={toolklick13}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Gravurleistung, Schneidleistung for normale Stempelgummiplatten" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Gravurleistung, Schneidleistung for normale Stempelgummiplatten" 
                 tooltiptext={toolklick14}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Verwendete Gummiplatten" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Verwendete Gummiplatten" 
                 tooltiptext={toolklick15}></Tooltip>
 
-            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="&emsp;Zubehör" 
+            <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Zubehör" 
                 tooltiptext={toolklick16}></Tooltip>
 
             <div className="scheider_bild">
-                  <Image src={vorabscheider} alt="vorabscheider" width={80} height={240}/>   
+                  <Image src={vorabscheider} alt="vorabscheider" width={80} height={240}/><p style={{margin:"-130px -50px 50px 10px",color:"#36abb3"}}>Vorabscheider<br/> VA-1</p>
             </div>
                
             </Textfeld>

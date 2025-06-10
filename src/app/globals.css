@@ -11,6 +11,7 @@ body {
 }
 
 .link-style {
+  font-size:1.2rem;
   color: #18848b; 
   text-decoration: none;
 }
@@ -335,7 +336,7 @@ font-size: 30px;
 
 .punkt-container
 {
-  margin:2px -5px;
+  margin:-2px -5px;
   //float:left;
   width:15px;
   height:15px;
@@ -349,10 +350,11 @@ font-size: 30px;
   display:inline-block;
   border-bottom: 1px  black;
   color: #000;
-  top:-40px;
-  left:25px;
+  top:-25px;
+  left:40px;
   cursor: pointer;
-  max-width:350px;
+  max-width:340px;
+  white-space: pre-line;
 }
 
 .tooltip .tooltiptext
@@ -361,7 +363,7 @@ font-size: 30px;
   width:400px;
   background-color: rgb(20, 152, 155);
   color: rgb(144, 228, 203);
-  text-align: center;
+  text-align: left;
   border-radius: 20px;
   padding: 10px;
   position: absolute;
@@ -373,6 +375,18 @@ font-size: 30px;
 .tooltip:hover .tooltiptext 
 {
   visibility: visible;
+}
+
+.my-swal2-text-container
+{
+  font-size:20px !important;
+  text-align:left;
+}
+
+.my-swal2-popup .swal2-html-container
+{
+  font-size: 20px !important;
+  text-align:left;
 }
 
 span
@@ -407,7 +421,7 @@ span
   //float:left;
   min-width:400px;
   max-width:400px;
-  height:580px;
+  height:600px;
   border-radius:20px; 
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:#0b4250;
@@ -621,7 +635,7 @@ button:hover :active
 
 .zweite_leiste
 {
-  margin-top:-10%;
+  margin-top:-8%;
   margin-left:-19%;
 }
 
@@ -647,7 +661,7 @@ button:hover :active
   background-color:#286464;
   background-size:30%;
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:right 100px top 150px;
 }
 
 .bg-flex 
@@ -655,7 +669,7 @@ button:hover :active
   background-image:url("../app/image/flexfire_relief_schief.png");
   background-size:26%;
   background-repeat:no-repeat;
-  background-position:left;
+  background-position:left 100px top 50px;
   z-Index:"1";
 }
 
@@ -675,6 +689,7 @@ button:hover :active
 {
   margin-left:140px;
 } 
+
 
 /*Tablets iPad Air iPad 820x 1180px */
 
@@ -762,6 +777,7 @@ button:hover :active
   .textfeld-container
   {
     margin-left:45%;
+    height:600px;
   }
 
   .textFieldsContainer1
@@ -1041,10 +1057,17 @@ button:hover :active
       max-width:300px;
     }
 
+    .impressum-container
+    {
+      margin-left:10%;
+      flex-direction:column;
+      align-items:flex-start;
+      justify-content:center;
+    }
     .map
     {
       margin-top:50px;
-      margin-left:-0px;
+      margin-left:-30px;
       width:350px;
       height:300px;
     }
@@ -1250,7 +1273,7 @@ button:hover :active
 
     .textfeld-container 
     {
-      height:650px;
+      height:620px;
       min-width:330px;
       max-width:330px;
       font-size: 16px;
@@ -1274,9 +1297,17 @@ button:hover :active
 
     .tooltip
     {
-      max-width:300px;
+      max-width:280px;
     }
 
+     .impressum-container
+    {
+      margin-left:0%;
+      flex-direction:column;
+      align-items:flex-start;
+      justify-content:center;
+    }
+    
     .map
     {
       margin-top:50px;

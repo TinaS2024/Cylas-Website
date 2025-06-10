@@ -2,15 +2,14 @@
 /* eslint-disable react/jsx-key */
 import gravierer from "../app/videos/video2.mp4";
 import MyVideo from "./components/MyVideo.jsx";
-import flexfire_relief from "../app/image/flexfire_relief_schief.png";
-import drumfire_relief from "../app/image/drumfire_relief_trommel.png";
+
 
 const Home = () =>
 {
     return(
 
         <div className="abstand bg-drum"> 
-        <div className="bg-flex" style={{backgroundSize:"26%",backgroundRepeat:"no-repeat",backgroundPosition:"left",zIndex:"1"}}>
+        <div className="bg-flex">
         
            {/*<h2>Industrielle Produktion und Vertrieb von <br/>Lasergeräten und sonstigen physikalisch-technischen Erzeugnissen <br/>sowie Vornahme der hierzu notwendigen Investitionen <br/> in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.</h2>*/}
            <p className="landing_1">Entwicklung & Produktion von Lasergeräten</p>

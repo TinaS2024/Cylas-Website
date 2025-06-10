@@ -3,11 +3,12 @@ import Map from "../components/Map";
 const Impressum = () =>
 {
     return(
-        <div className="impressum-container abstand-unten">
+    <div className="impressum-container abstand-unten">
     <div style={{marginLeft:"5%",marginTop:"5%"}} className="abstand zentrieren">
     <table width={410}>
-        <h2 style={{textAlign:"left"}}>Impressum</h2>
         <tbody>
+        <h2 style={{textAlign:"left"}}>Impressum</h2>
+        
         <tr><td><span>Cylas AG Büro:</span></td></tr>
             <tr><td>Fritz-Wagner-Siedlung 16</td></tr>
             <tr><td>09116 Chemnitz </td></tr> 

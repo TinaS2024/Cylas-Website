@@ -1,6 +1,6 @@
 
 "use client";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 function Tooltip(props) {
     const { tooltiptitel, tooltiptext} = props;
@@ -8,16 +8,28 @@ function Tooltip(props) {
 
     function showTooltext()
     {
-        if(tooltiptitel && tooltiptext != null)
+        if(tooltiptitel && tooltiptext != null && tooltiptext !== undefined)
         {
-            swal({title:""+(tooltiptitel),text:""+tooltiptext,icon:"info",button:"Close"});
+
+            const htmlContent = typeof tooltiptext === 'string'
+                ? tooltiptext.replace(/\n/g, '<br/>')
+                : tooltiptext;
+
+            Swal.fire({
+                title:""+(tooltiptitel),
+                html: htmlContent,
+                confirmButtonText:"Close",
+                confirmButtonColor: "#0b4250",
+                customClass:{
+                    popup:"my-swal2-popup",
+                    htmlContainer:"my-swal2-text-container"},});
             console.log(tooltiptitel,tooltiptext)
         }
     }
 
     return (
         <div className="tooltip">
-            <p style={{fontSize:"16px",textAlign:"left"}} onClick={showTooltext}>{tooltiptitel}</p>
+            <p style={{fontSize:"18px",textAlign:"left"}} onClick={showTooltext}>{tooltiptitel}</p>
             <p style={{fontSize:"20px"}}>
                 <span className="tooltiptext">
                     {tooltiptext}    
