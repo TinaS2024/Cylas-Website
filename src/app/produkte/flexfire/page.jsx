@@ -11,26 +11,26 @@ import Tooltip from "@/app/components/Tooltip.jsx";
 const Flexfire = () =>
 {
 
-    const toolklick1 = "➥Trommeldurchmesser von 50mm-200mm zur Gravur von Gummiplatten bis ca. 62cm x 85cm oder Sleeves bis 85cm Länge. \n ➥Faserlaser zur Erzielung höherer Auflösung einsetzbar. \n ➥Trommeln mit Klemmvorrichtung für A4-Gummiplatten verfügbar";
-    const toolklick2 = "➥Führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
-    const toolklick3 = "➥Die X-Bewegung (schnelle Achse) erfolgt durch die Drehung der Trommel,die Y-Bewegung wird durch verschieben des Arbeitskopfes entlang der Trommelachse dargestellt.";
-    const toolklick4 = "➥Führt zu geringeren Staub- und Geruchsproblemen.";
+    const toolklick1 = "➥ Trommeldurchmesser von 50mm-200mm zur Gravur von Gummiplatten bis ca. 62cm x 85cm oder Sleeves bis 85cm Länge. \n ➥ Faserlaser zur Erzielung höherer Auflösung einsetzbar. \n ➥ Trommeln mit Klemmvorrichtung für A4-Gummiplatten verfügbar";
+    const toolklick2 = "➥ Führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
+    const toolklick3 = "➥ Die X-Bewegung (schnelle Achse) erfolgt durch die Drehung der Trommel,die Y-Bewegung wird durch verschieben des Arbeitskopfes entlang der Trommelachse dargestellt.";
+    const toolklick4 = "➥ Führt zu geringeren Staub- und Geruchsproblemen.";
 
-    const toolklick5 = "➥Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk. \n ➥Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE). \n ➥Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden. \n ➥Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen. \n ➥Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
-    const toolklick6 = "➥Die Kameraüberwachung gestattet die Beobachtung des Bearbeitungsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
+    const toolklick5 = "➥ Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk. \n ➥ Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE). \n ➥ Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden. \n ➥ Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen. \n ➥ Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
+    const toolklick6 = "➥ Die Kameraüberwachung gestattet die Beobachtung des Bearbeitungsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
-    const toolklick7 = "➥Durch abgeschlossenen Strahlengang.";
-    const toolklick8 = "➥Führt zu sauberer Maschine und längeren Reinigungsintervallen.";
-    const toolklick9 = "➥Überwachung des Maschinenstatus über das Netzwerk. \n ➥Überwachung des Bearbeitungsvorgangs mit Kamera.";
-    const toolklick10 = "➥Tel.: 01718500908";
+    const toolklick7 = "➥ Durch abgeschlossenen Strahlengang.";
+    const toolklick8 = "➥ Führt zu sauberer Maschine und längeren Reinigungsintervallen.";
+    const toolklick9 = "➥ Überwachung des Maschinenstatus über das Netzwerk. \n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera.";
+    const toolklick10 = "➥ Tel.: 01718500908";
 
-    const toolklick11 = "➥Standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n ➥Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
-    const toolklick12 = '➥Bei Standardlaserbestückung ca. eine A4-Seite/22 min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
-    const toolklick13 = "➥Standardplatten A4, unterschiedlicher Hersteller";
-    const toolklick14 = "➥Kompressorkühler z.b. Hyfra oder CW6000, \n ➥Absauggerät z.b. Teka, \n ➥Vorabschneider z.b. Cylas VA-1 oder VA-2";
+    const toolklick11 = "➥ Standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n ➥ Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
+    const toolklick12 = '➥ Bei Standardlaserbestückung ca. eine A4-Seite/22 min,Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
+    const toolklick13 = "➥ Standardplatten A4, unterschiedlicher Hersteller";
+    const toolklick14 = "➥ Kompressorkühler z.b. Hyfra oder CW6000, \n ➥ Absauggerät z.b. Teka, \n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
-    const toolklick15 = "➥Die Fokuseinstellung erfolgt automatisch durch Auswahl des Materialparametersatzes."
-    const toolklick16 = "➥Anpassung der Betriebssofware an den Kundenseitigen Produktionsprozess möglich."
+    const toolklick15 = "➥ Die Fokuseinstellung erfolgt automatisch durch Auswahl des Materialparametersatzes."
+    const toolklick16 = "➥ Anpassung der Betriebssofware an den Kundenseitigen Produktionsprozess möglich."
 
 
     return(

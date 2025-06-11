@@ -16,27 +16,27 @@ import drumfire_logo from "../../image/drumfire_logo.png";
 
 const Drumfire = () =>
 {
-    const toolklick1 = "➥Führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsenmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
-    const toolklick2 = "➥Führt zu Stabilität des Strahlengangs und selten erforderlicher Justage.";
-    const toolklick3 = "➥Führt zu geringer Staub- und Geruchsentwicklung, sauberer Maschine und längeren Reinigungsintervallen.";
+    const toolklick1 = "➥ Führt zu bester Gravurqualität durch Vermeidung bidirektionaler Gravur und langer Lebensdauer der Achsenmechanik durch Vermeidung abrupter Bewegungsvorgänge.";
+    const toolklick2 = "➥ Führt zu Stabilität des Strahlengangs und selten erforderlicher Justage.";
+    const toolklick3 = "➥ Führt zu geringer Staub- und Geruchsentwicklung, sauberer Maschine und längeren Reinigungsintervallen.";
 
-    const toolklick4 = "➥Führt zur Entkopplung des Be- und Entladevorgang vom Bearbeitungsvorgang. \n ➥Das Beladen und Entladen kann jederzeit im laufenden Betrieb vorgenommen werden. \n ➥Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
-    const toolklick5 = "➥Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
-    const toolklick6 = "➥Die Fokuseinstellung erfolgt automatisch durch Auswahl des Materialparametersatzes."
-    const toolklick7 = "➥Der Betrieb kann automatisch oder manuell erfolgen.\n ➥Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
+    const toolklick4 = "➥ Führt zur Entkopplung des Be- und Entladevorgang vom Bearbeitungsvorgang. \n ➥ Das Beladen und Entladen kann jederzeit im laufenden Betrieb vorgenommen werden. \n ➥ Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
+    const toolklick5 = "➥ Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
+    const toolklick6 = "➥ Die Fokuseinstellung erfolgt automatisch durch Auswahl des Materialparametersatzes."
+    const toolklick7 = "➥ Der Betrieb kann automatisch oder manuell erfolgen.\n ➥ Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
     const toolklick8 = "➥";
-    const toolklick9 = "➥Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk.\n ➥Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE).\n ➥Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden.\n ➥Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen.\n ➥Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
-    const toolklick10 = "➥Die Kameraüberwachung gestattet die Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
+    const toolklick9 = "➥ Der Ethernetanschluss gestattet die Verbindung mit Workflow- oder ERP-Software in Ihrem Firmennetzwerk.\n ➥ Ein geeignetes Workflow-System wird von der Fa.Bolasys angeboten (GPE).\n ➥ Gravuren können über das Netzwerk ausgelöst werden und der Status einzelner Gravur-Jobs und damit auch einzelner Aufträge abgefragt werden.\n ➥ Die Bedienung kann über beliebige Rechner im Netzwerk oder auch über Mobile Geräte erfolgen.\n ➥ Die Netzwerkanbindung gestattet die Abfrage des Maschinenstatus und die Durchführung von Wartungsmaßnahmen.";
+    const toolklick10 = "➥ Die Kameraüberwachung gestattet die Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
-    const toolklick11 = "➥Durch vollständig verrohrten Strahlengang.";
-    const toolklick12 = "➥Absaugdüse";
-    const toolklick13 = "➥Überwachung des Maschinenstaus über das Netzwerk.\n ➥Überwachung des Bearbeitungsvorgangs mit Kamera.";
-    const toolklick14 = "➥Tel: 01718500908";
+    const toolklick11 = "➥ Durch vollständig verrohrten Strahlengang.";
+    const toolklick12 = "➥ Absaugdüse";
+    const toolklick13 = "➥ Überwachung des Maschinenstaus über das Netzwerk.\n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera.";
+    const toolklick14 = "➥ Tel: 01718500908";
 
-    const toolklick15 = "➥Standard mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
-    const toolklick16 = '➥Bei Standardlaserbestückung ca. eine A4-Seite/22 min.\n ➥Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
-    const toolklick17 = "➥Standardplatten A, unterschiedlicher Hersteller.";
-    const toolklick18 = "➥Kompressorkühler z.b. Hyfra oder CW6000,\n ➥Absauggerät z.b. Teka,\n ➥Vorabschneider z.b. Cylas VA-1 oder VA-2";
+    const toolklick15 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen. Andere Laser mit geringerer Leistung möglich.";
+    const toolklick16 = '➥ Bei Standardlaserbestückung ca. eine A4-Seite/22 min.\n ➥ Schneiddauer bei "normalen" Stempeln kleiner als 5 Minuten.';
+    const toolklick17 = "➥ Standardplatten A, unterschiedlicher Hersteller.";
+    const toolklick18 = "➥ Kompressorkühler z.b. Hyfra oder CW6000,\n ➥ Absauggerät z.b. Teka,\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
     
     
