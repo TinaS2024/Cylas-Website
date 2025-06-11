@@ -994,6 +994,16 @@ button:hover :active
     margin-left:32%;
   } 
 
+   .software-bild.zoomed 
+    {
+    margin-top:21%;
+    transform: scale(2.5) rotate(90deg);
+    transform-origin: center center; 
+    z-index: 1000;      
+    cursor: zoom-out;
+    background-size: contain; 
+    }
+
   }
 
   /*Große Smartphones*/
@@ -1258,17 +1268,12 @@ button:hover :active
 
     .software-bild.zoomed 
     {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200vw;
-    height: 200vh;
+    transform: scale(2.4) rotate(90deg);
+    transform-origin: center center; 
+    z-index: 1000;      
+    cursor: zoom-out;
     background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1000; 
-    cursor: zoom-out; 
-}
+    }
 
     }
   
@@ -1518,15 +1523,10 @@ button:hover :active
 
     .software-bild.zoomed 
     {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200vw;
-    height: 200vh;
+    transform: scale(3.1) rotate(90deg);
+    transform-origin: center center; 
+    z-index: 1000;      
+    cursor: zoom-out;
     background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1000; 
-    cursor: zoom-out; 
-}
+    }
   }

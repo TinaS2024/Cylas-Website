@@ -10,7 +10,7 @@ const Software = () =>
         const [isZoomed, setIsZoomed] = useState(false);
         const handleImageClick = () =>
         {
-            if(window.innerWidth < 768)
+            if(window.innerWidth < 821)
             {
                 setIsZoomed(prevIsZoomed => !prevIsZoomed);
             }
