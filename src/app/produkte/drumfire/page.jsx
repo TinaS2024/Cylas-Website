@@ -91,14 +91,11 @@ const Drumfire = () =>
                  <Punkt text="&nbsp;"/><Tooltip tooltiptitel="RFID-Kennzeichnungen der Trommeln" 
                 tooltiptext={toolklick5}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Motorische Z-Achse" 
-                tooltiptext={toolklick6}></Tooltip>
-
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Einfache Bedienung" 
                 tooltiptext={toolklick7}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Motorische Fokuseinstellung" 
-                tooltiptext={toolklick8}></Tooltip>
+                tooltiptext={toolklick6}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Netzwerkeinbindung" 
                 tooltiptext={toolklick9}></Tooltip>
