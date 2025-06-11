@@ -996,7 +996,7 @@ button:hover :active
 
    .software-bild.zoomed 
     {
-    margin-top:21%;
+    margin-top:57%;
     transform: scale(2.5) rotate(90deg);
     transform-origin: center center; 
     z-index: 1000;      
@@ -1268,11 +1268,12 @@ button:hover :active
 
     .software-bild.zoomed 
     {
-    transform: scale(2.4) rotate(90deg);
-    transform-origin: center center; 
-    z-index: 1000;      
-    cursor: zoom-out;
-    background-size: contain; 
+      margin-top:76%;
+      transform: scale(2.4) rotate(90deg);
+      transform-origin: center center; 
+      z-index: 1000;      
+      cursor: zoom-out;
+      background-size: contain; 
     }
 
     }
@@ -1523,10 +1524,11 @@ button:hover :active
 
     .software-bild.zoomed 
     {
-    transform: scale(3.1) rotate(90deg);
-    transform-origin: center center; 
-    z-index: 1000;      
-    cursor: zoom-out;
-    background-size: contain; 
+      margin-top:88%;
+      transform: scale(3.1) rotate(90deg);
+      transform-origin: center center; 
+      z-index: 1000;      
+      cursor: zoom-out;
+      background-size: contain; 
     }
   }

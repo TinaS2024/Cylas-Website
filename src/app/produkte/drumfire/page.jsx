@@ -5,7 +5,6 @@ import Textfeld from "../../components/Textfeld.jsx";
 import Punkt from "../../components/Punkt.jsx";
 import Tooltip from "@/app/components/Tooltip.jsx";
 
-import gravierer from "../../videos/video3.mp4";
 import MyVideo2 from "../../components/MyVideo2.jsx";
 import Image from "next/image";
 import drumfire from "../../image/drumfire.png";
@@ -69,7 +68,7 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
                 tooltiptext={toolklick2}></Tooltip>
 
-            <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
+            <MyVideo2 path="/videos/video3.mp4" width={257} height={275}></MyVideo2>
             <br/>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 

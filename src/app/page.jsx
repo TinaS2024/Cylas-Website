@@ -1,6 +1,6 @@
 "use client"
 /* eslint-disable react/jsx-key */
-import gravierer from "../app/videos/video2.mp4";
+import gravierer from "../app/public/video2.mp4";
 import MyVideo from "./components/MyVideo.jsx";
 
 
