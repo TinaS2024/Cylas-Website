@@ -18,7 +18,7 @@ const Software = () =>
 
 
         return(
-            <div>
+            <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
             <div className="zentrieren h1_software" style={{width:"500px"}}>    
             <h1 className="h1_software">Software für <br/>die Trommelgravierer</h1>
             </div>

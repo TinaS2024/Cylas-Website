@@ -3,7 +3,7 @@
 const Downloads = () =>
     {
         return(
-            <div>
+            <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
             <div className="zentrieren">    
             <h1>Downloads</h1>
 

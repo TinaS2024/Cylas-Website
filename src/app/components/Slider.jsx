@@ -58,7 +58,7 @@ const Slider = () =>
         return(
         <>
             <div>
-                <div className="slider slider_rahmen zentrieren">
+                <div className="slider_rahmen zentrieren">
                         
                              <div className="row-container" id="slider">
                             {bilderItems.map((item) => (

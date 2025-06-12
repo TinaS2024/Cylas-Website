@@ -90,7 +90,7 @@ const Kontakt = () =>
    
     return(
 
-        <div className="abstand-unten" style={{marginTop:"5%"}}> 
+        <div className="abstand-unten" style={{ marginTop:"5%",display: "flex",flexDirection: "column",alignItems: "center"}}> 
         <h1>Kontakt</h1>
         <ThemeProvider theme={theme}>
            <form onSubmit={handleSubmit}>

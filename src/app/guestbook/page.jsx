@@ -10,6 +10,7 @@ async function Gaestebuch_ausgabe()
         const allGuests = await prisma.gast.findMany()
           
     return(
+        <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
         <div style={{display:"flex",flexFlow:"row", flexWrap:"wrap"}}>
             <Suspense><Gaestebuch/>
             {
@@ -22,6 +23,7 @@ async function Gaestebuch_ausgabe()
           
             </Suspense>    
             </div>
+        </div>
 );
 }
 
