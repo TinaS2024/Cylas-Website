@@ -448,14 +448,14 @@ span
   {
     display:flex;
     flex-direction:row;
-    margin-left:-57%;
+    margin-left:-40em;
   }
 
   .textFieldsContainer2_b
   {
     display:flex;
     flex-direction:row;
-    margin-left:-50%;
+    margin-left:-40em;
   }
 
   .flexfire_image
@@ -617,7 +617,6 @@ button:hover :active
 .flexfire_style
 {
   width:650px;
-  height:250px;
   max-width: 100%;
   height:auto;
   padding:5px;
@@ -626,7 +625,7 @@ button:hover :active
 .zweite_leiste
 {
   margin-top:-8%;
-  margin-left:-19%;
+  margin-left:-13em;
 }
 
 .drumfire_leiste
@@ -801,14 +800,14 @@ button:hover :active
   {
     display:flex;
     flex-direction:column;
-    margin-left:-57%;
+    margin-left:-25em;
   }
 
   .textFieldsContainer2_b
   {
     display:flex;
     flex-direction:column;
-    margin-left:-30%;
+    margin-left:-25em;
     margin-top:1%;
   }
 
@@ -945,7 +944,6 @@ button:hover :active
   .flexfire_style
   {
     width:400px;
-    height:200px;
     max-width: 100%;
     height:auto;
     padding:5px;
@@ -954,7 +952,7 @@ button:hover :active
 
   .zweite_leiste
   {
-    margin-left:-56%;
+    margin-left:-25em;
   }
 
   .drumfire_leiste
@@ -1067,7 +1065,6 @@ button:hover :active
     .flexfire_style
     {
       width:350px;
-      height:180px;
       max-width: 100%;
       height:auto;
       padding:5px;
@@ -1136,7 +1133,7 @@ button:hover :active
     {
       display:flex;
       flex-direction:column;
-      margin-left:-17%;
+      margin-left:-4em;
     }
 
     .slider_rahmen 
@@ -1219,7 +1216,7 @@ button:hover :active
 
     .zweite_leiste
     {
-      margin-left:-17%;
+      margin-left:-4em;
       flex-direction:column;
     }
     .guestbook
@@ -1337,7 +1334,7 @@ button:hover :active
     .flexfire_style
     {
       width:350px;
-      height:180px;
+
       max-width: 100%;
       height:auto;
       padding:5px;
@@ -1405,7 +1402,7 @@ button:hover :active
     {
       display:flex;
       flex-direction:column;
-      margin-left:-20%;
+      margin-left:-3.5em;
     }
 
      .slider_rahmen 
@@ -1495,7 +1492,7 @@ button:hover :active
 
     .zweite_leiste
     {
-      margin-left:-20%;
+      margin-left:-3.5em;
       flex-direction:column;
     }
 
