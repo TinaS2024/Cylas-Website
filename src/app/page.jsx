@@ -11,7 +11,6 @@ const Home = () =>
         <div className="abstand bg-drum"> 
         <div className="bg-flex">
         
-           {/*<h2>Industrielle Produktion und Vertrieb von <br/>Lasergeräten und sonstigen physikalisch-technischen Erzeugnissen <br/>sowie Vornahme der hierzu notwendigen Investitionen <br/> in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.</h2>*/}
            <p className="landing_1">Entwicklung & Produktion von Lasergeräten</p>
            <p className="landing_1">Innovative Systemlösungen</p>
            <p className="landing_1">Professionelle Maschinenwertung</p>

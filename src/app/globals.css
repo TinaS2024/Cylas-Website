@@ -67,7 +67,6 @@ h1
 h3
 {
   color:  #18848b;
-  //text-shadow: rgb(144, 228, 203) 2px 2px 5px;
   text-align: center;
   margin:10px;
 }
@@ -82,7 +81,6 @@ h2
 h4
 {
   color:  white;
-  //text-shadow: rgb(144, 228, 203) 2px 2px 5px;
   text-align: center;
   margin:10px;
 }
@@ -108,7 +106,6 @@ table
 {
   padding:25px;
   background-color: #0f4252;
-  //border: 2px solid #36abb3;
   font-size: 20px;
   color: black;
   text-align: left;
@@ -236,7 +233,6 @@ font-size: 30px;
 
   flex:20%;
   padding:25px;
-  //background-image: linear-gradient(to bottom,rgb(144, 228, 203),rgb(99, 152, 155)  99%);
   background-image: linear-gradient(to bottom,#0b4250,#00121a  99%);
 }
 
@@ -268,6 +264,8 @@ font-size: 30px;
 .profile-img
 {
  text-align: center;
+ margin-left:auto;
+ margin-right:auto;
 }
 
 /*Elemente*/
@@ -304,7 +302,6 @@ font-size: 30px;
   background-image: url("../app/image/button_blau_aktiv.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  //filter:brightness(120%);
 }
 
 .button-container:hover, .button-container-klein:hover
@@ -346,7 +343,6 @@ font-size: 30px;
 .punkt-container
 {
   margin:-2px -5px;
-  //float:left;
   width:15px;
   height:15px;
   border-radius: 10px;
@@ -430,7 +426,6 @@ span
   margin: 10px 0px 10px 30px;
   margin-left:1%;
   padding:5px;
-  //float:left;
   min-width:400px;
   max-width:400px;
   height:570px;
@@ -448,13 +443,6 @@ span
     margin-left:-50%;
   }
 
-  /*
-  .textFieldsContainer2
-  {
-    display:flex;
-    flex-direction:row;
-    margin-left:-50%;
-  }*/
 
   .textFieldsContainer2_a
   {
@@ -603,8 +591,6 @@ button:hover :active
 .background
 {
   width:400px;
-  margin-left: 30%;
-  margin-right: 35%;
   border-radius:15px;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: linear-gradient(to bottom,#0d4251, #287388  98%);
@@ -622,11 +608,6 @@ button:hover :active
   width:100%;
   align-items:center;
 }
-
-.video
-  {
-    margin-left:39%;
-  }
 
 .flexfire_abstand
 {
@@ -655,7 +636,7 @@ button:hover :active
 
 .item-titel
 {
-  margin-bottom: 8px; /* Abstand zwischen Logo/Titel und Bild */
+  margin-bottom: 8px; 
   text-align: center; 
 }
 
@@ -677,7 +658,7 @@ button:hover :active
   background-color:#286464;
   background-size:30%;
   background-repeat:no-repeat;
-  background-position:right 100px top 150px;
+  background-position:right 1em top 10em;
 }
 
 .bg-flex 
@@ -685,7 +666,7 @@ button:hover :active
   background-image:url("../app/image/flexfire_relief_schief.png");
   background-size:26%;
   background-repeat:no-repeat;
-  background-position:left 100px top 50px;
+  background-position:left 5em top 5em;
   z-Index:"1";
 }
 
@@ -814,13 +795,6 @@ button:hover :active
     margin-left:-50%;
   }
 
-  /*
-  .textFieldsContainer2
-  {
-    display:flex;
-    flex-direction:column;
-    margin-left:-50%;
-  }*/
 
   
   .textFieldsContainer2_a
@@ -1019,6 +993,16 @@ button:hover :active
     z-index: 1000;      
     cursor: zoom-out;
     background-size: contain; 
+    }
+
+    .bg-drum 
+    {
+      background-image:none;
+    }
+
+    .bg-flex 
+    {
+      background-image:none;
     }
 
   }
