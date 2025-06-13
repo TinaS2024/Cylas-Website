@@ -45,13 +45,24 @@ const Slider = () =>
         const slideLeft = () =>
         {
             let slider = document.getElementById("slider");
-            slider.scrollLeft = slider.scrollLeft - 235;
+            if(slider)
+            {
+                console.log("Vorher: scrollLeft:", slider.scrollLeft, "clientWidth:", slider.clientWidth, "scrollWidth:", slider.scrollWidth);
+                slider.scrollLeft = slider.scrollLeft - 235;
+                console.log("Nachher: scrollLeft:", slider.scrollLeft);
+            }
+            else{
+                console.error("Slider-Element nicht gefunden!");
+            }
+            
+            
         };
 
         const slideRight = () =>
         {
             let slider = document.getElementById("slider");
             slider.scrollLeft = slider.scrollLeft + 235;
+            console.log("Slide nach Rechts");
         };
         
     

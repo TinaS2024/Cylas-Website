@@ -505,11 +505,6 @@ span
 
 .slidercontainer
 {
-  height: 40vh;
-}
-
-.slidercontainer
-{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 19px;
@@ -518,7 +513,6 @@ span
   flex-direction: column;
   justify-content: center;
 }
-
 
 .slider-button button:hover
 {
@@ -539,6 +533,7 @@ button .slider-button
 {
   display:none;
 }
+
 
 /* Links, Items */
 
@@ -576,8 +571,11 @@ button:hover :active
   overflow-y: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
+  width:100%;
   position: relative;
   padding: 0.2rem 0.6rem;
+  -ms-overflow-style: none;  /* IE und Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .row-container::-webkit-scrollbar 
@@ -585,6 +583,7 @@ button:hover :active
   display: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  display: none; /* Chrome, Safari, Opera und neuere Edge-Versionen */
 }
 
 
@@ -720,7 +719,7 @@ button:hover :active
 
 /*Tablets iPad Air iPad 820x 1180px */
 
-@media only screen (min-width: 576px) and (max-width: 840px) 
+@media only screen and (max-width: 840px) 
 {
 
 
@@ -902,6 +901,22 @@ button:hover :active
     width: 100%; 
   }
 
+
+  .slider-button .btn-links
+  {
+  border-radius: 20px 0px 0px 20px;
+  margin-right:20px;
+  display:none;
+  }
+
+
+  .slider-button .btn-rechts
+  {
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 20px;
+  display:none;
+  }
+
   .slider-button button
   {
     color: white;
@@ -913,13 +928,12 @@ button:hover :active
     width: 4rem;
     cursor: pointer;
     transition: all 0.1s ease-in;
-    display:inline;
+    display:none;
   }
 
   .slider-button button:hover
   {
     background-color:  #286464;
-    display:none;
   }
 
   .btn-links
@@ -936,7 +950,7 @@ button:hover :active
   display:none;
   }
 
-  button .slider-button
+  .slider-button button
   {
     display: flex;
     gap: 0.4rem;
@@ -1034,7 +1048,6 @@ button:hover :active
 
     .rahmen-container 
     {
-      transform: scale(0.9);
       transform-origin: top center;
     }
 
@@ -1143,24 +1156,32 @@ button:hover :active
       margin-left:-17%;
     }
 
-    .slider
+    .slider_rahmen 
     {
-      height: 50vh;
-      width:40vh;
+      width: 80%; 
     }
 
-    .btn-links
+    .slider-button 
     {
-    border-radius: 20px 0px 0px 20px;
-    margin-right:10px;
-    display:inline;
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      width:100%;
     }
 
-    .btn-rechts
+     .slider-button .btn-links
     {
-    border-radius: 0px 20px 20px 0px;
-    margin-left: 10px;
-    display:inline;
+      border-radius: 20px 0px 0px 20px;
+      margin-right:10px;
+      display:inline;
+    }
+
+    .slider-button .btn-rechts
+    {
+      border-radius: 0px 20px 20px 0px;
+      margin-left: 10px;
+      display:inline;
     }
 
     .slider-button button
@@ -1174,7 +1195,6 @@ button:hover :active
       width: 4rem;
       cursor: pointer;
       transition: all 0.1s ease-in;
-      display:inline;
     }
 
     .slider-button button:hover
@@ -1219,9 +1239,6 @@ button:hover :active
       margin-left:-17%;
       flex-direction:column;
     }
-
-
-
     .guestbook
     {
       margin-left:30%;
@@ -1301,7 +1318,6 @@ button:hover :active
 
     .rahmen-container 
     {
-      transform: scale(0.8);
       transform-origin: top center;
     }
 
@@ -1410,24 +1426,33 @@ button:hover :active
       margin-left:-20%;
     }
 
-    .slider
+     .slider_rahmen 
     {
-      height: 50vh;
-      width:40vh;
+      width: 80%; 
     }
 
-    .btn-links
+    .slider-button 
     {
-    border-radius: 20px 0px 0px 20px;
-    margin-right:-1px;
-    display:inline;
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      width:100%;
     }
 
-    .btn-rechts
+    .slider-button .btn-links
     {
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -1px;
-    display:inline;
+      border-radius: 20px 0px 0px 20px;
+      margin-right:-1px;
+      display:inline;
+    }
+
+
+    .slider-button .btn-rechts
+    {
+      border-radius: 0px 20px 20px 0px;
+      margin-left: -1px;
+      display:inline;
     }
 
     .slider-button button
@@ -1510,7 +1535,7 @@ button:hover :active
       margin-top:-20px;
     }
 
-      .scheider_bild
+    .scheider_bild
     {
       margin-left:110px;
       margin-top:20px;
