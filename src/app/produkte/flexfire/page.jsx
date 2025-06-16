@@ -35,7 +35,7 @@ const Flexfire = () =>
 
     return(
         <>
-        <div className="maschinenlogo"><Image src={flexfire_logo} alt={flexfire_logo} width={250} height={48}/> </div>
+        <div className="maschinenlogo"><Image src={flexfire_logo} alt="flexfire_logo" width={250} height={48}/> </div>
         <h1>Trommelgravierer für Sleeves bis 84 cm Länge <br/> und Gummiplatten bis ca. 84 cm x 62 cm </h1>
         <div style={{marginTop:"5%"}}>
         
@@ -67,7 +67,7 @@ const Flexfire = () =>
 
                 </Textfeld>
 
-                <div className="flexfire_image"><Image src={flexfire} alt={flexfire} className="flexfire_style"/></div>
+                <div className="flexfire_image"><Image src={flexfire} alt="Flexfire Maschine" className="flexfire_style" layout="respnsive" width={flexfire.width} height={flexfire.height}/></div>
                
 
                 {/* Zweites Textfeld */}

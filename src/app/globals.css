@@ -463,6 +463,7 @@ span
     margin-top:-70px;
     margin-left:100px;
     margin-right:100px;
+    flex-shrink:0;
   }
 
 .software-card
