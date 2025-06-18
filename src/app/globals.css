@@ -691,7 +691,7 @@ button:hover :active
 {
   width:900px;
   height:438px;
-  background-image: url("../app/image/software_bild.png");
+  background-image: url("../app/image/software_bild2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -986,8 +986,9 @@ button:hover :active
 
    .software-bild.zoomed 
     {
-    margin-top:57%;
-    transform: scale(2.5) rotate(90deg);
+    margin-top:70%;
+    margin-bottom:60%;
+    transform: scale(2) rotate(90deg);
     transform-origin: center center; 
     z-index: 1000;      
     cursor: zoom-out;
@@ -1271,7 +1272,8 @@ button:hover :active
     .software-bild.zoomed 
     {
       margin-top:76%;
-      transform: scale(2.4) rotate(90deg);
+      margin-bottom:60%;
+      transform: scale(2) rotate(90deg);
       transform-origin: center center; 
       z-index: 1000;      
       cursor: zoom-out;
@@ -1544,8 +1546,9 @@ button:hover :active
 
     .software-bild.zoomed 
     {
-      margin-top:88%;
-      transform: scale(3.1) rotate(90deg);
+      margin-top:75%;
+      margin-bottom:60%;
+      transform: scale(2.4) rotate(90deg);
       transform-origin: center center; 
       z-index: 1000;      
       cursor: zoom-out;
