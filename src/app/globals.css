@@ -421,6 +421,21 @@ span
   align-items: center;
 }
 
+.textfeld-software
+{
+  margin: 10px 0px 10px 30px;
+  padding-left:0%;
+  left:-5%;
+  padding:5px;
+  min-width:340px;
+  max-width:340px;
+  height:500px;
+  border-radius:20px; 
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:grey;
+  color:white;
+}
+
 .textfeld-container
 {
   margin: 10px 0px 10px 30px;
@@ -540,7 +555,6 @@ button:hover :active
   flex-direction: column;
   justify-content: space-between;
 }
-
 
 
 .row-item 
@@ -697,6 +711,12 @@ button:hover :active
   background-position: center;
   transition: transform 0.3s ease-in-out;
 } 
+
+.software_beschreibung
+{
+  display:flex;
+  flex-direction:row;
+}
 
 /*Tablets iPad Air iPad 820x 1180px */
 
@@ -1005,6 +1025,17 @@ button:hover :active
       background-image:none;
     }
 
+    .software_beschreibung
+    {
+      display:flex;
+      flex-direction:column;
+    }
+
+    .textfeld-software
+    {
+      margin-left:46%;
+    }
+
   }
 
   /*Große Smartphones*/
@@ -1286,6 +1317,19 @@ button:hover :active
       gap: 5rem;
     }
 
+    .software_beschreibung
+    {
+      display:flex;
+      flex-direction:column;
+    }
+
+    .textfeld-software
+    {
+      max-width:330px;
+      height:380px;
+      margin-left:3%;
+    }
+
     }
   
   /*Kleine Smartphones*/
@@ -1491,7 +1535,7 @@ button:hover :active
 
     .software-card
     {
-      margin-left:-5% !important;
+      margin-left:-7% !important;
     }
 
     .zweite_leiste
@@ -1535,7 +1579,7 @@ button:hover :active
       align-items: center;   
     }
 
-      .software-bild
+    .software-bild
     {
       width:300px;
       height:146px;
@@ -1559,5 +1603,18 @@ button:hover :active
     {
       display: flex;
       gap: 3rem;
+    }
+
+    .software_beschreibung
+    {
+      display:flex;
+      flex-direction:column;
+    }
+
+    .textfeld-software
+    {
+      max-width:340px;
+      height:380px;
+      margin-left:4%;
     }
 }
