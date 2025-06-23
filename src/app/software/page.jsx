@@ -62,7 +62,7 @@ const Software = () =>
 
             </div>
 
-            <h1 className="h1_software">Zusätzliche Software von Bolasys GmbH</h1>
+            <h1 className="h1_software2">Zusätzliche Software <br/> von Bolasys GmbH</h1>
             <Textfeld titel="">
                 <Punkt text="Auftragsvorbereitung & Annahme"/>
                 <br/>

@@ -759,7 +759,12 @@ button:hover :active
   .h1_software
   {
     margin-left:15%;
+  }
 
+  .h1_software2
+  {
+    font-size:26px;
+    margin-left:45%;
   }
 
     .flyer
@@ -814,8 +819,6 @@ button:hover :active
     flex-direction:column;
     margin-left:-50%;
   }
-
-
   
   .textFieldsContainer2_a
   {
@@ -1081,6 +1084,12 @@ button:hover :active
     {
       font-size:20px;
       margin-left:-5%;
+    }
+
+    .h1_software2
+    {
+      font-size:20px;
+      margin-left:12%;
     }
 
     h3
@@ -1363,6 +1372,12 @@ button:hover :active
     {
       font-size:20px;
       margin-left:-10%;
+    }
+
+    .h1_software2
+    {
+      font-size:20px;
+      margin-left:10%;
     }
 
     h3
