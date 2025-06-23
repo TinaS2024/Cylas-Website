@@ -20,7 +20,7 @@ const Slider = () =>
                 titel:"Drumfire",
                 bildpfad: bild1,  
                 width:300,
-                height:200,      
+                height:150,      
                 link: "/produkte/drumfire",      
             },
             {
@@ -28,8 +28,8 @@ const Slider = () =>
                 logo: flexfire_logo,
                 titel:"Flexfire",
                 bildpfad: bild2,    
-                width:150,
-                height:200,   
+                width:175,
+                height:150,   
                 link: "/produkte/flexfire",    
             },
             /*
@@ -74,7 +74,7 @@ const Slider = () =>
                              <div className="row-container" id="slider">
                             {bilderItems.map((item) => (
                             <div key={item.id} className="row-item">
-                             <div className="item-titel"><Image src={item.logo} alt={item.titel} width={120} height={48} style={{objectFit: "contain"}}/></div>
+                             <div className="item-titel"><Image src={item.logo} alt={item.titel} width={120} height={50} style={{objectFit: "contain"}}/></div>
                              <div className="item-img">
                              <Link href={item.link}>
                              <Image src={item.bildpfad} alt={item.titel} width={item.width} height={item.height} style={{objectFit: "contain"}}/>
