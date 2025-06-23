@@ -17,26 +17,26 @@ import Link from "next/link";
 
 const Drumfire = () =>
 {
-    const toolklick1 = "➥ Hohe Gravurqualität durch gleichförmige Bewegung \n ➥ Keine Vorlauf-Rücklauf-Korrektur notwendig \n ➥ Längere Lebensdauer der Achsmechanik wegen geringerer mechanischer Belastung";
-    const toolklick2 = "➥ Hohe Gravurqualität durch konstante Strahleigenschaften im Laserfokus \n ➥ Einfachere Strahljustage";
-    const toolklick3 = "➥ Geringere Staubentwicklung in der Machine und im Arbeitsraum \n ➥ Geringere Geruchsentwicklung. \n ➥ Längere Reinigungsintervalle";
+    const toolklick1 = "➥ Hohe Gravurqualität durch gleichförmige Bewegung \n\n ➥ Keine Vorlauf-Rücklauf-Korrektur notwendig \n\n ➥ Längere Lebensdauer der Achsenmechanik aufgrund geringerer mechanischer Belastung";
+    const toolklick2 = "➥ Hohe Gravurqualität durch konstante Strahleigenschaften im Laserfokus \n\n ➥ Einfachere Strahljustage";
+    const toolklick3 = "➥ Geringere Staubentwicklung in der Maschine und im Arbeitsraum \n\n ➥ Geringere Geruchsentwicklung \n\n ➥ Längere Reinigungsintervalle";
 
-    const toolklick4 = "➥ Entkopplung des Be- und Entladevorgangs vom Bearbeitungsvorgang. \n ➥ Das Nachladen und die Entnahme von feriggestellten Trommeln aus dem Magazin kann bei laufender Gravur erfolgen. \n ➥ Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
-    const toolklick5 = "➥ Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
-    const toolklick6 = "➥ Der Betrieb kann automatisch oder manuell erfolgen.\n ➥ Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
-    const toolklick7 = "➥ Automatische Fokuseinstellung durch Auswahl des Materialparametersatzes  \n ➥ Fokusoptimierung bei Bearbeitung in mehreren Durchläufen"
-    const toolklick8 = "➥ Integration in Ihre Workflow- oder ERP-Software Ihres Firmennetzwerks z.B GPE der Fa. Bolasys. \n ➥ Auslösen von Gravuren und Statusabfragen einzelner Gravur-Jobs über das Netzwerk durch Ihre Workflowsoftware oder manuell. \n ➥ Bedienung über beliebige Rechner im Netzwerk oder auch über mobile Geräte \n ➥ Fernüberwachungs und Fernwartungsfunktionen";
+    const toolklick4 = "➥ Entkopplung des Be- und Entladevorgangs vom Bearbeitungsvorgang. \n\n ➥ Das Nachladen und die Entnahme von feriggestellten Trommeln aus dem Magazin kann bei laufender Gravur erfolgen. \n\n ➥ Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
+    const toolklick5 = "➥ Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen.";
+    const toolklick6 = "➥ Der Betrieb kann automatisch oder manuell erfolgen.\n\n ➥ Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
+    const toolklick7 = "➥ Automatische Fokuseinstellung durch Auswahl des Materialparametersatzes  \n\n ➥ Fokusoptimierung bei Bearbeitung in mehreren Durchläufen"
+    const toolklick8 = "➥ Integration in Ihre Workflow- oder ERP-Software Ihres Firmennetzwerks z.B GPE der Fa. Bolasys. \n\n ➥ Auslösen von Gravuren und Statusabfragen einzelner Gravur-Jobs über das Netzwerk durch Ihre Workflowsoftware oder manuell. \n\n ➥ Bedienung über beliebige Rechner im Netzwerk oder auch über mobile Geräte \n\n ➥ Fernüberwachungs -und Fernwartungsfunktionen";
     const toolklick9 = "➥ Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
 
-    const toolklick10 = "➥ Vollständig verrohrter Strahlengang. \n ➥ Seltene Reinigung der Umlenkspiegel";
+    const toolklick10 = "➥ Vollständig verrohrter Strahlengang \n\n ➥ Seltene Reinigung der Umlenkspiegel";
     const toolklick11 = "➥ Optimierte Absaugdüse mit großem Querschnitt";
-    const toolklick12 = "➥ Temperaturüberwachung wichtiger Systembestandteile z. B. der Fokuslinse und der Laser \n ➥ Überwachung des Blasluft- und des Absaugdrucks \n ➥ Speicherung der Meßwerte und graphische Darstellung zur Trenderkennung  \n ➥ Softwareaktualisierung durch Fernzugriff möglich \n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera.";
+    const toolklick12 = "➥ Temperaturüberwachung wichtiger Systembestandteile z. B. der Fokuslinse und der Laser \n\n ➥ Überwachung des Blasluft- und des Absaugdrucks \n\n ➥ Speicherung der Meßwerte und graphische Darstellung zur Trenderkennung  \n\n ➥ Softwareaktualisierung durch Fernzugriff möglich \n\n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera.";
     const toolklick13 = "➥ Tel: 01718500908";
 
-    const toolklick14 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen. \n ➥ Andere Laser mit geringerer Leistung möglich.";
+    const toolklick14 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen. \n\n ➥ Andere Laser mit geringerer Leistung möglich.";
     const toolklick15 = '➥ Bei Standardlaserbestückung und ca. 1mm Gravurtiefe';
     const toolklick16 = "➥ Standardplatten A, unterschiedlicher Hersteller.";
-    const toolklick17 = "➥ Kompressorkühler z.b. Hyfra oder CW6000,\n ➥ Absauggerät z.b. Teka,\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
+    const toolklick17 = "➥ Kompressorkühler z.b. Hyfra oder CW6000,\n\n ➥ Absauggerät z.b. Teka,\n\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
     
     
