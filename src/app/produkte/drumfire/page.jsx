@@ -35,7 +35,7 @@ const Drumfire = () =>
 
     const toolklick14 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen. \n\n ➥ Andere Laser mit geringerer Leistung möglich.";
     const toolklick15 = '➥ Bei Standardlaserbestückung und ca. 1mm Gravurtiefe';
-    const toolklick16 = "➥ Standardplatten A, unterschiedlicher Hersteller.";
+    const toolklick16 = "➥ Standardplatten A4 unterschiedlicher Hersteller.";
     const toolklick17 = "➥ Kompressorkühler z.b. Hyfra oder CW6000,\n\n ➥ Absauggerät z.b. Teka,\n\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
     

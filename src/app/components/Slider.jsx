@@ -28,8 +28,8 @@ const Slider = () =>
                 logo: flexfire_logo,
                 titel:"Flexfire",
                 bildpfad: bild2,    
-                width:185,
-                height:150,   
+                width:230,
+                height:200,   
                 link: "/produkte/flexfire",    
             },
             /*

@@ -34,6 +34,7 @@ const Software = () =>
                     className={`software-bild ${isZoomed ? 'zoomed' : ''}`}
                     onClick={handleImageClick}
                 ></div>
+                <h3 className="h1_software">Hier kommt noch Text rein</h3>
             <div className="software_beschreibung">
             <Textfeld_Software>
                 <Nummer number="1" text="Maschinenstatus Überblick" punkte=""/>
@@ -61,7 +62,7 @@ const Software = () =>
             </Textfeld_Software>
 
             </div>
-
+{/*
             <h1 className="h1_software2">Zusätzliche Software <br/> von Bolasys GmbH</h1>
             <Textfeld titel="">
                 <Punkt text="Auftragsvorbereitung & Annahme"/>
@@ -83,7 +84,7 @@ const Software = () =>
                 <Punkt text="Externe Software"/>
                 <br/>
                 <Punkt text="GPE-Basis"/>   
-            </Textfeld>
+            </Textfeld>*/}
 
             </div>
        

@@ -20,7 +20,7 @@ const Flexfire = () =>
     const toolklick5 = "➥ Automatische Fokuseinstellung durch Auswahl des Materialparametersatzes. \n\n ➥ Fokusoptimierung bei Bearbeitung in mehreren Durchläufen"
     const toolklick6 = "➥ Integration in Ihre Workflow- oder ERP-Software Ihres Firmennetzwerks z.B GPE der Fa. Bolasys. \n\n ➥ Auslösen von Gravuren und Statusabfragen einzelner Gravur-Jobs über das Netzwerk durch Ihre Workflowsoftware oder manuell. \n\n ➥ Bedienung über beliebige Rechner im Netzwerk oder auch über mobile Geräte \n\n ➥ Fernüberwachungs und Fernwartungsfunktionen";
     const toolklick7 = "➥ Beobachtung des Bearbeitsvorgangs. \n\n ➥ Automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
-    const toolklick8 = "➥ Anpassung der Betriebssofware an den Kundenseitigen Produktionsprozess möglich."
+    const toolklick8 = "➥ Anpassung der Betriebssoftware an den Kundenseitigen Produktionsprozess möglich."
 
     const toolklick9 = "➥ Vollständig verrohrter Strahlengang. \n\n ➥ Seltene Reinigung der Umlenkspiegel";
     const toolklick10 = "➥ Optimierte Absaugdüse mit großem Querschnitt. \n\n ➥ Längere Reinigungsintervalle";
@@ -30,7 +30,7 @@ const Flexfire = () =>
     const toolklick13 = "➥ Standard mit 2 Sütck eingebauten TI100 Strahlquellen. \n\n ➥ Einbau anderer Laser mit geringerer Leistung oder Faserlaser höherer Leistung möglich.";
     const toolklick14 = "➥ Bei Standardlaserbestückung und ca. 1mm Gravurtiefe";
     const toolklick15 ="➥ Abhängig von der verwendeten Trommel und der Antriebsvariante";
-    const toolklick16 = "➥ Standardplatten A4, unterschiedlicher Hersteller";
+    const toolklick16 = "➥ Standardplatten A4 unterschiedlicher Hersteller";
     const toolklick17 = "➥ Kompressorkühler z.b. Hyfra oder CW6000, \n\n ➥ Absauggerät z.b. Teka, \n\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
    
