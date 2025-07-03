@@ -25,16 +25,23 @@ const Software = () =>
 
         return(
             <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
-            <div className="zentrieren h1_software" style={{width:"500px"}}>    
-            <h1 className="h1_software">Software für <br/>die Trommelgravierer</h1>
+            <div className="zentrieren h1_software" style={{width:"600px"}}>    
+            <h1 className="h1_software">Software für Trommelgravierer</h1>  
+            
             </div>
+            <div style={{width:"90%"}}>
+               <h1 className="h1_software2">Die Software für die vorgestellten Maschinen kann an den Verwendungszweck angepasst werden um die Einarbeitungszeit für Benutzer zu verringern und Fehlbedienungen zu vermeiden. 
+                Untenstehendes Beispiel zeigt eine für Drumfire verwendete Oberfläche, die durch weitere Seiten für Paramtereinstellungen, zur Analyse von Log-Dateien und Service ergänzt werden. 
+                Weiterführende Software zur Auftragsverwaltung und Produktionssteuerung wird von der Bolasys GmbH angeboten.</h1> 
+            </div>
+            
 
             <div className="software-card">
                  <div
                     className={`software-bild ${isZoomed ? 'zoomed' : ''}`}
                     onClick={handleImageClick}
                 ></div>
-                <h3 className="h1_software">Hier kommt noch Text rein</h3>
+              
             <div className="software_beschreibung">
             <Textfeld_Software>
                 <Nummer number="1" text="Maschinenstatus Überblick" punkte=""/>

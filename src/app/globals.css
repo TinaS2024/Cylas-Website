@@ -39,6 +39,7 @@ h1
   font-size:35px;
 }
 
+
 .h1_guestbook
 {
   margin-left:10%;
@@ -719,6 +720,14 @@ button:hover :active
   flex-direction:row;
 }
 
+ .h1_software2
+  {
+    font-size:20px;
+    font-weight:600;
+    margin-left:0%;
+  }
+
+
 /*Tablets iPad Air iPad 820x 1180px */
 
 @media only screen and (max-width: 840px) 
@@ -758,13 +767,13 @@ button:hover :active
 
   .h1_software
   {
-    margin-left:15%;
+    margin-left:10%;
   }
 
   .h1_software2
   {
-    font-size:26px;
-    margin-left:45%;
+    font-size:20px;
+    margin-left:0%;
   }
 
     .flyer
@@ -1083,13 +1092,13 @@ button:hover :active
     .h1_software
     {
       font-size:20px;
-      margin-left:-5%;
+      margin-left:-12%;
     }
 
     .h1_software2
     {
-      font-size:20px;
-      margin-left:12%;
+      font-size:16px;
+      margin-left:0%;
     }
 
     h3
@@ -1364,20 +1373,20 @@ button:hover :active
 
     h1
     {
-      font-size:20px;
+      font-size:16px;
       margin-left:0%;
     }
 
     .h1_software
     {
       font-size:20px;
-      margin-left:-10%;
+      margin-left:-18%;
     }
 
     .h1_software2
     {
-      font-size:20px;
-      margin-left:10%;
+      font-size:16px;
+      margin-left:0%;
     }
 
     h3
