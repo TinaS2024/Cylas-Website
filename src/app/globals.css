@@ -203,8 +203,9 @@ font-size: 30px;
 
 .nav-container
 {
-  padding-top:20px;
-  padding-bottom:20px;
+  margin-top:-70px;
+  padding-top:0px;
+  padding-bottom:5px;
   position: relative;
   display:flex;
   flex-direction: row;
@@ -212,7 +213,7 @@ font-size: 30px;
   justify-content: center;
   flex-wrap: wrap;
   flex: 10%;
-  height:200px;
+  height:100px;
   width:100%;
 }
 
@@ -225,7 +226,7 @@ font-size: 30px;
   justify-content: center;
   flex-wrap: wrap;
   flex: 10%;
-  height:200px;
+  height:100px;
   width:100%;
 }
 
@@ -727,6 +728,12 @@ button:hover :active
     margin-left:0%;
   }
 
+  .header-text
+  {
+    margin-top:50px;
+    margin-left:100px;
+  }
+
 
 /*Tablets iPad Air iPad 820x 1180px */
 
@@ -804,6 +811,11 @@ button:hover :active
     width:10em;
     height: 10em;
   }
+
+  .nav-container
+{
+  margin-top:0px;
+}
 
   #subnav
   {
