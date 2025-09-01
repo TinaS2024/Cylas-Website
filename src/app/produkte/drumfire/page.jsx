@@ -1,5 +1,4 @@
-
-
+"use client";
 /* eslint-disable react/jsx-key */
 import Textfeld from "../../components/Textfeld.jsx";
 import Punkt from "../../components/Punkt.jsx";
@@ -13,6 +12,7 @@ import absaugdüse from "../../image/Absaugdüse.png";
 import vorabscheider from"../../image/Vorabscheider.png";
 import drumfire_logo from "../../image/drumfire_logo.png";
 import Link from "next/link";
+import gravierer from "../../public/Gravieren_kurz.mp4";
 
 
 const Drumfire = () =>
@@ -68,7 +68,7 @@ const Drumfire = () =>
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Bewegung des Materials in zwei Richtungen, Stillstand des Arbeitskopfs" 
                 tooltiptext={toolklick2}></Tooltip>
 
-            <MyVideo2 path="/videos/video3.mp4" width={257} height={275}></MyVideo2>
+            <MyVideo2 path={gravierer} width={257} height={275}></MyVideo2>
             <br/>
 
             <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Staubabsaugung mit optimierter Düse in nächster Nähe zum Entstehungsort" 

@@ -1,6 +1,6 @@
 "use client"
 /* eslint-disable react/jsx-key */
-import gravierer from "../app/public/video2.mp4";
+import gravierer from "../app/public/Schneiden_kurz.mp4";
 import MyVideo from "./components/MyVideo.jsx";
 
 
@@ -13,7 +13,7 @@ const Home = () =>
         
            <p className="landing_1">Entwicklung & Produktion von Lasergeräten</p>
            <p className="landing_1">Innovative Systemlösungen</p>
-           <p className="landing_1">Professionelle Maschinenwertung</p>
+           <p className="landing_1">Professionelle Maschinenwartung</p>
            <p className="landing_1">Maßgeschneiderte Software</p>
    
                    
