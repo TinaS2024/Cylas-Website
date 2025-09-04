@@ -44,28 +44,27 @@ const Software = () =>
               
             <div className="software_beschreibung">
             <Textfeld_Software>
-                <Nummer number="1" text="Maschinenstatus Überblick" punkte=""/>
-                <Nummer number="2" text="Kamerabild" punkte=""/>
+                <Nummer number="1" text="Kamerabild" punkte=""/>
+                <Nummer number="2" text="Farbdefinition Trommelstatus" punkte=""/>
                 <Nummer number="3" text="Magazinmonitor" punkte={punkte1}/>
-                <Nummer number="4" text="Schalter für Laser-Versorgung,Absaugung & Motorfreigabe" punkte=""/>
+                <Nummer number="4" text="Schalter für Laser-Versorgung, Absaugung & Motorfreigabe" punkte=""/>
                 <Nummer number="5" text="Manuelle Positionssteuerung des Arbeitskopfes" punkte=""/>
             </Textfeld_Software>
 
             <Textfeld_Software>
-                <Nummer number="6" text="Anzeige der momentanen Position des Arbeitskopfes" punkte=""/>
-                <Nummer number="7" text="Anzeige und Einstellung von wichtigen Jobparametern" punkte=""/>
-                <Nummer number="8" text="Name des als nächstes zu bearbeitenden Vorlage" punkte=""/>
-                <Nummer number="9" text="Vorschaubild zu 8)" punkte=""/>
-                <Nummer number="10" text="Name des zu 8) gehörigen Parametersatzes" punkte=""/>
-                <Nummer number="11" text="Jobstatus zu 8)" punkte=""/>
+                <Nummer number="6" text="Anzeige und Einstellung von wichtigen Jobparametern" punkte=""/>
+                <Nummer number="7" text="Vorschaubild der nächsten zu bearbeitenden Vorlage" punkte=""/>
+                <Nummer number="8" text="Name des zu 7) gehörigen Parametersatzes" punkte=""/>
+                <Nummer number="9" text="Name der als nächstes zu bearbeitenden Vorlage" punkte=""/>
+                <Nummer number="10" text="Jobstatus zu 7)" punkte=""/>
+                <Nummer number="11" text="Ausklappbare Seitenleiste mit Maschinenstatus" punkte=""/>
                 <Nummer number="12" text="Weitere Vorlagen in der Warteschlange" punkte=""/>
             </Textfeld_Software>
 
             <Textfeld_Software>
-                 <Nummer number="13" text="Ausgeklappte Seitenleiste mit Maschinenstatus" punkte=""/>
+                 <Nummer number="13" text="Anzeige der Jobdauer und Zeitpunkt der Fertigstellung" punkte=""/>
                  <Nummer number="14" text="Leiste zur Arbeitssteuerung:" punkte={punkte2}/>
-                 <Nummer number="15" text="Anzeige der Jobdauer & Zeitpunkt der Fertigstellung" punkte=""/>
-                 <Nummer number="16" text="Bedienelemente zur Veränderung der Bearbeitungsreihenfolge" punkte=""/>
+                 <Nummer number="15" text="Bedienelemente zur Veränderung der Bearbeitungsreihenfolge" punkte=""/>
             </Textfeld_Software>
 
             </div>
