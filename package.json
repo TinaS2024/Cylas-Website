@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "db:push": "dotenv ./node_modules/.bin/prisma db push",
-    "migrate:dev": "cross-env npx prisma migrate dev"
+    "migrate:dev": "cross-env npx prisma migrate dev",
+    "prisma:build": "npx prisma generate && npx prisma migrate deploy",
+    "postinstall": "npx prisma generate"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
