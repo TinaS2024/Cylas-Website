@@ -16,6 +16,7 @@
     "@googlemaps/js-api-loader": "^1.16.8",
     "@mui/material": "^6.0.2",
     "@prisma/client": "^5.22.0",
+    "@prisma/extension-accelerate": "^2.0.2",
     "filer": "^1.4.1",
     "fs": "^0.0.1-security",
     "i18next": "^23.14.0",

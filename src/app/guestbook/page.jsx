@@ -2,8 +2,9 @@ import Gaestebuch from "../components/Gaestebuch.jsx";
 import Post from "../components/Post.jsx";
 import { Suspense } from "react";
 import { PrismaClient } from "@prisma/client";
+import { withAccelerate } from "@prisma/extension-accelerate";
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient().$extends(withAccelerate());
 
 async function Gaestebuch_ausgabe()
     {
