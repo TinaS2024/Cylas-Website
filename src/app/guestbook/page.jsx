@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { PrismaClient } from "@prisma/client";
 import { withAccelerate } from "@prisma/extension-accelerate";
 
+//eslint-disable-next-line
 const prisma = new PrismaClient().$extends(withAccelerate());
 
 async function Gaestebuch_ausgabe()
