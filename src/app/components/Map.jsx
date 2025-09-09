@@ -6,7 +6,7 @@ const Map = () =>
 
     return(
         <div>
-            <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d778.6952674403353!2d12.910942278233113!3d50.8180491543288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sarge%20chemnitz!5e1!3m2!1sde!2sde!4v1724926148305!5m2!1sde!2sde"></iframe>
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=12.908549308776857%2C50.815575002244735%2C12.915061712265016%2C50.820773959191676&amp;layer=mapnik&amp;marker=50.81817410068588%2C12.911807550000049" style={{border: "1px solid black"}}></iframe><br/><small><a className="link-map-style zentrieren" href="https://www.openstreetmap.org/?mlat=50.818174&amp;mlon=12.911808#map=17/50.818174/12.911808">OpenStreetMap</a></small>
 </div>
     )
 }

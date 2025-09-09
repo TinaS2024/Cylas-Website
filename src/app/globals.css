@@ -10,6 +10,12 @@ body {
   font-family: Arial, Helvectiva, sans-serif;
 }
 
+.link-map-style {
+  font-size:1rem;
+  color: #0f4252; 
+  text-decoration: none;
+}
+
 .link-style {
   font-size:1.2rem;
   color: #18848b; 
