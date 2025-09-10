@@ -99,6 +99,17 @@ p
   text-align: center;
 }
 
+.p_other
+{
+  font-size: 1.2rem;
+  color: #0b4250; 
+}
+
+.map_position
+{
+  margin-left: 20px;
+}
+
 hr.neu
 {
   border: 1px solid #0f4252;
@@ -1366,6 +1377,16 @@ button:hover :active
       margin-left:3%;
     }
 
+    .map_position
+    {
+      margin-left:60px;
+    }
+
+    .werk_addr
+    {
+      margin-left:100px;
+    }
+
     }
   
   /*Kleine Smartphones*/
@@ -1658,5 +1679,16 @@ button:hover :active
       max-width:340px;
       height:380px;
       margin-left:4%;
+    }
+
+    
+    .map_position
+    {
+      margin-left:10px;
+    }
+
+     .werk_addr
+    {
+      margin-left:30px;
     }
 }

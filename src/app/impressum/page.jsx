@@ -13,9 +13,6 @@ const Impressum = () =>
             <tr><td>09116 Chemnitz </td></tr> 
             <tr><td><b>Tel.:</b> (03 71) 3 35 06 67</td></tr>
             <tr><td style={{height:"25px"}}></td></tr>
-            <tr><td><span>Cylas AG Werkstatt:</span></td></tr>
-            <tr><td>Straßburger Straße 7</td></tr>
-            <tr><td>09120 Chemnitz </td></tr>
             <tr><td style={{height:"50px"}}><b>Geschäftsführer:</b></td></tr>
             <tr><td><span>Reiner Boes:</span> &emsp;&emsp;(01 71) 8 50 09 08</td></tr>
             <tr><td><span>Dr. Gerd Pfeifer:</span> &ensp;(01 60) 96 24 85 44 </td></tr>
@@ -25,7 +22,11 @@ const Impressum = () =>
     </table>
     <br/>
 </div>
-<div className="map-container-impressum map"><Map/></div>
+<div className="map-container-impressum map">
+    <Map/>
+    <p className="p_other werk_addr"><br/><b>Cylas AG Werkstatt:</b><br/>Straßburger Straße 7, 09120 Chemnitz<br/> Besuch nur nach Absprache!</p>
+
+</div>
 
 </div>
     )
