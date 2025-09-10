@@ -4,13 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "db:push": "dotenv ./node_modules/.bin/prisma db push",
-    "migrate:dev": "cross-env npx prisma migrate dev",
-    "prisma:build": "npx prisma generate && npx prisma migrate deploy",
-    "postinstall": "prisma generate"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
