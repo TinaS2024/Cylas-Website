@@ -220,7 +220,7 @@ font-size: 30px;
 
 .nav-container
 {
-  margin-top:-70px;
+  margin-top:-30px;
   padding-top:0px;
   padding-bottom:5px;
   position: relative;
@@ -264,8 +264,8 @@ font-size: 30px;
 .cylas-logo-groß
 {
   margin-left:20px;
-  width:20em;
-  height:20em;
+  width:13em;
+  height:13em;
 }
 
 .cylas-logo-klein
@@ -747,7 +747,7 @@ button:hover :active
 
   .header-text
   {
-    margin-top:50px;
+    margin-top:20px;
     margin-left:100px;
   }
 

@@ -21,22 +21,22 @@ const Drumfire = () =>
     const toolklick2 = "➥ Hohe Gravurqualität durch konstante Strahleigenschaften im Laserfokus \n\n ➥ Einfachere Strahljustage";
     const toolklick3 = "➥ Geringere Staubentwicklung in der Maschine und im Arbeitsraum \n\n ➥ Geringere Geruchsentwicklung \n\n ➥ Längere Reinigungsintervalle";
 
-    const toolklick4 = "➥ Entkopplung des Be- und Entladevorgangs vom Bearbeitungsvorgang. \n\n ➥ Das Nachladen und die Entnahme von feriggestellten Trommeln aus dem Magazin kann bei laufender Gravur erfolgen. \n\n ➥ Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden.";
-    const toolklick5 = "➥ Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen.";
-    const toolklick6 = "➥ Der Betrieb kann automatisch oder manuell erfolgen.\n\n ➥ Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist.";
+    const toolklick4 = "➥ Entkopplung des Be- und Entladevorgangs vom Bearbeitungsvorgang \n\n ➥ Das Nachladen und die Entnahme von feriggestellten Trommeln aus dem Magazin kann bei laufender Gravur erfolgen \n\n ➥ Ein volles Magazin kann in etwa 5 Stunden abgearbeitet werden";
+    const toolklick5 = "➥ Ermöglicht die automatische Zuordnung von Dateien und Parametersätzen zu den auf den Trommeln montierten Materialen";
+    const toolklick6 = "➥ Der Betrieb kann automatisch oder manuell erfolgen\n\n ➥ Im automatischen Betrieb wird ein Startvorgang eingeleitet, wenn sich zu gravierende Dateien im Puffer befinden und Material im Magazin vorhanden ist";
     const toolklick7 = "➥ Automatische Fokuseinstellung durch Auswahl des Materialparametersatzes  \n\n ➥ Fokusoptimierung bei Bearbeitung in mehreren Durchläufen"
-    const toolklick8 = "➥ Integration in Ihre Workflow- oder ERP-Software Ihres Firmennetzwerks z.B GPE der Fa. Bolasys. \n\n ➥ Auslösen von Gravuren und Statusabfragen einzelner Gravur-Jobs über das Netzwerk durch Ihre Workflowsoftware oder manuell. \n\n ➥ Bedienung über beliebige Rechner im Netzwerk oder auch über mobile Geräte \n\n ➥ Fernüberwachungs -und Fernwartungsfunktionen";
-    const toolklick9 = "➥ Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen.";
+    const toolklick8 = "➥ Integration in Ihre Workflow- oder ERP-Software Ihres Firmennetzwerks z.B GPE der Fa. Bolasys \n\n ➥ Auslösen von Gravuren und Statusabfragen einzelner Gravur-Jobs über das Netzwerk durch Ihre Workflowsoftware oder manuell \n\n ➥ Bedienung über beliebige Rechner im Netzwerk oder auch über mobile Geräte \n\n ➥ Fernüberwachungs -und Fernwartungsfunktionen";
+    const toolklick9 = "➥ Beobachtung des Bearbeitsvorgangs und automatische Auslösung von Alarmen bei ungewöhnlichen Betriebszuständen";
 
     const toolklick10 = "➥ Vollständig verrohrter Strahlengang \n\n ➥ Seltene Reinigung der Umlenkspiegel";
     const toolklick11 = "➥ Optimierte Absaugdüse mit großem Querschnitt";
-    const toolklick12 = "➥ Temperaturüberwachung wichtiger Systembestandteile z. B. der Fokuslinse und der Laser \n\n ➥ Überwachung des Blasluft- und des Absaugdrucks \n\n ➥ Speicherung der Meßwerte und graphische Darstellung zur Trenderkennung  \n\n ➥ Softwareaktualisierung durch Fernzugriff möglich \n\n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera.";
+    const toolklick12 = "➥ Temperaturüberwachung wichtiger Systembestandteile z.B. der Fokuslinse und der Laser \n\n ➥ Überwachung des Blasluft- und des Absaugdrucks \n\n ➥ Speicherung der Meßwerte und graphische Darstellung zur Trenderkennung  \n\n ➥ Softwareaktualisierung durch Fernzugriff möglich \n\n ➥ Überwachung des Bearbeitungsvorgangs mit Kamera";
     const toolklick13 = "➥ Tel: 01718500908";
 
-    const toolklick14 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen. \n\n ➥ Andere Laser mit geringerer Leistung möglich.";
-    const toolklick15 = '➥ Bei Standardlaserbestückung und ca. 1mm Gravurtiefe';
-    const toolklick16 = "➥ Standardplatten A4 unterschiedlicher Hersteller.";
-    const toolklick17 = "➥ Kompressorkühler z.b. Hyfra oder CW6000,\n\n ➥ Absauggerät z.b. Teka,\n\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
+    const toolklick14 = "➥ Standard mit 2 Stück eingebauten TI100 Strahlqellen \n\n ➥ Andere Laser mit geringerer Leistung möglich";
+    const toolklick15 = '➥ Bei Standardlaserbestückung und ca. 1 mm Gravurtiefe';
+    const toolklick16 = "➥ Standardplatten A4 unterschiedlicher Hersteller";
+    const toolklick17 = "➥ Kompressorkühler z.B. Hyfra oder CW6000\n\n ➥ Absauggerät z.B. Teka\n\n ➥ Vorabschneider z.b. Cylas VA-1 oder VA-2";
 
     
     
@@ -113,14 +113,14 @@ const Drumfire = () =>
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Wirksamer Staubschutz der optischen Komponenten" 
                 tooltiptext={toolklick10}></Tooltip>
 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Hocheffiziente Absaugung unmittelbar am Entstehungsort des Gummistaubs" 
                 tooltiptext={toolklick11}></Tooltip>
                 <div className="absaug_bild">
                     <Image src={absaugdüse} alt="absaugdüse" width={100} height={100} style={{maxWidth:"100%", height:"auto",marginLeft:"-20px"}}/><p style={{margin:"-80px -50px 50px 10px",color:"#36abb3"}}>Absaugdüse</p>
                 </div>
                  
                 <br/> 
-                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Umfassende Diagnose- und Fernwartungsfunktionen." 
+                <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Umfassende Diagnose- und Fernwartungsfunktionen" 
                 tooltiptext={toolklick12}></Tooltip>
 
                 <Punkt text="&nbsp;"/><Tooltip tooltiptitel="Kurzer Draht zum Hersteller oder" 
